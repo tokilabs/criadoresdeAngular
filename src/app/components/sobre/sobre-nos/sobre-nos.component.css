@@ -1,0 +1,428 @@
+.bp1-sobrenosgrouppadding {
+  background-color: rgba(255, 255, 255, 0.0);
+  margin-left: -20px;
+  height: 100%;
+  width: 1377px;
+  margin-right: 20px;
+  position: relative;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 120px;
+  align-items: center;
+  height: 719px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+}
+
+.bp1-sobrenosgrouppadding-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp1-sobrenosgrouppadding .bp1-rectangle {
+  background-color: rgba(215, 215, 215, 1.0);
+  top: 0px;
+  height: 683px;
+  box-sizing: border-box;
+  width: 1377px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(150, 150, 150, 1.0);
+  transform: rotate(0deg);
+  opacity: 0.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 320px);
+  height: 650px;
+  width: 1229px;
+  position: absolute;
+  margin: 0;
+  left: calc(50.00% - 601px);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  margin: 0;
+  flex: 465;
+  width: auto;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 393px;
+  margin: 0;
+  width: 468px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-rectangle1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 393px;
+  width: 468px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.9;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-sobren323s {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 50px;
+  height: auto;
+  width: 321px;
+  position: absolute;
+  margin: 0;
+  left: 63px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.1px;
+  line-height: 34.0px;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-prazer {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 117px;
+  height: auto;
+  width: 195px;
+  position: absolute;
+  margin: 0;
+  left: 63px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.1px;
+  line-height: 57.0px;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-detailtextabout {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 195px;
+  height: 116px;
+  width: 395px;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-detailtextabout .bp1-escrevaaquiumtext {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 394px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(138, 140, 142, 1.0);
+  text-align: left;
+  letter-spacing: 0.25px;
+  line-height: 19.0px;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-detailtextabout .bp1-sucintoebemaprese {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 32px;
+  height: auto;
+  width: 394px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(138, 140, 142, 1.0);
+  text-align: left;
+  letter-spacing: 0.25px;
+  line-height: 19.0px;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-detailtextabout .bp1-viemosaquisomosu {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 64px;
+  height: auto;
+  width: 394px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(138, 140, 142, 1.0);
+  text-align: left;
+  letter-spacing: 0.25px;
+  line-height: 19.0px;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-detailtextabout .bp1-quet352macessoanos {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 96px;
+  height: auto;
+  width: 394px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(138, 140, 142, 1.0);
+  text-align: left;
+  letter-spacing: 0.25px;
+  line-height: 19.0px;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-title .bp1-line {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 193px;
+  height: 120px;
+  width: 5px;
+  position: absolute;
+  margin: 0;
+  left: 38px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-a1ststacktopsobre .bp1-imagem {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 465px;
+  margin: 0 0 0 150px;
+  width: 582px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  margin: -135px 0 0 0;
+  flex: 372;
+  width: 1159px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 100%;
+  width: 1159px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0px;
+  height: 372px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 1159px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-cards {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 40px;
+  position: relative;
+  height: 100px;
+  margin: 0;
+  width: 240px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-cards .bp1-rectangle2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 91px;
+  width: 212px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-cards .bp1-nossahist363ria {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 30px;
+  height: auto;
+  width: 163px;
+  position: absolute;
+  margin: 0;
+  left: 38px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  line-height: 27.0px;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-cards .bp1-rectangle1 {
+  background-color: rgba(116, 191, 187, 1.0);
+  top: 35px;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  margin: 0;
+  left: 15px;
+  border-radius: 7px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-caixadetexto {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 330px;
+  margin: -15px 0 0 0;
+  width: 1159px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-caixadetexto .bp1-dialogbg {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 330px;
+  width: 1159px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-caixadetexto .bp1-texto {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 50px;
+  height: 192px;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 84px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-caixadetexto .bp1-texto .bp1-loremipsumdolorsi {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: auto;
+  margin: 0;
+  width: 483px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(0, 0, 0, 0.54);
+  text-align: justify;
+  line-height: 24.0px;
+}
+
+.bp1-sobrenosgrouppadding .bp1-sobrenosgroup .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup .bp1-caixadetexto .bp1-texto .bp1-loremipsumdolorsi1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: auto;
+  margin: 0 0 0 60px;
+  width: 449px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(0, 0, 0, 0.54);
+  text-align: justify;
+  line-height: 24.0px;
+}

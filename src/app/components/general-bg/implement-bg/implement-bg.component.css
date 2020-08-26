@@ -1,0 +1,183 @@
+.implement-bg {
+  width: 100%;
+  min-width: 1440px;
+  height: 100vh;
+  min-height: 856px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 1.0);
+  opacity: 1.0;
+}
+
+
+.bp1-backgroundsobre {
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 1px;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-backgroundsobre .bp1-asset10 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 856px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-backgroundsobre .bp1-asset10 .bp1-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 856px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-backgroundsobre .bp1-asset9 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 1px;
+  height: 855px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-backgroundsobre .bp1-asset9 .bp1-group {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 855px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.43;
+}
+
+.bp1-backgroundsobre .bp1-asset9 .bp1-group .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: 265px;
+  width: calc(99.99% - 427px);
+  position: absolute;
+  margin: 0;
+  left: 427px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-backgroundsobre .bp1-asset9 .bp1-group .bp1-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 266px;
+  height: 588px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-backgroundsobre .bp1-asset8 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 62px;
+  height: 795px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.37;
+}
+
+.bp1-backgroundsobre .bp1-asset8 .bp1-bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 795px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp1-backgroundsobre .bp1-asset8 .bp1-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 17px;
+  height: 747px;
+  width: calc(100.00% - 57px);
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-backgroundsobre .bp1-asset7 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 94px;
+  height: 390px;
+  width: calc(100.00% - 66px);
+  position: absolute;
+  margin: 0;
+  left: 21px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-backgroundsobre .bp1-asset7 .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 390px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-wave {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -574px;
+  height: calc(100.00% + 603px);
+  width: calc(100.00% + 128px);
+  position: absolute;
+  margin: 0;
+  left: -123px;
+  transform: rotate(0deg);
+  opacity: 0.91;
+}
+
+.bp1-wavecopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -212px;
+  height: calc(100.00% - 391px);
+  width: calc(100.00% - 339px);
+  position: absolute;
+  margin: 0;
+  left: 467px;
+  transform: rotate(0deg);
+  opacity: 0.3;
+}

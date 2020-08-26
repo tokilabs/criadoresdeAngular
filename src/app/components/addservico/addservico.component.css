@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300|Poppins:600,500|Montserrat:300,700|Open+Sans:600,400|Work+Sans:500');
+
+
+.addservcontainer {
+  width: 100%;
+  /* min-width: 1440px; */
+  height: auto;
+  /* min-height: 869px; */
+  position: absolute;
+  /* overflow: hidden; */
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0.027);
+  opacity: 1.0;
+}
+
+
+.BoxRec {
+  position: absolute;
+  top: 160px;
+  left: 210px;
+  width: Calc(100% - 420px);
+  height: 681px;
+  border-radius: 60px;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+}
+
+.BgInp {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  width: 551px;
+  height: 631px;
+  /* opacity: 0.3; */
+  border-radius: 97px;
+  background-color: #4d5bb67a;
+}
+
+.picture {
+  position: absolute;
+  top: 55px;
+  right: 58px;
+  width: 435px;
+  height: 304px;
+  border-radius: 15px;
+  box-shadow: 2px 1px 20px 1px #4d5bb6;
+  border: solid 1px #4d5bb6;
+  object-fit: cover;
+}
+
+.uppImgbtn {
+  position: absolute;
+  top: 370px;
+  right: 58px;
+  width: 190px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #ffffff00;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pricebtn {
+  position: absolute;
+  top: 370px;
+  left: 58px;
+  width: 190px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #ffffff00;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.BgInp .GrupoServ {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  width: 490px;
+  height: 530px;
+  border-radius: 35px;
+  /* opacity: 0; */
+  /* border: solid 1px #979797; */
+  background-color: rgba(255, 255, 255, 0.048);
+}
+
+.BgInp .GrupoServ .inpTit {
+  position: absolute;
+  top: 400px;
+  left: 18px;
+  width: 433px;
+  height: 28px;
+  background-color: #ffffff00;
+  border: solid 1px #4d5bb6;
+  border-radius: 50px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.33px;
+  color: #2e3243;
+}
+
+.BgInp .GrupoServ .DetailBox {
+  position: absolute;
+  top: 440px;
+  left: 18px;
+  width: 440px;
+  height: 70px;
+  /* opacity: 0.3; */
+  border-radius: 29.2px;
+  /* background-color: #c6d8ed; */
+  background-color: rgba(111, 161, 236, 0.349);
+}
+
+.BgInp .GrupoServ .DetailBox .SoftUse {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 400px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2e3243;
+  background-color: #ffffff00;
+  border: solid 1px #ffffff;
+  border-radius: 50px;
+}
+
+.BgInp .GrupoServ .DetailBox .DetailUse {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 400px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2e3243;
+  background-color: #ffffff00;
+  border: solid 1px #eff1ff;
+  border-radius: 50px;
+}
+
+.BgInp .ShapeButton {
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  width: Calc(100% - 300px);
+  height: 150px;
+}
+
+.BgInp .ShapeButton .contratar {
+  position: absolute;
+  top: 120px;
+  left: 45%;
+  width: Calc(100% + 70px);
+  height: 60px;
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-shadow: 2px 1px 20px 1px #040820ee;
+  /* border: solid 1px #4d5bb6; */
+  border-radius: 150px;
+  border-color: #0a112e52;
+  background-color: rgba(119, 138, 194, 0);
+  border-bottom-style: solid 1px #babcc5;
+}
+
+.BoxRec .DetailGroup {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  bottom: 210px;
+  left: 40px;
+  width: Calc(100% - 666px);
+  height: 90%;
+  /* opacity: 0.8; */
+  border-radius: 32px;
+  background-image: linear-gradient(to top, #e6edfa, #ffffffc9);
+}
+
+.BoxRec .DetailGroup .detailTxt {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  width: 482px;
+  height: 23px;
+  /* opacity: 0.3; */
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #061058;
+}
+
+.BoxRec .DetailGroup .llball {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #ff8b8b;
+}
+
+.BoxRec .DetailGroup .servcat {
+  position: absolute;
+  top: 103px;
+  left: 60px;
+  width: 250px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff8b8b;
+  background-color: #ffffff00;
+  border: solid 1px #ff8b8b6b;
+  border-radius: 50px;
+}
+
+.BoxRec .DetailGroup .dialogbg {
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  width: Calc(100% - 40px);
+  height: Calc(100% - 200px);
+  opacity: 0.8;
+  border-radius: 80px;
+  box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.3);
+  border-style: solid;
+  border-width: 0.5px;
+  border-image-source: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.04));
+  border-image-slice: 1;
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.04));
+  background-origin: border-box;
+  background-clip: content-box,
+    border-box
+}
+
+.BoxRec .DetailGroup .dialogbg .inpdialog {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: Calc(100% - 100px);
+  height: 85%;
+  font-family: Roboto;
+  font-size: 12px;
+  text-overflow: initial;
+  /* text-orientation: upright; */
+  text-align: start;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: justify;
+  border: none #74bfbb00;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.BoxRec .DetailGroup .dialogbg .inpdialog::-webkit-scrollbar {
+  color: #ff8b8b;
+  background-color: #ffffff00;
+  border: solid 1px #29229450;
+  border-radius: 10px;
+  display: flexbox;
+  resize: none;
+  columns: auto;
+  row-gap: initial;
+}
+
+.BoxRec .DetailGroup .dialogbg .inpdialog::-webkit-scrollbar-thumb {
+  color: #ff8b8b;
+  background-color: #ff8b8b;
+  border: solid 3px #ff8b8b6b;
+  border-radius: 30px;
+}
+
+.BoxRec .DetailGroup .dialogbg .inpdialog::-webkit-resizer {
+  resize: none;
+  display: initial;
+  width: 0px;
+  height: 0px;
+}
+
+.overlayserv {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /* background-color: #061058; */
+  /* border: solid 5 #24033a; */
+
+}
+
+#uploader {
+  -webkit-appearance: none;
+  top: 5px;
+  left: 25%;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  /* border: solid 1px #ff8b8b1e; */
+  /* border-radius: 90px; */
+  justify-content: center;
+  position: absolute;
+  /* animation: progressAnimationStrike 6s; */
+}
+
+#uploader::-webkit-progress-bar {
+  border: solid 1px #ff8b8b52;
+  border-radius: 120px;
+  background-color: #1f2d975e;
+  object-fit: contain;
+}
+
+#uploader::-webkit-progress-value {
+  color: #061058;
+  border: solid 1px #ff8b8b00;
+  border-radius: 120px;
+  background-color: #ff8b8b9f;
+  align-items: center;
+  margin-bottom: 10px;
+  object-fit: fill;
+}
+
+#uploader::-webkit-progress-inner-element {
+  color: #74bfbb;
+  border: solid 1px #ff8b8b00;
+  border-radius: 50px;
+  object-fit: fill;
+}
+
+#text {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 12px;
+  text-overflow: initial;
+  /* text-orientation: upright; */
+  text-align: start;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: justify;
+}

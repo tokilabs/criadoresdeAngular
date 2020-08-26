@@ -1,0 +1,215 @@
+.bp1-a404 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  height: 553px;
+  width: 702px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  top: 120px;
+}
+
+.bp1-a404-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 0;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+}
+
+.bp1-a404-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp1-a404 .bp1-button {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 469px;
+  height: 84px;
+  width: 345px;
+  position: absolute;
+  margin: 0;
+  left: 178px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-a404 .bp1-button .bp1-background {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 84px;
+  width: 345px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-a404 .bp1-button .bp1-u5bb9u5668u6837u5f0f {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 84px;
+  width: 345px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 4px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-a404 .bp1-button .bp1-u5bb9u5668u6837u5f0f .bp1-mask {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 84px;
+  width: 345px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 4px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-a404 .bp1-button .bp1-u5bb9u5668u6837u5f0f .bp1-u21b3ud83cudfa8u80ccu666f {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 84px;
+  width: 345px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-a404 .bp1-button .bp1-u5bb9u5668u6837u5f0f .bp1-u21b3ud83cudfa8u80ccu666f .bp1-base {
+  background-color: rgba(24, 151, 242, 1.0);
+  top: 0px;
+  height: 84px;
+  width: 345px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-a404 .bp1-button .bp1-u6587u5b57u6837u5f0f {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 30px;
+  height: 24px;
+  width: 281px;
+  position: absolute;
+  margin: 0;
+  left: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-a404 .bp1-button .bp1-u6587u5b57u6837u5f0f .bp1-u21b3u270fufe0fcontent {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 281px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Open Sans", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 24.0px;
+}
+
+.bp1-a404 .bp1-a16pxregularcenterwhitecopy3 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 361px;
+  height: 32px;
+  width: 701px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-a404 .bp1-a16pxregularcenterwhitecopy3 .bp1-u21b3u270fufe0fcontent {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 701px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Open Sans", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(58, 61, 63, 1.0);
+  text-align: center;
+  line-height: 32.0px;
+}
+
+.bp1-a404 .bp1-a16pxregularcenterwhitecopy31 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 301px;
+  height: 32px;
+  width: 701px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-a404 .bp1-a16pxregularcenterwhitecopy31 .bp1-u21b3u270fufe0fcontent {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 701px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Open Sans", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24.0px;
+  color: rgba(58, 61, 63, 1.0);
+  text-align: center;
+  line-height: 32.0px;
+}
+
+.bp1-a404 .bp1-a4041 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 701px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 200.0px;
+  color: rgba(74, 73, 74, 1.0);
+  text-align: center;
+  line-height: 244.0px;
+}

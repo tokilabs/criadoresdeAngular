@@ -1,1 +1,210 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-Medium),
+    url(/path/to/Montserrat-Medium.woff2) format("woff2"),
+    url(/path/to/Montserrat-Medium.woff) format("woff"),
+    url(/path/to/Montserrat-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local(Montserrat-Black),
+    url(/path/to/Montserrat-Black.woff2) format("woff2"),
+    url(/path/to/Montserrat-Black.woff) format("woff"),
+    url(/path/to/Montserrat-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: local(OpenSans-Semibold),
+    url(/path/to/OpenSans-Semibold.woff2) format("woff2"),
+    url(/path/to/OpenSans-Semibold.woff) format("woff"),
+    url(/path/to/OpenSans-Semibold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: local(OpenSans-Extrabold),
+    url(/path/to/OpenSans-Extrabold.woff2) format("woff2"),
+    url(/path/to/OpenSans-Extrabold.woff) format("woff"),
+    url(/path/to/OpenSans-Extrabold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local(Roboto-Regular),
+    url(/path/to/Roboto-Regular.woff2) format("woff2"),
+    url(/path/to/Roboto-Regular.woff) format("woff"),
+    url(/path/to/Roboto-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local(Roboto-Medium),
+    url(/path/to/Roboto-Medium.woff2) format("woff2"),
+    url(/path/to/Roboto-Medium.woff) format("woff"),
+    url(/path/to/Roboto-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: RobotoSlab;
+  src: local(RobotoSlab-Light),
+    url(/path/to/RobotoSlab-Light.woff2) format("woff2"),
+    url(/path/to/RobotoSlab-Light.woff) format("woff"),
+    url(/path/to/RobotoSlab-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.Text-Style {
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.11px;
+}
+
+.MinSlideOptions-2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #658fc0;
+}
+
+.-HeadlineH6_Light-2 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.MaterialLightTitle-2 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.MaterialLightSubhead-secondary-2 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.symbolsformslabel1-default-2 {
+  font-family: RobotoSlab;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1e252c;
+}
+
+.symbolsformsinputplaceholder-default-2 {
+  font-family: RobotoSlab;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.75;
+  letter-spacing: normal;
+  color: #868e96;
+}
+
+.menuSellected-2 {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.menuNOTselected-2 {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.symbolsformshelptext6-white-2 {
+  font-family: RobotoSlab;
+  font-size: 12.8px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.headerStyle-2 {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f4f2de;
+}

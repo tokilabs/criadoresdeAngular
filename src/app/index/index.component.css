@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300|Poppins:600,500|Montserrat:300,700|Open+Sans:600,400|Work+Sans:500');
+
+
+.homecontainer {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.oqvamoscriar {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+}
+
+
+.animaservs {
+  position: absolute;
+  top: 160px;
+  left: 40%;
+  width: 30%;
+}

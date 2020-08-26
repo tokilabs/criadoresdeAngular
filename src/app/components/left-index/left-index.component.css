@@ -1,0 +1,336 @@
+.bp1-left {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 576px;
+  margin: 0;
+  width: 433px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 576px;
+  width: 100%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 0;
+  height: 100%;
+  width: 433px;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  display: flex;
+  left: 0px;
+}
+
+.bp1-left .bp1-left1-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp1-left .bp1-left1 .bp1-rectangle {
+  background-color: rgba(77, 91, 182, 1.0);
+  top: 25px;
+  height: 521px;
+  width: 432px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 95px;
+  transform: rotate(0deg);
+  opacity: 0.09;
+}
+
+.bp1-left .bp1-left1 .bp1-oqvamoscriarhj {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 205px;
+  width: calc(100.00% - 1px);
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-rectangle1 {
+  background-color: rgba(0, 0, 0, 1.0);
+  top: 0px;
+  height: 205px;
+  width: 432px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 36px;
+  transform: rotate(0deg);
+  opacity: 0.06;
+}
+
+.bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-oquevamos {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 30px;
+  height: auto;
+  width: 374px;
+  position: absolute;
+  margin: 0;
+  left: 41px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.1px;
+  line-height: 34.0px;
+}
+
+.bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-criarhoje {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 120px;
+  height: auto;
+  width: 304px;
+  position: absolute;
+  margin: 0;
+  left: 41px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size: 48.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.1px;
+  line-height: 58.0px;
+}
+
+.bp1-left .bp1-left1 .bp1-criadoresdescription {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  bottom: 0px;
+  height: 244px;
+  width: 410px;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-shadowcopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 185px;
+  height: 59px;
+  width: 376px;
+  position: absolute;
+  margin: 0;
+  left: 17px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  filter: blur(50px);
+}
+
+.bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-rectanglecopy {
+  background-color: rgba(254, 255, 254, 1.0);
+  top: 0px;
+  height: 214px;
+  width: 410px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-loremipsumdolorsi {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 26px;
+  height: auto;
+  width: 371px;
+  position: absolute;
+  margin: 0;
+  left: 21px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(138, 140, 142, 1.0);
+  text-align: left;
+  letter-spacing: 0.25px;
+  line-height: 19.0px;
+}
+
+.bp1-left .bp1-left1 .bp1-label1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 96px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 295px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 268.0px;
+  color: rgba(155, 184, 218, 0.11);
+  text-align: justify;
+  line-height: 314.0px;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 228px;
+  height: 73px;
+  width: 293px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 73px;
+  width: 293px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 73px;
+  width: 293px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-shadow {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 59px;
+  height: 14px;
+  width: 269px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  transform: rotate(0deg);
+  opacity: 0.7;
+  filter: blur(50px);
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-rectangle1 {
+  background-color: rgba(254, 255, 254, 1.0);
+  top: 0px;
+  height: 66px;
+  width: 293px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 24px;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  margin: 0;
+  left: 249px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-shape {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 2px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 3px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 11px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: 28px;
+  width: 207px;
+  position: absolute;
+  margin: 0;
+  left: 29px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -2px;
+  height: 30px;
+  width: 207px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.9;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(17, 28, 95, 1.0);
+  text-align: left;
+  line-height: 30.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui::placeholder {
+  color: rgba(17, 28, 95, 0.6);
+}

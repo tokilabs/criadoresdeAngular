@@ -1,0 +1,11 @@
+.admin {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 25%;
+  right: 2%;
+  border: solid 1px mediumslateblue;
+  border-radius: 35px;
+  background-color: mediumslateblue;
+
+}

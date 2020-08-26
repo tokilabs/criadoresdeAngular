@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300|Poppins:600,500|Montserrat:300,700|Open+Sans:600,400|Work+Sans:500');
+
+.login {
+  width: 100%;
+  /* min-width: auto; */
+  height: auto;
+  /* min-height: 856px; */
+  position: relative;
+  /* overflow: hidden; */
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0.0);
+  opacity: 1.0;
+}
+
+
+.login .loginpainel {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 673px;
+  width: 489px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 0;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+}
+
+.login .loginpainel-layout-container>* {
+  pointer-events: auto;
+}
+
+.login .loginpainel .backgroundpanellogin {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 673px;
+  width: 488px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .backgroundpanellogin .bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 673px;
+  width: 487px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.35;
+}
+
+.login .loginpainel .backgroundpanellogin .path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 16px;
+  height: 624px;
+  width: 440px;
+  position: absolute;
+  margin: 0;
+  left: 16px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .backgroundpanellogin .path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 328px;
+  height: 330px;
+  width: 440px;
+  position: absolute;
+  margin: 0;
+  left: 16px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .backgroundpanellogin .path2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 16px;
+  height: 313px;
+  width: 440px;
+  position: absolute;
+  margin: 0;
+  left: 16px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .userimput {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 356px;
+  height: 46px;
+  width: 348px;
+  position: absolute;
+  margin: 0;
+  left: 69px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .userimput .rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 46px;
+  width: 348px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 9px;
+  transform: rotate(0deg);
+  opacity: 0.35;
+}
+
+.login .loginpainel .userimput .path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 9px;
+  height: 26px;
+  width: 21px;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .userimput .textinsiraaquioseuemaildecadastro {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 45px;
+  width: 281px;
+  position: absolute;
+  margin: 0;
+  left: 59px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(46, 50, 67, 1.0);
+  text-align: center;
+  line-height: 15.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.login .loginpainel .userimput .textinsiraaquioseuemaildecadastro::placeholder {
+  color: rgba(46, 50, 67, 0.6);
+}
+
+.login .loginpainel .loginbutton {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 530px;
+  height: 39px;
+  width: 120px;
+  position: absolute;
+  margin: 0;
+  left: 280px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .loginbutton {
+  pointer-events: auto;
+}
+
+.login .loginpainel .loginbutton:hover {
+  transform: translate(0, -5px);
+}
+
+.login .loginpainel .loginbutton .rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 2px;
+  height: 37px;
+  width: 120px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .loginbutton .entrar {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 10px;
+  height: 37px;
+  width: 120px;
+  position: absolute;
+  margin: 0;
+  left: -1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 17.0px;
+}
+
+.login .loginpainel .loginbuttonGoogle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 530px;
+  height: 39px;
+  width: 170px;
+  position: absolute;
+  margin: 0;
+  left: 80px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .loginbuttonGoogle {
+  pointer-events: auto;
+}
+
+.login .loginpainel .loginbuttonGoogle:hover {
+  transform: translate(0, -5px);
+}
+
+.login .loginpainel .loginbuttonGoogle .rectangleGoogle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 2px;
+  height: 37px;
+  width: 170px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .loginbuttonGoogle .entrarGoogle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 10px;
+  height: 37px;
+  width: 172px;
+  position: absolute;
+  margin: 0;
+  left: -1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 17.0px;
+}
+
+.login .loginpainel .passwordimput {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 425px;
+  height: 46px;
+  width: 348px;
+  position: absolute;
+  margin: 0;
+  left: 69px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .passwordimput .rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 46px;
+  width: 348px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 9px;
+  transform: rotate(0deg);
+  opacity: 0.35;
+}
+
+.login .loginpainel .passwordimput .shape {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 11px;
+  height: 25px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .passwordimput .textinsiraaquiosuasenhadecadastro {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: 45px;
+  width: 277px;
+  position: absolute;
+  margin: 0;
+  left: 64px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(46, 50, 67, 1.0);
+  text-align: center;
+  line-height: 15.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.login .loginpainel .passwordimput .textinsiraaquiosuasenhadecadastro::placeholder {
+  color: rgba(46, 50, 67, 0.6);
+}
+
+.login .loginpainel .rememberme {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 493px;
+  height: 16px;
+  width: 130px;
+  position: absolute;
+  margin: 0;
+  left: 69px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .rememberme .rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.35;
+}
+
+.login .loginpainel .rememberme .lembredemim {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 16px;
+  width: 114px;
+  position: absolute;
+  margin: 0;
+  left: 18px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size: 9.51px;
+  color: rgba(19, 165, 168, 1.0);
+  text-align: left;
+  line-height: 11.0px;
+}
+
+.login .loginpainel .esqueceusuasenha {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 496px;
+  height: auto;
+  width: 130px;
+  position: absolute;
+  margin: 0;
+  left: 307px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size: 9.51px;
+  color: rgba(19, 165, 168, 1.0);
+  text-align: left;
+  line-height: 11.0px;
+}
+
+.login .loginpainel .cadastrar {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 590px;
+  height: 48px;
+  width: 449px;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+  font-family: "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size: 24.0px;
+  color: rgba(161, 229, 225, 1.0);
+  text-align: center;
+  line-height: 29.0px;
+}
+
+.login .loginpainel .cadastrar {
+  pointer-events: auto;
+}
+
+.login .loginpainel .cadastrar:hover {
+  transform: translate(0, -5px);
+}
+
+.login .loginpainel .bannerimagelogin {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 115px;
+  height: 217px;
+  width: 444px;
+  position: absolute;
+  margin: 0;
+  left: 15px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .estrelinhas {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 43px;
+  height: 102px;
+  width: 401px;
+  position: absolute;
+  margin: 0;
+  left: 42px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .estrelinhas .path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 39px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 360px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 22px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path1 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path1:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 98px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 161px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path2 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path2:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path3 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 49px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 5px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path3 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path3:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path4 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path4 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path4:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path5 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 69px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 332px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path5 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path5:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 7px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 388px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path6 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path6:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path7 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 48px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 397px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path7 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path7:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path8 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 94px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 381px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path8 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path8:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path9 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 67px;
+  height: 2px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 60px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path9 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path9:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .estrelinhas .path10 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 97px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 294px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.login .loginpainel .estrelinhas .path10 {
+  pointer-events: auto;
+}
+
+.login .loginpainel .estrelinhas .path10:hover {
+  opacity: 1;
+}
+
+.login .loginpainel .textcadastrese {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 85px;
+  height: 61px;
+  width: 275px;
+  position: absolute;
+  margin: 0;
+  left: 106px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .textcadastrese .cadastresenonosso {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 61px;
+  width: 277px;
+  position: absolute;
+  margin: 0;
+  left: -1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(77, 91, 182, 1.0);
+  text-align: center;
+  line-height: 15.0px;
+}
+
+.login .loginpainel .vamoscriarjuntos {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 52px;
+  height: 30px;
+  width: 446px;
+  position: absolute;
+  margin: 0;
+  left: 21px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.login .loginpainel .vamoscriarjuntos .vamoscriarjuntos1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: auto;
+  width: 445px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size: 24.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 29.0px;
+}
+
+.login .loginpainel .exit {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 20px;
+  top: 3px;
+  height: 33px;
+  width: 34px;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 0.46;
+}

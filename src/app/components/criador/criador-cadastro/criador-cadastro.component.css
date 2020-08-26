@@ -1,0 +1,1676 @@
+.bp1-cadastro {
+  width: 100%;
+  /* min-width: 1440px; */
+  height: auto;
+  /* min-height: 856px; */
+  position: absolute;
+  /* overflow: hidden; */
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  -webkit-text-size-adjust: none;
+}
+
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+div {
+  -webkit-text-size-adjust: none;
+}
+
+
+.bp1-cadastro .bp1-cadastrostackgroup {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  height: 100%;
+  width: auto;
+  left: 10%;
+  bottom: 200px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 147px;
+  align-items: center;
+  height: 578px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 524px;
+  margin: 0;
+  width: 460px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas {
+  pointer-events: auto;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas:hover {
+  transform: rotate(10deg);
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 345px;
+  height: 129px;
+  width: 159px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 313px;
+  width: 217px;
+  position: absolute;
+  margin: 0;
+  left: 229px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 71px;
+  height: 282px;
+  width: 178px;
+  position: absolute;
+  margin: 0;
+  left: 282px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path3 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 266px;
+  height: 258px;
+  width: 290px;
+  position: absolute;
+  margin: 0;
+  left: 69px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path4 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 126px;
+  height: 2px;
+  width: 2px;
+  position: absolute;
+  margin: 0;
+  left: 149px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path5 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 107px;
+  height: 42px;
+  width: 13px;
+  position: absolute;
+  margin: 0;
+  left: 148px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 119px;
+  height: 40px;
+  width: 9px;
+  position: absolute;
+  margin: 0;
+  left: 163px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path7 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 165px;
+  height: 43px;
+  width: 13px;
+  position: absolute;
+  margin: 0;
+  left: 180px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path8 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 183px;
+  height: 46px;
+  width: 14px;
+  position: absolute;
+  margin: 0;
+  left: 203px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path9 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 190px;
+  height: 63px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 218px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path10 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 201px;
+  height: 71px;
+  width: 17px;
+  position: absolute;
+  margin: 0;
+  left: 239px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path11 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 216px;
+  height: 92px;
+  width: 15px;
+  position: absolute;
+  margin: 0;
+  left: 278px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path12 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 205px;
+  height: 88px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 257px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path13 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 112px;
+  height: 30px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 135px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path14 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 145px;
+  height: 18px;
+  width: 28px;
+  position: absolute;
+  margin: 0;
+  left: 137px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path15 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 166px;
+  height: 18px;
+  width: 35px;
+  position: absolute;
+  margin: 0;
+  left: 142px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path16 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 213px;
+  height: 17px;
+  width: 35px;
+  position: absolute;
+  margin: 0;
+  left: 173px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path17 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 252px;
+  height: 22px;
+  width: 41px;
+  position: absolute;
+  margin: 0;
+  left: 198px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path18 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 187px;
+  height: 24px;
+  width: 39px;
+  position: absolute;
+  margin: 0;
+  left: 157px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path19 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 239px;
+  height: 17px;
+  width: 40px;
+  position: absolute;
+  margin: 0;
+  left: 183px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path20 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 275px;
+  height: 24px;
+  width: 43px;
+  position: absolute;
+  margin: 0;
+  left: 216px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path21 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 295px;
+  height: 31px;
+  width: 47px;
+  position: absolute;
+  margin: 0;
+  left: 228px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path22 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 124px;
+  height: 202px;
+  width: 170px;
+  position: absolute;
+  margin: 0;
+  left: 146px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path23 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 216px;
+  height: 277px;
+  width: 280px;
+  position: absolute;
+  margin: 0;
+  left: 166px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-plantas .bp1-path24 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 299px;
+  height: 107px;
+  width: 159px;
+  position: absolute;
+  margin: 0;
+  left: 258px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 578px;
+  margin: 0 0 0 -173px;
+  width: 666px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-pontilhado {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 227px;
+  width: 424px;
+  position: absolute;
+  margin: 0;
+  left: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-pontilhado .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 157px;
+  height: 5px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-pontilhado .bp1-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 227px;
+  width: 420px;
+  position: absolute;
+  margin: 0;
+  left: 4px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-pontilhado .bp1-path2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 220px;
+  height: 5px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 210px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 32px;
+  height: 546px;
+  width: 488px;
+  position: absolute;
+  margin: 0;
+  left: 44px;
+  transform: rotate(0deg);
+  opacity: 0.87;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-fullname {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 126px;
+  height: 68px;
+  width: 357px;
+  position: absolute;
+  margin: 0;
+  left: 123px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-fullname .bp1-rectangle1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 24px;
+  height: 43px;
+  box-sizing: border-box;
+  width: 355px;
+  position: absolute;
+  margin: 0;
+  left: 2px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(77, 91, 182, 1.0);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-fullname .bp1-user {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 36px;
+  height: 21px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 25px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-fullname .bp1-user .bp1-user1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 21px;
+  width: 18px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-fullname .bp1-user .bp1-user1 .bp1-user2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 21px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-fullname .bp1-textseunomecompleto {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 30px;
+  height: 30px;
+  width: 289px;
+  position: absolute;
+  margin: 0;
+  left: 64px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(189, 189, 189, 1.0);
+  text-align: left;
+  letter-spacing: -0.3px;
+  line-height: 19.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-fullname .bp1-textseunomecompleto::placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-fullname .bp1-nomecompleto {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 178px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(77, 91, 182, 1.0);
+  text-align: left;
+  line-height: 19.0px;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 214px;
+  height: 68px;
+  width: 355px;
+  position: absolute;
+  margin: 0;
+  left: 124px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email .bp1-rectangle1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 24px;
+  height: 43px;
+  box-sizing: border-box;
+  width: 355px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(77, 91, 182, 1.0);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email .bp1-mail {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 38px;
+  height: 19px;
+  width: 23px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email .bp1-mail .bp1-mail1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 18px;
+  width: 22px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email .bp1-mail .bp1-mail1 .bp1-mail2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 19px;
+  width: 23px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email .bp1-textemail {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 30px;
+  height: 30px;
+  width: 289px;
+  position: absolute;
+  margin: 0;
+  left: 62px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(189, 189, 189, 1.0);
+  text-align: left;
+  letter-spacing: -0.3px;
+  line-height: 19.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email .bp1-textemail::placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email .bp1-email1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 130px;
+  position: absolute;
+  margin: 0;
+  left: 2px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Work Sans", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(77, 91, 182, 1.0);
+  text-align: left;
+  line-height: 19.0px;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-password {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 300px;
+  height: 68px;
+  width: 355px;
+  position: absolute;
+  margin: 0;
+  left: 124px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-password .bp1-rectangle1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 24px;
+  height: 43px;
+  box-sizing: border-box;
+  width: 355px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(77, 91, 182, 1.0);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-password .bp1-lock {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 36px;
+  height: 20px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 23px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-password .bp1-lock .bp1-lock1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-password .bp1-lock .bp1-lock1 .bp1-lock2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-password .bp1-textsuasenha {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 30px;
+  height: 30px;
+  width: 289px;
+  position: absolute;
+  margin: 0;
+  left: 66px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(189, 189, 189, 1.0);
+  text-align: left;
+  letter-spacing: -0.3px;
+  line-height: 19.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-password .bp1-textsuasenha::placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-password .bp1-senha {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 200px;
+  position: absolute;
+  margin: 0;
+  left: 9px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(77, 91, 182, 1.0);
+  text-align: left;
+  line-height: 19.0px;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-confirmpassword {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 387px;
+  height: 68px;
+  width: 355px;
+  position: absolute;
+  margin: 0;
+  left: 124px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-confirmpassword .bp1-rectangle1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 24px;
+  height: 43px;
+  box-sizing: border-box;
+  width: 355px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(77, 91, 182, 1.0);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-confirmpassword .bp1-lock {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 36px;
+  height: 20px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 23px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-confirmpassword .bp1-lock .bp1-lock1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-confirmpassword .bp1-lock .bp1-lock1 .bp1-lock2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 20px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-confirmpassword .bp1-textconfirmarsenha {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 30px;
+  height: 30px;
+  width: 289px;
+  position: absolute;
+  margin: 0;
+  left: 66px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(189, 189, 189, 1.0);
+  text-align: left;
+  letter-spacing: -0.3px;
+  line-height: 19.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-confirmpassword .bp1-textconfirmarsenha::placeholder {
+  color: rgba(189, 189, 189, 0.6);
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-confirmpassword .bp1-confirmarsenha {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 352px;
+  position: absolute;
+  margin: 0;
+  left: 2px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(77, 91, 182, 1.0);
+  text-align: left;
+  line-height: 19.0px;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupheader {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 54px;
+  height: auto;
+  width: 356px;
+  position: absolute;
+  margin: 0;
+  left: 124px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+  font-family: "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size: 30.0px;
+  color: rgba(77, 91, 182, 1.0);
+  text-align: center;
+  letter-spacing: -1.2px;
+  line-height: 36.0px;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupheader {
+  pointer-events: auto;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupheader:hover {
+  transform: translate(-5px, 0);
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupbutton {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 492px;
+  height: 47px;
+  width: 208px;
+  position: absolute;
+  margin: 0;
+  left: 197px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupbutton {
+  pointer-events: auto;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupbutton:hover {
+  transform: translate(0, -5px);
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupbutton .bp1-rectangle1 {
+  background-color: rgba(77, 91, 182, 1.0);
+  top: 3px;
+  height: 44px;
+  width: 207px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  border-radius: 22px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupbutton .bp1-cadastrar {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: 46px;
+  width: 209px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size: 20.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 24.0px;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-aviaozin {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 22px;
+  height: 120px;
+  width: 180px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-aviaozin {
+  pointer-events: auto;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-aviaozin:hover {
+  transform: translate(5px, 0);
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-aviaozin .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 8px;
+  height: 95px;
+  width: 130px;
+  position: absolute;
+  margin: 0;
+  left: 39px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-aviaozin .bp1-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 24px;
+  height: 79px;
+  width: 105px;
+  position: absolute;
+  margin: 0;
+  left: 40px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-aviaozin .bp1-path2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 120px;
+  width: 180px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 400px;
+  margin: 0 0 0 -173px;
+  width: 410px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 400px;
+  width: 410px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 15.12%;
+  bottom: 15.25%;
+  height: 25.75%;
+  width: 23.66%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0.49%;
+  top: 19.75%;
+  height: 41.50%;
+  width: 45.37%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 14.15%;
+  top: 27.25%;
+  height: 40.50%;
+  width: 32.68%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path3 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 3.66%;
+  top: 45.00%;
+  height: 0.50%;
+  width: 0.49%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path4 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 2.93%;
+  top: 41.75%;
+  height: 6.50%;
+  width: 4.15%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path5 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 6.83%;
+  top: 43.00%;
+  height: 6.75%;
+  width: 2.20%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 11.95%;
+  bottom: 43.25%;
+  height: 7.00%;
+  width: 4.15%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path7 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 17.56%;
+  bottom: 41.25%;
+  height: 7.50%;
+  width: 4.39%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path8 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 21.71%;
+  bottom: 38.25%;
+  height: 10.00%;
+  width: 6.10%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path9 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 26.10%;
+  bottom: 36.00%;
+  height: 11.25%;
+  width: 6.59%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path10 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 35.61%;
+  bottom: 32.00%;
+  height: 15.25%;
+  width: 5.12%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path11 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 30.24%;
+  bottom: 33.75%;
+  height: 14.50%;
+  width: 6.83%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path12 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: 43.25%;
+  height: 4.25%;
+  width: 5.85%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path13 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 1.71%;
+  top: 48.25%;
+  height: 2.25%;
+  width: 6.59%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path14 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 3.90%;
+  bottom: 45.50%;
+  height: 2.75%;
+  width: 7.80%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path15 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 12.68%;
+  bottom: 39.25%;
+  height: 3.00%;
+  width: 7.56%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path16 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 19.76%;
+  bottom: 33.00%;
+  height: 5.25%;
+  width: 8.29%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path17 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 8.05%;
+  bottom: 42.50%;
+  height: 3.25%;
+  width: 9.02%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path18 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 15.61%;
+  bottom: 36.00%;
+  height: 4.00%;
+  width: 8.29%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path19 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 24.88%;
+  bottom: 29.50%;
+  height: 6.00%;
+  width: 9.02%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path20 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 28.54%;
+  bottom: 25.75%;
+  height: 7.50%;
+  width: 9.02%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path21 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 2.93%;
+  bottom: 30.25%;
+  height: 25.25%;
+  width: 45.12%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path22 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1.75%;
+  height: 56.00%;
+  width: 34.63%;
+  position: absolute;
+  margin: 0;
+  left: 21.22%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path23 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 55.50%;
+  width: 46.83%;
+  position: absolute;
+  margin: 0;
+  left: 20.00%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path24 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 17.75%;
+  height: 24.75%;
+  width: 26.34%;
+  position: absolute;
+  margin: 0;
+  left: 30.98%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path25 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 28.78%;
+  top: 0px;
+  height: 41.00%;
+  width: 30.98%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path26 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 19.75%;
+  height: 21.75%;
+  width: 29.02%;
+  position: absolute;
+  margin: 0;
+  left: 25.61%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path27 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 35.37%;
+  top: 19.25%;
+  height: 29.50%;
+  width: 18.05%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path28 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 24.75%;
+  height: 11.50%;
+  width: 3.66%;
+  position: absolute;
+  margin: 0;
+  left: 46.34%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path29 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 40.49%;
+  top: 31.75%;
+  height: 2.25%;
+  width: 6.59%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path30 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 26.50%;
+  height: 41.00%;
+  width: 18.05%;
+  position: absolute;
+  margin: 0;
+  left: 21.95%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path31 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 11.00%;
+  height: 16.75%;
+  width: 5.61%;
+  position: absolute;
+  margin: 0;
+  left: 38.54%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path32 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 30.25%;
+  height: 37.00%;
+  width: 54.39%;
+  position: absolute;
+  margin: 0;
+  left: 10.73%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path33 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 20.50%;
+  height: 11.00%;
+  width: 12.93%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path34 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 41.22%;
+  top: 11.25%;
+  height: 12.25%;
+  width: 6.59%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path35 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 43.90%;
+  top: 11.25%;
+  height: 8.25%;
+  width: 3.66%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path36 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 40.73%;
+  top: 2.00%;
+  height: 15.50%;
+  width: 12.20%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path37 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 47.07%;
+  top: 8.50%;
+  height: 1.50%;
+  width: 1.71%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path38 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 8.25%;
+  height: 1.00%;
+  width: 1.71%;
+  position: absolute;
+  margin: 0;
+  left: 47.80%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path39 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 48.05%;
+  top: 10.50%;
+  height: 1.25%;
+  width: 1.22%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path40 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 10.25%;
+  height: 1.25%;
+  width: 1.22%;
+  position: absolute;
+  margin: 0;
+  left: 47.80%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path41 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 11.75%;
+  height: 1.75%;
+  width: 0.98%;
+  position: absolute;
+  margin: 0;
+  left: 48.54%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path42 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 47.80%;
+  top: 12.75%;
+  height: 2.00%;
+  width: 2.93%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path43 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 46.34%;
+  top: 20.50%;
+  height: 4.25%;
+  width: 2.44%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path44 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 40.98%;
+  top: 19.50%;
+  height: 5.00%;
+  width: 5.12%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path45 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 19.50%;
+  height: 18.00%;
+  width: 23.66%;
+  position: absolute;
+  margin: 0;
+  left: 19.76%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path46 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 20.25%;
+  height: 17.25%;
+  width: 22.93%;
+  position: absolute;
+  margin: 0;
+  left: 19.76%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path47 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 37.80%;
+  top: 32.25%;
+  height: 10.50%;
+  width: 22.68%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path48 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 31.71%;
+  top: 20.75%;
+  height: 22.25%;
+  width: 9.02%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path49 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 37.32%;
+  top: 27.75%;
+  height: 5.75%;
+  width: 0.98%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path50 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 38.05%;
+  top: 37.50%;
+  height: 4.75%;
+  width: 2.20%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path51 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 37.80%;
+  top: 37.75%;
+  height: 4.75%;
+  width: 1.95%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-mulheranimatico .bp1-mulher .bp1-path52 {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 41.46%;
+  top: 1.50%;
+  height: 13.25%;
+  width: 12.44%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}

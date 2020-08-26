@@ -1,0 +1,27 @@
+.backgroundsobre {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  /* border: solid 1px #979797; */
+  /* background-color: hsl(0, 0%, 85%); */
+
+  right: 0px;
+  left: 0px;
+}
+
+.backgroundsobre .wave {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to top, #2e3243 11%, var(--blue-with-a-hint-of-purple) 11%);
+}
+
+.backgroundsobre .wavecopy {
+  position: absolute;
+  width: 1100px;
+  height: auto;
+  right: 0px;
+  opacity: 0.3;
+  /* box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.1); */
+  /* background-color: var(--blue-with-a-hint-of-purple); */
+}

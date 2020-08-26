@@ -1,0 +1,51 @@
+<app-general-bg></app-general-bg>
+<app-navbar></app-navbar>
+<div class="addservcontainer">
+  <div class="BoxRec">
+    <div class="BgInp">
+
+      <div class="GrupoServ">
+        <input class="inpTit" placeholder="Adicione Aqui o Título" name="AdicioneAquiTitulo" type="text">
+        <div class="DetailBox">
+          <input class="SoftUse" placeholder="SOFTWARES E FERRAMENTAS USADAS" name="AdicioneAquiSoft" type="text">
+          <input class="DetailUse" placeholder="Detalhe em poucas palavras" name="AdicioneDetail" type="text">
+        </div>
+      </div>
+
+      <progress value="0" max="100" id="uploader"> 0% </progress>
+
+      <img id="imagePreview" class="picture" src="./../../../assets/img/UploadImagePnng@4x.png">
+
+
+      <img class="picture" *ngIf="imgURL" [src]=imgURL>
+
+      <input #file style="display: none" type="file" accept='image/*' (change)="preview(file.files)" />
+
+      <button class="uppImgbtn" (click)="file.click()">UPLOAD IMAGE</button>
+
+      <!-- <img [src]="imgURL" height="200" *ngIf="imgURL"> -->
+      <!--
+      <input style="display: none" type="file" (change)="onFileChanged($event)" #fileInput> -->
+
+
+      <input class="pricebtn" placeholder="$ 00.00" name="Price" type="number">
+      <div class="ShapeButton">
+        <button class="contratar" type="button">Adicionar Serviço</button>
+
+      </div>
+    </div>
+    <div class="DetailGroup">
+      <div class="detailTxt">Detalhes</div>
+      <div class="llball"></div>
+      <input class="servcat" placeholder="Categoria do Serviço" name="AdicioneAquiCat" type="text">
+      <div class="dialogbg">
+
+        <textarea class="inpdialog" cols="2" rows="10" placeholder="Escreva um texto explicando este serviço"
+          name="AdicioneAquiLog" type="text"
+          style="border: none;"> Escreva um texto explicando este serviço ...</textarea>
+      </div>
+    </div>
+    <div class="overlaypv"></div>
+
+  </div>
+</div>
