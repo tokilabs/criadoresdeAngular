@@ -8,6 +8,7 @@ import { AngularFirestore, AngularFirestoreDocument } from '@angular/fire/firest
 import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import * as firebase from 'firebase/app';
+import { EmailValidator } from '@angular/forms';
 
 
 @Injectable({
@@ -19,6 +20,8 @@ export class AuthService {
 
   user$: Observable<User>;
   userAdmin$: Observable<UserAdmin>;
+
+  criadores: UserAdmin[];
 
   constructor(
     public afAuth: AngularFireAuth,
@@ -45,6 +48,17 @@ export class AuthService {
 
       })
     );
+    this.criadores = [];
+  }
+
+  getUsersAdm(): Observable<UserAdmin[]> {
+    if (localStorage.getItem('userAdm') === null) {
+      this.criadores = [];
+    } else {
+      this.criadores = JSON.parse(localStorage.getItem('userAdm'));
+    }
+
+    return of(this.criadores.sort((a, b) => { return b.id = a.id; }));
   }
 
   async singin(email, password) {
@@ -62,6 +76,7 @@ export class AuthService {
 
     // this.router.navigate(['/addserv']);
     alert('Agora Você é um Criador, aproveite.');
+    this.router.navigate(['/addserv']);
     return this.updateUserAdminData({ email, password });
 
 
@@ -83,20 +98,27 @@ export class AuthService {
       displayName,
       photoURL,
     };
-
+    this.router.navigate(['/addserv']);
     return userRef.set(data, { merge: true });
 
   }
-  private updateUserAdminData(userAdmin: UserAdmin) {
+  private updateUserAdminData({ email, password }: UserAdmin) {
     // Sets user data to firestore on login
-    const userRef: AngularFirestoreDocument<UserAdmin> = this.afs.doc(`usersAdmin/${userAdmin.email}`);
+
+    this.criadores[email] = email;
+    this.criadores[password] = password;
+    console.log(email);
+    const userRef: AngularFirestoreDocument<UserAdmin> = this.afs.doc(`userAdm/${email}`);
 
     const dataAdm = {
-      email: userAdmin.email,
-      password: userAdmin.password,
+      email,
+      password,
     };
+    console.log(dataAdm);
 
-    return userRef.set(dataAdm, { merge: true });
+    // return userRef.set(dataAdm, { merge: true });
+
+    return this.afs.collection('userAdm').add(this.userAdmin$);
 
   }
 

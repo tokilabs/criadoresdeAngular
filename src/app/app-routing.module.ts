@@ -1,7 +1,7 @@
 import { CriadorCadastroComponent } from './components/criador/criador-cadastro/criador-cadastro.component';
 import { CriadorEntrarComponent } from './components/criador/criador-entrar/criador-entrar.component';
 import { EntrarComponent } from './components/cadastro/entrar/entrar.component';
-import { LoginComponent } from './components/cadastro/login/login.component';
+// import { LoginComponent } from './components/cadastro/login/login.component';
 import { AddservicoComponent } from './components/addservico/addservico.component';
 import { IndexComponent } from './index/index.component';
 import { SobreComponent } from './components/sobre/sobre.component';
@@ -17,14 +17,15 @@ import { AuthGuard } from './auth.guard';
 const routes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'sobre', component: SobreComponent },
-  { path: 'precos', component: PrecosComponent },
+  { path: 'precos', component: PrecosComponent, canActivate: [AuthGuard] },
   { path: 'contato', component: ContatoComponent },
   { path: 'carrinho', component: CarrinhoComponent },
   { path: 'addserv', component: AddservicoComponent },
-  { path: '**', component: NotFoundComponent },
+
   { path: 'login', component: EntrarComponent },
   { path: 'criadorlogin', component: CriadorEntrarComponent },
   { path: 'criadorCadastro', component: CriadorCadastroComponent },
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({

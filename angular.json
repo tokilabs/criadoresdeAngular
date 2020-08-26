@@ -17,7 +17,14 @@
             "allowedCommonJsDependencies": [
               "lodash",
               "moment",
-              "rxjs-compat"
+              "rxjs-compat",
+              "@angular/fire",
+              "@firebase/auth",
+              "@firebase/app",
+              "@firebase/component",
+              "@firebase/util",
+              "@firebase/firestore",
+              "firebase"
             ],
 
             "outputPath": "dist/criadoresde",

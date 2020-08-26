@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 export class CriadorCadastroComponent implements OnInit {
 
 
-  userAdm: UserAdmin;
+  userAdm: UserAdmin[];
   errorMessage: string = '';
   isSgnIn = false;
 
@@ -26,6 +26,10 @@ export class CriadorCadastroComponent implements OnInit {
     } else {
       this.isSgnIn = false;
     }
+    this.auth.getUsersAdm().subscribe(userAdm => {
+      this.userAdm = userAdm;
+    });
+
   }
 
 
@@ -35,5 +39,14 @@ export class CriadorCadastroComponent implements OnInit {
       this.isSgnIn = true;
     }
     this.router.navigate(['/addserv']);
+  }
+
+  generateId(userAdm: UserAdmin): number {
+    for (let i = 0; i < this.userAdm.length; i++) {
+      const usersAdm = this.userAdm.length[i];
+      console.log(this.userAdm.length[i]);
+      return this.userAdm.length[i].id = userAdm.id;
+
+    }
   }
 }
