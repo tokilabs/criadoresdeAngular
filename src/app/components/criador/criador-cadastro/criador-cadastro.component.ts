@@ -1,6 +1,7 @@
+import { AdminService } from './../../../services/admin.service';
+import { User } from './../../../services/firebase/user.model';
 import { Router } from '@angular/router';
 import { AuthService } from './../../../services/firebase/auth.service';
-import { UserAdmin } from './../../../models/UserAdmin';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -10,43 +11,66 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CriadorCadastroComponent implements OnInit {
 
+  // user
+  user: User;
 
-  userAdm: UserAdmin[];
-  errorMessage: string = '';
   isSgnIn = false;
 
+  // preview
+  errorMessage: string = '';
+  public imagePath;
+  imgURL: any;
+  public message: string;
+
   constructor(
-    public auth: AuthService,
-    private router: Router, public fbAuth: AuthService,
+    public auth: AdminService,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
-    if (localStorage.getItem('userAdm') !== null) {
+    if (localStorage.getItem('usersAdmin') !== null) {
       this.isSgnIn = true;
+      this.user = JSON.parse(localStorage.getItem('usersAdmin'));
+      console.log(this.user);
     } else {
       this.isSgnIn = false;
     }
-    this.auth.getUsersAdm().subscribe(userAdm => {
-      this.userAdm = userAdm;
-    });
+
 
   }
 
 
-  async onSignUp(email: string, password: string) {
-    await this.fbAuth.singup(email, password);
-    if (this.fbAuth.isLogIn) {
+  async onSignUp(email, password, displayName, photoURL) {
+    await this.auth.singup(email, password, displayName, photoURL);
+    if (this.auth.isLogIn) {
       this.isSgnIn = true;
     }
     this.router.navigate(['/addserv']);
   }
 
-  generateId(userAdm: UserAdmin): number {
-    for (let i = 0; i < this.userAdm.length; i++) {
-      const usersAdm = this.userAdm.length[i];
-      console.log(this.userAdm.length[i]);
-      return this.userAdm.length[i].id = userAdm.id;
+  preview(files) {
 
+    // this.photoURL.reader = './../../../assets/img/UploadImagePnng@4x.png';
+
+    if (files.length === 0) {
+      return;
     }
+
+    const ImgPreview = document.getElementById('imagePreview');
+    ImgPreview.style.display = 'none';
+
+    const mimeType = files[0].type;
+    if (mimeType.match(/image\/*/) == null) {
+      this.message = "Apenas imagens aqui.";
+      return;
+    }
+
+    const reader = new FileReader();
+    this.imagePath = files;
+    reader.readAsDataURL(files[0]);
+    reader.onload = (_event) => {
+      this.imgURL = reader.result;
+      localStorage.setItem('imgPath', this.imgURL);
+    };
   }
 }

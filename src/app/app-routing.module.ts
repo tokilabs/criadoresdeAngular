@@ -17,10 +17,10 @@ import { AuthGuard } from './auth.guard';
 const routes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'sobre', component: SobreComponent },
-  { path: 'precos', component: PrecosComponent, canActivate: [AuthGuard] },
+  { path: 'precos', component: PrecosComponent },
   { path: 'contato', component: ContatoComponent },
   { path: 'carrinho', component: CarrinhoComponent },
-  { path: 'addserv', component: AddservicoComponent },
+  { path: 'addserv', component: AddservicoComponent, canActivate: [AuthGuard] },
 
   { path: 'login', component: EntrarComponent },
   { path: 'criadorlogin', component: CriadorEntrarComponent },

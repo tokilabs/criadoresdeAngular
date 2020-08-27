@@ -40,7 +40,7 @@ div {
   position: absolute;
   height: 100%;
   width: auto;
-  left: 10%;
+  left: 5%;
   bottom: 200px;
   transform: rotate(0deg);
   opacity: 1.0;
@@ -385,6 +385,7 @@ div {
 .bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget {
   background-color: rgba(255, 255, 255, 0.0);
   position: relative;
+  top: 50px;
   height: 578px;
   margin: 0 0 0 -173px;
   width: 666px;
@@ -399,7 +400,7 @@ div {
   width: 424px;
   position: absolute;
   margin: 0;
-  left: 32px;
+  left: 20px;
   transform: rotate(0deg);
   opacity: 1.0;
 }
@@ -443,11 +444,11 @@ div {
 .bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-rectangle {
   background-color: rgba(255, 255, 255, 0.0);
   top: 32px;
-  height: 546px;
-  width: 488px;
+  height: 426px;
+  width: 440px;
   position: absolute;
   margin: 0;
-  left: 44px;
+  left: 67px;
   transform: rotate(0deg);
   opacity: 0.87;
 }
@@ -636,7 +637,7 @@ div {
   opacity: 1.0;
   font-family: "Helvetica", Helvetica, Arial, serif;
   font-size: 16.0px;
-  color: rgba(189, 189, 189, 1.0);
+  color: rgb(58, 41, 41);
   text-align: left;
   letter-spacing: -0.3px;
   line-height: 19.0px;
@@ -646,7 +647,7 @@ div {
 }
 
 .bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email .bp1-textemail::placeholder {
-  color: rgba(189, 189, 189, 0.6);
+  color: rgba(216, 193, 193, 0.6);
 }
 
 .bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-email .bp1-email1 {
@@ -882,6 +883,48 @@ div {
   line-height: 19.0px;
 }
 
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .BgInp {
+  position: absolute;
+  top: 25px;
+  left: 75%;
+  width: 551px;
+  height: 431px;
+  /* opacity: 0.3; */
+  border-radius: 97px;
+  background-color: #4d5bb67a;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .BgInp .picture {
+  position: absolute;
+  top: 55px;
+  left: 10%;
+  width: 435px;
+  height: 304px;
+  border-radius: 125px;
+  box-shadow: 2px 1px 20px 1px #4d5bb6;
+  border: solid 1px #4d5bb6;
+  object-fit: cover;
+}
+
+.bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .BgInp .uppImgbtn {
+  position: absolute;
+  top: 390px;
+  left: 33%;
+  width: 190px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #ffffff00;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
 .bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupheader {
   background-color: rgba(255, 255, 255, 0.0);
   top: 54px;
@@ -911,7 +954,7 @@ div {
 
 .bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupbutton {
   background-color: rgba(255, 255, 255, 0.0);
-  top: 492px;
+  top: 412px;
   height: 47px;
   width: 208px;
   position: absolute;
@@ -945,7 +988,7 @@ div {
 
 .bp1-cadastro .bp1-cadastrostackgroup .bp1-cadastrogrupowidget .bp1-signupbutton .bp1-cadastrar {
   background-color: rgba(255, 255, 255, 0.0);
-  top: 1px;
+  top: 15px;
   height: 46px;
   width: 209px;
   position: absolute;

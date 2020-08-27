@@ -44,7 +44,7 @@
           </div>
         </div>
         <input class="bp1-textseunomecompleto" name="textSeuNomeCompleto" placeholder="Seu Nome Completo" required=""
-          type="text" />
+          type="text" #firstName />
         <div class="bp1-nomecompleto">
           Nome Completo
         </div>
@@ -81,7 +81,19 @@
       <div class="bp1-signupheader  smart-layers-pointers ">
         CADASTRE - SE
       </div>
-      <a button (click)="onSignUp(emailSgnUp.value, passSgnUp.value)" id="signIn">
+      <div class="BgInp">
+        <img id="imagePreview" class="picture" src="./../../../assets/img/UploadImagePnng@4x.png">
+
+
+        <img class="picture" *ngIf="imgURL" [src]=imgURL>
+
+        <input #photoURL style="display: none" type="file" accept='image/*' (change)="preview(photoURL.files)" />
+
+        <button class="uppImgbtn" (click)="photoURL.click()">UPLOAD PROFILE</button>
+
+      </div>
+
+      <a button (click)="onSignUp( emailSgnUp.value, passSgnUp.value, firstName.value, photoURL.value)" id="signIn">
         <div class="bp1-signupbutton  smart-layers-pointers ">
           <div class="bp1-rectangle1">
           </div>

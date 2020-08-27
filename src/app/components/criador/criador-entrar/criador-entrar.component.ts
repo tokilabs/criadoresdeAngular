@@ -1,3 +1,4 @@
+import { AdminService } from './../../../services/admin.service';
 import { async } from '@angular/core/testing';
 import { UserAdmin } from './../../../models/UserAdmin';
 import { Router } from '@angular/router';
@@ -17,7 +18,7 @@ export class CriadorEntrarComponent implements OnInit {
   isSgnIn = false;
 
   constructor(
-    public auth: AuthService,
+    public auth: AdminService,
     private router: Router, public fbAuth: AuthService,
   ) {
     this.userAdm = {
@@ -32,16 +33,17 @@ export class CriadorEntrarComponent implements OnInit {
     } else {
       this.isSgnIn = false;
     }
-
+    console.log(this.isSgnIn);
 
   }
 
 
 
   async onSingin(email: string, password: string) {
-    await this.fbAuth.singin(email, password);
-    if (this.fbAuth.isLogIn) {
+    await this.auth.singin(email, password);
+    if (this.auth.isLogIn) {
       this.isSgnIn = true;
+      console.log(this.isSgnIn);
     }
   }
 

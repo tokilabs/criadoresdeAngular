@@ -1,3 +1,4 @@
+import { AdminService } from './services/admin.service';
 import { AuthGuard } from './auth.guard';
 import { AuthService } from './services/firebase/auth.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -119,6 +120,7 @@ const firebaseConfig = {
     ServService,
     AuthService,
     AuthGuard,
+    AdminService,
   ],
   bootstrap: [
     AppComponent,
