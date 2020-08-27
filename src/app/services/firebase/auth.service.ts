@@ -116,9 +116,9 @@ export class AuthService {
     };
     console.log(dataAdm);
 
-    // return userRef.set(dataAdm, { merge: true });
+    return userRef.set(dataAdm, { merge: true });
 
-    return this.afs.collection('userAdm').add(this.userAdmin$);
+    // return this.afs.collection('userAdm').add(this.userAdmin$);
 
   }
 
