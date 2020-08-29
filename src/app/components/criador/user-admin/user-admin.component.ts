@@ -12,6 +12,7 @@ export class UserAdminComponent implements OnInit {
 
   constructor() {
     this.adminUser = {
+      uid: '',
       password: '',
       email: 'thiago@4coisas.house',
     };
