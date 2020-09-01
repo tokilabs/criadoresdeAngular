@@ -6,7 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServService } from './services/serv.service';
 import { NavbarComponent } from './navbar/navbar.component';
 
-
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -114,6 +114,7 @@ const firebaseConfig = {
     HttpClientModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
+    CarouselModule.forRoot(),
   ],
 
   providers: [

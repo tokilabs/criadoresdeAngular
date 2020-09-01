@@ -32,6 +32,7 @@
     "lodash-es": "^4.17.15",
     "material-components-web": "^7.0.0",
     "ngx-auth-firebaseui": "^4.4.0",
+    "ngx-bootstrap": "^6.1.0",
     "popper.js": "^1.16.1",
     "rxjs": "~6.6.2",
     "tslib": "^2.0.0",
