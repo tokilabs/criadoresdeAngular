@@ -22,6 +22,7 @@ export class CriadorEntrarComponent implements OnInit {
     private router: Router, public fbAuth: AuthService,
   ) {
     this.userAdm = {
+      uid: '',
       email: '',
       password: '',
     };

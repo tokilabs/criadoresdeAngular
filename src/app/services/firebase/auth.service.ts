@@ -33,7 +33,7 @@ export class AuthService {
       })
     );
 
-    console.log(this.user$);
+    // console.log(this.user$);
 
   }
 
@@ -44,7 +44,7 @@ export class AuthService {
     return this.updateUserData(credential.user);
   }
 
-  private updateUserData({ uid, email, displayName, photoURL }: User) {
+  updateUserData({ uid, email, displayName, photoURL }: User) {
     // Sets user data to firestore on login
     const userRef: AngularFirestoreDocument<User> = this.afs.doc(`users/${uid}`);
 
@@ -52,6 +52,21 @@ export class AuthService {
       uid,
       email,
       // password,
+      displayName,
+      photoURL,
+    };
+    this.router.navigate(['/addserv']);
+    return userRef.set(data, { merge: true });
+
+  }
+
+  updateUserAdmData({ uid, email, displayName, photoURL }: User) {
+    // Sets user data to firestore on login
+    const userRef: AngularFirestoreDocument<User> = this.afs.doc(`UserAdmins/${uid}`);
+
+    const data = {
+      uid,
+      email,
       displayName,
       photoURL,
     };

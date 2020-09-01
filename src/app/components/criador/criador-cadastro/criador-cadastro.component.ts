@@ -44,8 +44,12 @@ export class CriadorCadastroComponent implements OnInit {
     await this.auth.singup(email, password, displayName, photoURL);
     if (this.auth.isLogIn) {
       this.isSgnIn = true;
+
+      console.log(this.user);
+
+      this.router.navigate(['/addserv']);
     }
-    this.router.navigate(['/addserv']);
+
   }
 
   preview(files) {
