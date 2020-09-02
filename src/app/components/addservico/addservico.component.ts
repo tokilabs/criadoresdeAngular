@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { ServService } from './../../services/serv.service';
+import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
+import { Serv } from './../../models/Service';
+
 
 @Component({
   selector: 'app-addservico',
@@ -13,13 +16,55 @@ export class AddservicoComponent implements OnInit {
   imgURL: any;
   public message: string;
 
-  constructor() { }
+  @Output() newServ: EventEmitter<Serv> = new EventEmitter();
+  @Output() upServ: EventEmitter<Serv> = new EventEmitter();
+
+
+  @Input() currentServ: Serv;
+  @Input() isEdit: boolean;
+
+
+  constructor(private servServ: ServService) { }
 
   ngOnInit(): void {
   }
 
+  addServ(img, titulo, descricao, soft, preco, categoria, texto) {
 
-  preview(files) {
+    if (!img || !titulo || !descricao || !soft || !preco || !categoria || !texto) {
+      alert('Por Favor, adicione um Serviço.');
+    } else {
+      console.log(img, titulo, descricao, soft, preco, categoria, texto);
+      this.servServ.saveServ
+        ({
+          id: 0,
+          img: '',
+          titulo: '',
+          descricao: '',
+          soft: '',
+          preco: 0,
+          categoria: '',
+          texto: '',
+        } as Serv).subscribe
+        (serv => {
+          this.newServ.emit(serv);
+          console.log(serv);
+        });
+    }
+  }
+
+  updateServ(): void {
+    this.servServ.updateServ
+      (this.currentServ).subscribe
+      (serv => {
+        console.log(serv);
+        this.isEdit = false;
+        this.upServ.emit(serv);
+      });
+  }
+
+
+  preview(files): void {
 
     // this.imgURL.reader = './../../../assets/img/UploadImagePnng@4x.png';
 
@@ -42,7 +87,7 @@ export class AddservicoComponent implements OnInit {
     reader.onload = (_event) => {
       this.imgURL = reader.result;
       localStorage.setItem('imgPath', this.imgURL);
-    }
+    };
   }
 
 

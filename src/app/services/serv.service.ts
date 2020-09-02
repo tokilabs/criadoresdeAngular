@@ -13,32 +13,32 @@ const httpOptions = {
 
 export class ServService {
 
-  servUrl: string = 'https://jsonplaceholder.typicode.com/posts';
+  servUrl: string = 'https://jsonplaceholder.typicode.com/Servs';
 
   constructor(private http: HttpClient) { }
 
-  getPosts(): Observable<Serv[]> {
+  getServs(): Observable<Serv[]> {
 
     return this.http.get<Serv[]>(this.servUrl);
   }
 
-  savePost(serv: Serv): Observable<Serv> {
+  saveServ(serv: Serv): Observable<Serv> {
     return this.http.post<Serv>(this.servUrl, serv, httpOptions);
   }
 
-  updatePost(serv: Serv): Observable<Serv> {
+  updateServ(serv: Serv): Observable<Serv> {
     const url = `${this.servUrl}/${serv.id}`;
 
     return this.http.put<Serv>(url, serv, httpOptions);
   }
 
-  getPost(id: number): Observable<Serv> {
+  getServ(id: number): Observable<Serv> {
     const url = `${this.servUrl}/${id}`;
 
     return this.http.get<Serv>(url);
   }
 
-  removePost(serv: Serv | number): Observable<Serv> {
+  removeServ(serv: Serv | number): Observable<Serv> {
     const id = typeof serv === 'number' ? serv : serv.id;
 
     const url = `${this.servUrl}/${id}`;
