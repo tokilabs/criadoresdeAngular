@@ -1,3 +1,4 @@
+import { AuthService } from './../../services/firebase/auth.service';
 import { ServService } from './../../services/serv.service';
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 import { Serv } from './../../models/Service';
@@ -24,7 +25,7 @@ export class AddservicoComponent implements OnInit {
   @Input() isEdit: boolean;
 
 
-  constructor(private servServ: ServService) { }
+  constructor(private servServ: ServService, public authS: AuthService) { }
 
   ngOnInit(): void {
   }
@@ -50,6 +51,8 @@ export class AddservicoComponent implements OnInit {
           this.newServ.emit(serv);
           console.log(serv);
         });
+      this.servServ.create_Serv({ img, titulo, descricao, soft, preco, categoria, texto });
+      this.servServ.read_Serv();
     }
   }
 

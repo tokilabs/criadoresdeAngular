@@ -1,3 +1,4 @@
+import { Serv } from './../../models/Service';
 import { User } from './user.model';
 import { Router } from '@angular/router';
 import { Injectable } from '@angular/core';
@@ -32,7 +33,6 @@ export class AuthService {
 
       })
     );
-
     // console.log(this.user$);
 
   }
@@ -78,6 +78,18 @@ export class AuthService {
   async signOut() {
     await this.afAuth.signOut();
     this.router.navigate(['/']);
+  }
+
+  updateServData({ img, titulo, descricao, soft, preco, categoria, texto }: Serv) {
+    // Sets user data to firestore on login
+    const userRef: AngularFirestoreDocument<Serv> = this.afs.doc(`addserv/${JSON.stringify(titulo)}`);
+
+    const data = {
+      img, titulo, descricao, soft, preco, categoria, texto
+    };
+    this.router.navigate(['/addserv']);
+    return userRef.set(data, { merge: true });
+
   }
 
 

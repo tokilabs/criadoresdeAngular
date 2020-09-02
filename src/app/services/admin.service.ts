@@ -63,41 +63,15 @@ export class AdminService {
 
       console.log(this.userAdmin$);
 
-      // DEAD
-      // console.log(this.userSource);
-      // this.afs.collection('UserAdmins').doc().set({ uid: res.user.uid, email, password, firstName, photoURL });
-      // return this.updtUserAdmin({
-      //   uid: res.user.uid, email, password, firstName, photoURL
-      // });
-      // this.read_UserAdmins();
-      // this.create_NewUserAdmin(res.user);
-      // return this.updtUserAdmin({ uid: res.user.uid, email, password, firstName, photoURL });
-      // DEAD
-
-      // return this.authS.updateUserAdmData({ uid: res.user.uid, email, displayName: firstName, photoURL });
 
       return this.authS.updateUserData({ uid: res.user.uid, email, displayName: firstName, photoURL });
 
     });
     alert('Agora Você é um Criador, aproveite.');
-    // this.router.navigate(['/addserv']);
   }
 
   // FIRESTORE
 
-
-  // private updtUserAdmin({ uid, firstName, id, email, password, photoURL }: UserAdmin) {
-  //   const useradmRef: AngularFirestoreDocument<UserAdmin> = this.afs.doc(`UserAdmins/${uid}`);
-
-  //   console.log(uid);
-
-  //   const admData = {
-  //     uid, firstName, id, email, password, photoURL,
-  //   };
-  //   console.log(admData);
-  //   console.log(useradmRef);
-  //   return useradmRef.set(admData, { merge: true });
-  // }
 
   /* create_NewUserAdmin : Cria um novo registro na coleção especificada usando o método add */
   create_NewUserAdmin(userAdmin) {

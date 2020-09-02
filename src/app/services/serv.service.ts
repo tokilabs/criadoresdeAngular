@@ -1,5 +1,8 @@
+import { switchMap } from 'rxjs/operators';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { AngularFirestore } from '@angular/fire/firestore';
 import { Serv } from './../models/Service';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
@@ -15,7 +18,22 @@ export class ServService {
 
   servUrl: string = 'https://jsonplaceholder.typicode.com/Servs';
 
-  constructor(private http: HttpClient) { }
+
+  serv$: Observable<Serv>;
+
+  constructor(
+    private http: HttpClient,
+    public afs: AngularFirestore,
+    public afAuth: AngularFireAuth,
+  ) {
+    this.serv$ = this.afAuth.authState.pipe(
+      switchMap(serv => {
+        if (serv) {
+          return this.afs.doc<Serv>(`Servicos/${serv.uid}`).valueChanges();
+        } else { return of(null); }
+      })
+    );
+  }
 
   getServs(): Observable<Serv[]> {
 
@@ -45,4 +63,27 @@ export class ServService {
 
     return this.http.delete<Serv>(url, httpOptions);
   }
+
+
+  // FIRESTORE
+
+
+  create_Serv(servico: Serv) {
+    console.log(servico);
+    return this.afs.collection('Servicos').add(servico.titulo);
+  }
+
+  read_Serv() {
+    return this.afs.collection('Servicos').snapshotChanges();
+  }
+
+  update_Serv(servico: Serv) {
+    this.afs.doc('Servicos/' + servico.titulo).update(servico);
+  }
+
+  delete_Serv(servico: Serv) {
+    this.afs.doc('Servicos/' + servico.titulo).delete();
+  }
+
+
 }
