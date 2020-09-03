@@ -61,16 +61,5 @@ export class PostServComponent implements OnInit {
     this.isEdit = true;
   }
 
-  removePost(serv: Serv) {
-    if (confirm('Você tem certeza?')) {
-      this.servServ.removeServ(serv.id).subscribe(() => {
-        this.servs.forEach((cur, index) => {
-          if (serv.id === cur.id) {
-            this.servs.splice(index, 1);
-          }
-        });
-      });
-    }
-  }
 
 }

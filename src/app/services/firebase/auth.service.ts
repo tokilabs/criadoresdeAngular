@@ -80,14 +80,14 @@ export class AuthService {
     this.router.navigate(['/']);
   }
 
-  updateServData({ img, titulo, descricao, soft, preco, categoria, texto }: Serv) {
+  updateServData({ id, img, titulo, descricao, soft, preco, categoria, texto }: Serv) {
     // Sets user data to firestore on login
-    const userRef: AngularFirestoreDocument<Serv> = this.afs.doc(`addserv/${JSON.stringify(titulo)}`);
+
+    const userRef: AngularFirestoreDocument<Serv> = this.afs.doc(`addserv/${id}`);
 
     const data = {
-      img, titulo, descricao, soft, preco, categoria, texto
+      id, img, titulo, descricao, soft, preco, categoria, texto
     };
-    this.router.navigate(['/addserv']);
     return userRef.set(data, { merge: true });
 
   }

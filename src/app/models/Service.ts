@@ -1,4 +1,5 @@
 export interface Serv {
+  uid?: string;
   id?: number;
   img: any;
   titulo: '';

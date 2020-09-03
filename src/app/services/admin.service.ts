@@ -70,25 +70,6 @@ export class AdminService {
     alert('Agora Você é um Criador, aproveite.');
   }
 
-  // FIRESTORE
-
-
-  /* create_NewUserAdmin : Cria um novo registro na coleção especificada usando o método add */
-  create_NewUserAdmin(userAdmin) {
-    return this.afs.collection('UserAdmins').add(userAdmin);
-  }
-  /*read_UserAdmin: Chama o método snapshotChanges , que obterá registros e também será registrado para receber atualizações */
-  read_UserAdmins() {
-    return this.afs.collection('UserAdmins').snapshotChanges();
-  }
-  /*update_UserAdmin : atualiza o registro pegando o ID e chamando o método de atualização */
-  update_UserAdmin(recordID, userAdmin) {
-    this.afs.doc('UserAdmins/' + recordID).update(userAdmin);
-  }
-  /*delete_UserAdmin : chama o método de exclusão  ao registrar o ID*/
-  delete_UserAdmin(userAdmin) {
-    this.afs.doc('UserAdmins/' + userAdmin).delete();
-  }
 
 
 

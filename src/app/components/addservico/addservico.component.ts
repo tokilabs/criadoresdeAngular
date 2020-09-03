@@ -12,10 +12,10 @@ import { Serv } from './../../models/Service';
 export class AddservicoComponent implements OnInit {
 
   // imgURL = './../../../assets/img/UploadImagePnng@4x.png';
-
   public imagePath;
   imgURL: any;
   public message: string;
+
 
   @Output() newServ: EventEmitter<Serv> = new EventEmitter();
   @Output() upServ: EventEmitter<Serv> = new EventEmitter();
@@ -25,9 +25,11 @@ export class AddservicoComponent implements OnInit {
   @Input() isEdit: boolean;
 
 
-  constructor(private servServ: ServService, public authS: AuthService) { }
+  constructor(private servServ: ServService, public authS: AuthService) {
+  }
 
   ngOnInit(): void {
+
   }
 
   addServ(img, titulo, descricao, soft, preco, categoria, texto) {
@@ -38,33 +40,11 @@ export class AddservicoComponent implements OnInit {
       console.log(img, titulo, descricao, soft, preco, categoria, texto);
       this.servServ.saveServ
         ({
-          id: 0,
-          img: '',
-          titulo: '',
-          descricao: '',
-          soft: '',
-          preco: 0,
-          categoria: '',
-          texto: '',
-        } as Serv).subscribe
-        (serv => {
-          this.newServ.emit(serv);
-          console.log(serv);
-        });
-      this.servServ.create_Serv({ img, titulo, descricao, soft, preco, categoria, texto });
-      this.servServ.read_Serv();
+          img, titulo, descricao, soft, preco, categoria, texto
+        } as Serv);
     }
   }
 
-  updateServ(): void {
-    this.servServ.updateServ
-      (this.currentServ).subscribe
-      (serv => {
-        console.log(serv);
-        this.isEdit = false;
-        this.upServ.emit(serv);
-      });
-  }
 
 
   preview(files): void {
