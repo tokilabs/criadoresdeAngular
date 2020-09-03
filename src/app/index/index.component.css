@@ -1,7 +1,141 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300|Poppins:600,500|Montserrat:300,700|Open+Sans:600,400|Work+Sans:500');
 
 
-.homecontainer {
+@media screen and (max-width: 767px) {
+  .bp2-homemobile {
+    display: block;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: block;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: block;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: block;
+  }
+}
+
+
+.bp1-index {
+  width: 100%;
+  min-width: 1440px;
+  height: 100vh;
+  min-height: 856px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+.bp2-homemobile {
+  width: 100%;
+  min-width: 556px;
+  height: 100vh;
+  min-height: 963px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+
+.bp3-hometablet {
+  width: 100%;
+  min-width: 768px;
+  height: auto;
+  min-height: 1484px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+.bp4-homelq {
+  width: 100%;
+  min-width: 1024px;
+  height: 100vh;
+  min-height: 695px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+
+
+
+
+.bp1-index .homecontainer {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -11,16 +145,96 @@
   flex-direction: row;
 }
 
-.oqvamoscriar {
+.bp1-index .homecontainer .oqvamoscriar {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  width: 30%;
+}
+
+
+.bp1-index .homecontainer .animaservs {
+  position: absolute;
+  top: 160px;
+  left: 40%;
+  width: 30%;
+}
+
+
+
+.bp2-homemobile .homecontainer {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.bp2-homemobile .homecontainer .oqvamoscriar {
   position: absolute;
   top: 180px;
   left: 80px;
 }
 
 
-.animaservs {
+.bp2-homemobile .homecontainer .animaservs {
   position: absolute;
   top: 160px;
   left: 40%;
   width: 30%;
+}
+
+
+
+.bp3-hometablet .homecontainer {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.bp3-hometablet .homecontainer .oqvamoscriar {
+  position: absolute;
+  top: 140px;
+  left: 30%;
+  width: 20%;
+}
+
+
+.bp3-hometablet .homecontainer .animaservs {
+  position: absolute;
+  top: 720px;
+  right: 63%;
+  width: 40%;
+  height: auto;
+}
+
+
+.bp4-homelq .homecontainer {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.bp4-homelq .homecontainer .oqvamoscriar {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+}
+
+
+.bp4-homelq .homecontainer .animaservs {
+  position: absolute;
+  top: 460px;
+  left: 40%;
+  width: 100%;
 }

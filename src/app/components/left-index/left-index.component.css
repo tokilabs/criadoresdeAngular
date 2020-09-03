@@ -1,4 +1,139 @@
-.bp1-left {
+@media screen and (max-width: 767px) {
+  .bp2-homemobile {
+    display: block;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: block;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: block;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: block;
+  }
+}
+
+
+.bp1-index {
+  width: 100%;
+  min-width: 1440px;
+  height: 100vh;
+  min-height: 856px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+.bp2-homemobile {
+  width: 100%;
+  min-width: 556px;
+  height: 100vh;
+  min-height: 963px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+
+.bp3-hometablet {
+  width: 100%;
+  left: -200px;
+  min-width: 768px;
+  height: auto;
+  min-height: 1484px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+.bp4-homelq {
+  top: 0px;
+  width: 100%;
+  min-width: 1024px;
+  height: auto;
+  min-height: 695px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+
+
+
+.bp1-index .bp1-left {
   background-color: rgba(255, 255, 255, 0.0);
   position: relative;
   height: 576px;
@@ -8,7 +143,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 {
+.bp1-index .bp1-left .bp1-left1 {
   background-color: rgba(255, 255, 255, 0.0);
   position: relative;
   height: 576px;
@@ -17,7 +152,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1-layout-container {
+.bp1-index .bp1-left .bp1-left1-layout-container {
   pointer-events: none;
   flex-direction: column;
   top: 0;
@@ -30,11 +165,11 @@
   left: 0px;
 }
 
-.bp1-left .bp1-left1-layout-container>* {
+.bp1-index .bp1-left .bp1-left1-layout-container>* {
   pointer-events: auto;
 }
 
-.bp1-left .bp1-left1 .bp1-rectangle {
+.bp1-index .bp1-left .bp1-left1 .bp1-rectangle {
   background-color: rgba(77, 91, 182, 1.0);
   top: 25px;
   height: 521px;
@@ -47,7 +182,7 @@
   opacity: 0.09;
 }
 
-.bp1-left .bp1-left1 .bp1-oqvamoscriarhj {
+.bp1-index .bp1-left .bp1-left1 .bp1-oqvamoscriarhj {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 205px;
@@ -59,7 +194,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-rectangle1 {
+.bp1-index .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-rectangle1 {
   background-color: rgba(0, 0, 0, 1.0);
   top: 0px;
   height: 205px;
@@ -72,7 +207,7 @@
   opacity: 0.06;
 }
 
-.bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-oquevamos {
+.bp1-index .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-oquevamos {
   background-color: rgba(255, 255, 255, 0.0);
   top: 30px;
   height: auto;
@@ -92,7 +227,7 @@
   line-height: 34.0px;
 }
 
-.bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-criarhoje {
+.bp1-index .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-criarhoje {
   background-color: rgba(255, 255, 255, 0.0);
   top: 120px;
   height: auto;
@@ -110,7 +245,7 @@
   line-height: 58.0px;
 }
 
-.bp1-left .bp1-left1 .bp1-criadoresdescription {
+.bp1-index .bp1-left .bp1-left1 .bp1-criadoresdescription {
   background-color: rgba(255, 255, 255, 0.0);
   right: 0px;
   bottom: 0px;
@@ -122,7 +257,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-shadowcopy {
+.bp1-index .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-shadowcopy {
   background-color: rgba(255, 255, 255, 0.0);
   top: 185px;
   height: 59px;
@@ -135,7 +270,7 @@
   filter: blur(50px);
 }
 
-.bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-rectanglecopy {
+.bp1-index .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-rectanglecopy {
   background-color: rgba(254, 255, 254, 1.0);
   top: 0px;
   height: 214px;
@@ -148,7 +283,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-loremipsumdolorsi {
+.bp1-index .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-loremipsumdolorsi {
   background-color: rgba(255, 255, 255, 0.0);
   top: 26px;
   height: auto;
@@ -168,7 +303,7 @@
   line-height: 19.0px;
 }
 
-.bp1-left .bp1-left1 .bp1-label1 {
+.bp1-index .bp1-left .bp1-left1 .bp1-label1 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 96px;
   height: auto;
@@ -187,7 +322,7 @@
   line-height: 314.0px;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar {
   background-color: rgba(255, 255, 255, 0.0);
   top: 228px;
   height: 73px;
@@ -199,7 +334,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 73px;
@@ -211,7 +346,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 73px;
@@ -223,7 +358,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-shadow {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-shadow {
   background-color: rgba(255, 255, 255, 0.0);
   top: 59px;
   height: 14px;
@@ -236,7 +371,7 @@
   filter: blur(50px);
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-rectangle1 {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-rectangle1 {
   background-color: rgba(254, 255, 254, 1.0);
   top: 0px;
   height: 66px;
@@ -249,7 +384,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search {
   background-color: rgba(255, 255, 255, 0.0);
   top: 24px;
   height: 16px;
@@ -261,7 +396,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-shape {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-shape {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 13px;
@@ -285,7 +420,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path1 {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path1 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 11px;
   height: 4px;
@@ -297,7 +432,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist {
   background-color: rgba(255, 255, 255, 0.0);
   top: 21px;
   height: 28px;
@@ -309,7 +444,7 @@
   opacity: 1.0;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui {
   background-color: rgba(255, 255, 255, 0.0);
   top: -2px;
   height: 30px;
@@ -331,6 +466,1033 @@
   padding: 0;
 }
 
-.bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui::placeholder {
+.bp1-index .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui::placeholder {
+  color: rgba(17, 28, 95, 0.6);
+}
+
+
+
+
+
+/* bp2 */
+
+
+.bp2-homemobile .bp1-left {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -20px;
+  height: 328px;
+  width: 541px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 328px;
+  width: 100%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 0;
+  height: 100%;
+  width: 541px;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  display: flex;
+  left: 0px;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-rectangle {
+  background-color: rgba(77, 91, 182, 1.0);
+  top: 60px;
+  height: 225px;
+  width: 533px;
+  position: absolute;
+  margin: 0;
+  left: 8px;
+  border-radius: 95px;
+  transform: rotate(0deg);
+  opacity: 0.09;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-oqvamoscriarhj {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 14px;
+  height: 178px;
+  width: calc(100.00% - 16px);
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-rectangle1 {
+  background-color: rgba(0, 0, 0, 1.0);
+  top: 0px;
+  height: 177px;
+  width: 524px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 36px;
+  transform: rotate(0deg);
+  opacity: 0.06;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-oquevamos {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 55px;
+  height: auto;
+  width: 221px;
+  position: absolute;
+  margin: 0;
+  left: 49px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 41.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.09px;
+  line-height: 41.0px;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-criarhoje {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 127px;
+  height: auto;
+  width: 221px;
+  position: absolute;
+  margin: 0;
+  left: 49px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size: 41.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.09px;
+  line-height: 50.0px;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-criadoresdescription {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 10px;
+  bottom: 0px;
+  height: 225px;
+  width: 246px;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-shadowcopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 171px;
+  height: 54px;
+  width: 235px;
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  filter: blur(50px);
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-rectanglecopy {
+  background-color: rgba(254, 255, 254, 1.0);
+  top: 0px;
+  height: 197px;
+  width: 244px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-loremipsumdolorsi {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: auto;
+  width: 223px;
+  position: absolute;
+  margin: 0;
+  left: 13px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12.0px;
+  color: rgba(138, 140, 142, 1.0);
+  text-align: left;
+  letter-spacing: 0.19px;
+  line-height: 15.0px;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-label1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: 99px;
+  position: absolute;
+  margin: 0;
+  left: 6px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 268.0px;
+  color: rgba(155, 184, 218, 0.11);
+  text-align: right;
+  line-height: 314.0px;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 232px;
+  height: 63px;
+  width: 262px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 63px;
+  width: 262px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 63px;
+  width: 262px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-shadow {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 51px;
+  height: 12px;
+  width: 240px;
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 0.7;
+  filter: blur(50px);
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-rectangle1 {
+  background-color: rgba(254, 255, 254, 1.0);
+  top: 0px;
+  height: 57px;
+  width: 262px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 28px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 20px;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  margin: 0;
+  left: 222px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-shape {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 11px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 3px;
+  height: 3px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 3px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 10px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 18px;
+  height: 28px;
+  width: 185px;
+  position: absolute;
+  margin: 0;
+  left: 25px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -2px;
+  height: 30px;
+  width: 185px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.9;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(17, 28, 95, 1.0);
+  text-align: left;
+  line-height: 30.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.bp2-homemobile .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui::placeholder {
+  color: rgba(17, 28, 95, 0.6);
+}
+
+
+/* bp3 */
+
+
+.bp3-hometablet .bp1-left {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 328px;
+  margin: 0;
+  width: 737px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 328px;
+  width: 100%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 0;
+  height: 100%;
+  width: 737px;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  display: flex;
+  left: 0px;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-rectangle {
+  background-color: rgba(77, 91, 182, 1.0);
+  top: 60px;
+  height: 225px;
+  width: 737px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 95px;
+  transform: rotate(0deg);
+  opacity: 0.09;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-oqvamoscriarhj {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 14px;
+  height: 178px;
+  width: calc(100.00% - 16px);
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-rectangle1 {
+  background-color: rgba(0, 0, 0, 1.0);
+  top: 0px;
+  height: 177px;
+  width: 721px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 36px;
+  transform: rotate(0deg);
+  opacity: 0.06;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-oquevamos {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 51px;
+  height: auto;
+  width: 313px;
+  position: absolute;
+  margin: 0;
+  left: 68px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 41.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.09px;
+  line-height: 34.0px;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-criarhoje {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 127px;
+  height: auto;
+  width: 254px;
+  position: absolute;
+  margin: 0;
+  left: 68px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size: 41.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.09px;
+  line-height: 50.0px;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-criadoresdescription {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  bottom: 0px;
+  height: 225px;
+  width: 354px;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-shadowcopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 171px;
+  height: 54px;
+  width: 325px;
+  position: absolute;
+  margin: 0;
+  left: 15px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  filter: blur(50px);
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-rectanglecopy {
+  background-color: rgba(254, 255, 254, 1.0);
+  top: 0px;
+  height: 197px;
+  width: 354px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-loremipsumdolorsi {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 19px;
+  height: auto;
+  width: 320px;
+  position: absolute;
+  margin: 0;
+  left: 18px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(138, 140, 142, 1.0);
+  text-align: left;
+  letter-spacing: 0.22px;
+  line-height: 18.0px;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-label1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: -2px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 268.0px;
+  color: rgba(155, 184, 218, 0.11);
+  text-align: right;
+  line-height: 314.0px;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 232px;
+  height: 63px;
+  width: 253px;
+  position: absolute;
+  margin: 0;
+  left: 68px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 63px;
+  width: 252px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 63px;
+  width: 252px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-shadow {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 51px;
+  height: 12px;
+  width: 231px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  transform: rotate(0deg);
+  opacity: 0.7;
+  filter: blur(50px);
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-rectangle1 {
+  background-color: rgba(254, 255, 254, 1.0);
+  top: 0px;
+  height: 57px;
+  width: 252px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 28px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 20px;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  margin: 0;
+  left: 214px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-shape {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 11px;
+  width: 11px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 3px;
+  height: 3px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 3px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 10px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 18px;
+  height: 28px;
+  width: 178px;
+  position: absolute;
+  margin: 0;
+  left: 25px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -2px;
+  height: 30px;
+  width: 178px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.9;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(17, 28, 95, 1.0);
+  text-align: left;
+  line-height: 30.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.bp3-hometablet .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui::placeholder {
+  color: rgba(17, 28, 95, 0.6);
+}
+
+/* bp4 */
+
+
+.bp4-homelq .bp1-left {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 496px;
+  margin: 0;
+  width: 392px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 496px;
+  width: 100%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 0;
+  height: 100%;
+  width: 392px;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  display: flex;
+  left: 0px;
+}
+
+.bp4-homelq .bp1-left .bp1-left1-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-rectangle {
+  background-color: rgba(77, 91, 182, 1.0);
+  top: 22px;
+  height: 449px;
+  width: 372px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 95px;
+  transform: rotate(0deg);
+  opacity: 0.09;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-oqvamoscriarhj {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 177px;
+  width: calc(100.00% - 16px);
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-rectangle1 {
+  background-color: rgba(0, 0, 0, 1.0);
+  top: 0px;
+  height: 177px;
+  width: 376px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 36px;
+  transform: rotate(0deg);
+  opacity: 0.06;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-oquevamos {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 31px;
+  height: auto;
+  width: 338px;
+  position: absolute;
+  margin: 0;
+  left: 37px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 41.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.09px;
+  line-height: 34.0px;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-oqvamoscriarhj .bp1-criarhoje {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 107px;
+  height: auto;
+  width: 275px;
+  position: absolute;
+  margin: 0;
+  left: 37px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size: 41.0px;
+  color: rgba(116, 191, 187, 1.0);
+  text-align: left;
+  letter-spacing: -0.09px;
+  line-height: 50.0px;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-criadoresdescription {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  bottom: 0px;
+  height: 210px;
+  width: 353px;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-shadowcopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 159px;
+  height: 51px;
+  width: 324px;
+  position: absolute;
+  margin: 0;
+  left: 15px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  filter: blur(50px);
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-rectanglecopy {
+  background-color: rgba(254, 255, 254, 1.0);
+  top: 0px;
+  height: 184px;
+  width: 353px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-criadoresdescription .bp1-loremipsumdolorsi {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 13px;
+  height: auto;
+  width: 320px;
+  position: absolute;
+  margin: 0;
+  left: 18px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(138, 140, 142, 1.0);
+  text-align: left;
+  letter-spacing: 0.22px;
+  line-height: 18.0px;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-label1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 64px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 244px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 268.0px;
+  color: rgba(155, 184, 218, 0.11);
+  text-align: right;
+  line-height: 314.0px;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 196px;
+  height: 63px;
+  width: 253px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 63px;
+  width: 252px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 63px;
+  width: 252px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-shadow {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 51px;
+  height: 12px;
+  width: 231px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  transform: rotate(0deg);
+  opacity: 0.7;
+  filter: blur(50px);
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-rectangle1 {
+  background-color: rgba(254, 255, 254, 1.0);
+  top: 0px;
+  height: 57px;
+  width: 252px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 28px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  margin: 0;
+  left: 214px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-shape {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 11px;
+  width: 11px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 2px;
+  height: 3px;
+  width: 3px;
+  position: absolute;
+  margin: 0;
+  left: 3px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-backgroundcopy2 .bp1-search .bp1-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 10px;
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 19px;
+  height: 28px;
+  width: 178px;
+  position: absolute;
+  margin: 0;
+  left: 25px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -2px;
+  height: 30px;
+  width: 178px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.9;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(17, 28, 95, 1.0);
+  text-align: left;
+  line-height: 30.0px;
+  border: 0;
+  resize: none;
+  padding: 0;
+}
+
+.bp4-homelq .bp1-left .bp1-left1 .bp1-pesquisar .bp1-pesquisar1 .bp1-dropdownlist .bp1-textpesquiseaqui::placeholder {
   color: rgba(17, 28, 95, 0.6);
 }

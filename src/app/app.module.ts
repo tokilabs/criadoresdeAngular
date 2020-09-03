@@ -52,6 +52,7 @@ import { CriadorEntrarComponent } from './components/criador/criador-entrar/cria
 import { CriadorCadastroComponent } from './components/criador/criador-cadastro/criador-cadastro.component';
 import { CriadorIdComponent } from './components/criador/criador-id/criador-id.component';
 import { UserAdminComponent } from './components/criador/user-admin/user-admin.component';
+import { GeneralNavComponent } from './navbar/general-nav/general-nav.component';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyCoOYhqls1rJtW2DH0R2Suf32_P5fZ3dHQ',
@@ -98,6 +99,7 @@ const firebaseConfig = {
     CriadorCadastroComponent,
     CriadorIdComponent,
     UserAdminComponent,
+    GeneralNavComponent,
   ],
   imports: [
     BrowserModule,

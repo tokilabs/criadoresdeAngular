@@ -1,4 +1,141 @@
-.bp1-bannersgroupindex {
+@media screen and (max-width: 767px) {
+  .bp2-homemobile {
+    display: block;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: block;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: block;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: block;
+  }
+}
+
+
+.bp1-index {
+  width: 100%;
+  min-width: 1440px;
+  height: 100vh;
+  min-height: 856px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+.bp2-homemobile {
+  width: 100%;
+  left: -220px;
+  top: -80px;
+  min-width: 556px;
+  height: auto;
+  min-height: 1193px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+
+.bp3-hometablet {
+  width: 100%;
+  top: -200px;
+  left: 160px;
+  min-width: 868px;
+  height: auto;
+  min-height: 1284px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+.bp4-homelq {
+  width: 100%;
+  top: -300px;
+  left: 40px;
+  min-width: 1024px;
+  height: auto;
+  min-height: 695px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+
+.bp1-index .bp1-bannersgroupindex {
   background-color: rgba(255, 255, 255, 0.0);
   position: absolute;
   height: auto;
@@ -8,7 +145,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 {
   background-color: rgba(255, 255, 255, 0.0);
   position: absolute;
   height: auto;
@@ -17,7 +154,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1-layout-container {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1-layout-container {
   pointer-events: none;
   flex-direction: column;
   top: 0;
@@ -30,11 +167,11 @@
   left: 0px;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1-layout-container>* {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1-layout-container>* {
   pointer-events: auto;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-rectangle {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-rectangle {
   background-color: rgba(77, 91, 182, 1.0);
   top: 0px;
   height: 610px;
@@ -47,7 +184,7 @@
   opacity: 0.1;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 609px;
@@ -59,7 +196,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-shape {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-shape {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 96.72%;
@@ -71,7 +208,7 @@
   opacity: 0.5;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup {
   background-color: rgba(255, 255, 255, 0.0);
   right: 3.10%;
   bottom: 0px;
@@ -83,7 +220,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-containbanner {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-containbanner {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 85.09%;
@@ -97,7 +234,7 @@
 
 
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-containbanner .bp1-containbanner1 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-containbanner .bp1-containbanner1 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 100%;
@@ -109,7 +246,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-conte372do {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-containgroup .bp1-conte372do {
   background-color: rgba(255, 255, 255, 0.0);
   bottom: 0px;
   height: 13.77%;
@@ -128,7 +265,7 @@
   line-height: 73.0px;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup {
   background-color: rgba(255, 255, 255, 0.0);
   right: 1.44%;
   bottom: 0px;
@@ -140,7 +277,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisualbanner {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisualbanner {
   background-color: rgba(255, 255, 255, 0.0);
   right: 0px;
   top: 0px;
@@ -152,7 +289,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisualbanner .bp1-avisualbanner1 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisualbanner .bp1-avisualbanner1 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 99.74%;
@@ -164,7 +301,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisual {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-avisualgroup .bp1-avisual {
   background-color: rgba(255, 255, 255, 0.0);
   bottom: 0px;
   height: 14.34%;
@@ -183,7 +320,7 @@
   line-height: 73.0px;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup {
   background-color: rgba(255, 255, 255, 0.0);
   right: 0px;
   bottom: 0px;
@@ -195,7 +332,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programmingbanner {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programmingbanner {
   background-color: rgba(255, 255, 255, 0.0);
   right: 0px;
   top: 0px;
@@ -207,7 +344,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programmingbanner .bp1-programmingbanner1 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programmingbanner .bp1-programmingbanner1 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 100%;
@@ -219,7 +356,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programa {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-programmgroup .bp1-programa {
   background-color: rgba(255, 255, 255, 0.0);
   bottom: 0px;
   height: 13.67%;
@@ -238,7 +375,7 @@
   line-height: 73.0px;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball {
   background-color: rgba(255, 255, 255, 0.0);
   bottom: 28.74%;
   height: 5.58%;
@@ -250,7 +387,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball .bp1-a32 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball .bp1-a32 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 100%;
@@ -262,7 +399,7 @@
   opacity: 0.15;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball .bp1-a42 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llball .bp1-a42 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 33.82%;
   height: 32.35%;
@@ -274,7 +411,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy {
   background-color: rgba(255, 255, 255, 0.0);
   bottom: 41.54%;
   height: 5.58%;
@@ -286,7 +423,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy .bp1-a321 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy .bp1-a321 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 100%;
@@ -298,7 +435,7 @@
   opacity: 0.15;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy .bp1-a421 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-llballcopy .bp1-a421 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 33.82%;
   height: 32.35%;
@@ -310,7 +447,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball {
   background-color: rgba(255, 255, 255, 0.0);
   bottom: 17.08%;
   height: 5.58%;
@@ -322,7 +459,7 @@
   opacity: 1.0;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball .bp1-a5 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball .bp1-a5 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 0px;
   height: 100%;
@@ -334,7 +471,7 @@
   opacity: 0.1;
 }
 
-.bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball .bp1-a6 {
+.bp1-index .bp1-bannersgroupindex .bp1-bannersgroupindex1 .bp1-right .bp1-selectedball .bp1-a6 {
   background-color: rgba(255, 255, 255, 0.0);
   top: 33.82%;
   height: 32.35%;
@@ -344,4 +481,1009 @@
   left: 33.82%;
   transform: rotate(0deg);
   opacity: 1.0;
+}
+
+
+
+
+
+/* bp2 */
+
+
+
+.bp2-homemobile .bp2-bannerwidgetmobile {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 10px;
+  top: 400px;
+  height: 457px;
+  width: 536px;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-rectangle {
+  background-color: rgba(77, 91, 182, 1.0);
+  top: 31px;
+  height: 426px;
+  width: 536px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 95px;
+  transform: rotate(0deg);
+  opacity: 0.09;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 446px;
+  width: 536px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-bgshape {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1.57%;
+  height: 91.70%;
+  width: 76.12%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(-270deg);
+  opacity: 0.5;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-containgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 2.99%;
+  bottom: 0.22%;
+  height: 77.13%;
+  width: 87.13%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-containgroup .bp2-containbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0.29%;
+  height: 77.62%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-containgroup .bp2-containbanner .bp2-containbanner1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 99.79%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-containgroup .bp2-conte372do {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0.29%;
+  height: 21.22%;
+  width: 99.79%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60.0px;
+  color: rgba(101, 143, 192, 1.0);
+  text-align: center;
+  line-height: 73.0px;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-avisualgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 1.49%;
+  bottom: 0.22%;
+  height: 74.44%;
+  width: 88.62%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-avisualgroup .bp2-avisualbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: 0px;
+  height: 68.98%;
+  width: 98.32%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-avisualgroup .bp2-avisualbanner .bp2-avisualbanner1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0.22%;
+  height: 99.56%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-avisualgroup .bp2-avisual {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 21.99%;
+  width: 97.89%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60.0px;
+  color: rgba(101, 143, 192, 1.0);
+  text-align: center;
+  line-height: 73.0px;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-programmgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  bottom: 0.45%;
+  height: 77.58%;
+  width: 90.11%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-programmgroup .bp2-programmingbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0.21%;
+  top: 0px;
+  height: 72.54%;
+  width: 98.14%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-programmgroup .bp2-programmingbanner .bp2-programmingbanner1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 99.79%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-programmgroup .bp2-programa {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 21.10%;
+  width: 96.48%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60.0px;
+  color: rgba(101, 143, 192, 1.0);
+  text-align: center;
+  line-height: 73.0px;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-llballmiddl {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 4.04%;
+  height: 6.73%;
+  width: 5.41%;
+  position: absolute;
+  margin: 0;
+  left: 17.72%;
+  transform: rotate(-180deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-llballmiddl .bp2-a32 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1.67%;
+  height: 96.67%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-llballmiddl .bp2-a42 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 30.00%;
+  height: 33.33%;
+  width: 34.48%;
+  position: absolute;
+  margin: 0;
+  left: 32.76%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-llballdown {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 6.50%;
+  width: 5.22%;
+  position: absolute;
+  margin: 0;
+  left: 30.04%;
+  transform: rotate(-180deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-llballdown .bp2-a321 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1.72%;
+  height: 96.55%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-llballdown .bp2-a421 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 31.03%;
+  height: 31.03%;
+  width: 32.14%;
+  position: absolute;
+  margin: 0;
+  left: 33.93%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-selectedball {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 13.00%;
+  height: 6.50%;
+  width: 5.22%;
+  position: absolute;
+  margin: 0;
+  left: 6.72%;
+  transform: rotate(-180deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-selectedball .bp2-a5 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1.72%;
+  height: 96.55%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+
+.bp2-homemobile .bp2-bannerwidgetmobile .bp2-right .bp2-selectedball .bp2-a6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 31.03%;
+  height: 31.03%;
+  width: 32.14%;
+  position: absolute;
+  margin: 0;
+  left: 33.93%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+
+
+
+/* bp3 */
+
+
+
+
+.bp3-hometablet .bp3-bannerrightwidgettalet {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 472px;
+  margin: 2px 0 0 0;
+  width: 704px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-rectangle {
+  background-color: rgba(77, 91, 182, 1.0);
+  top: 0px;
+  height: 472px;
+  width: 704px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 95px;
+  transform: rotate(0deg);
+  opacity: 0.09;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 472px;
+  width: 672px;
+  position: absolute;
+  margin: 0;
+  left: 16px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-shape {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0.21%;
+  height: 92.58%;
+  width: 65.03%;
+  position: absolute;
+  margin: 0;
+  left: 1.34%;
+  transform: rotate(0deg);
+  opacity: 0.5;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-containgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 2.98%;
+  bottom: 0.21%;
+  height: 87.29%;
+  width: 87.20%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-containgroup .bp3-containbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 81.31%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-containgroup .bp3-containbanner .bp3-containbanner1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-containgroup .bp3-conte372do {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0.24%;
+  height: 17.72%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60.0px;
+  color: rgba(101, 143, 192, 1.0);
+  text-align: center;
+  line-height: 73.0px;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-avisualgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 1.49%;
+  bottom: 0px;
+  height: 84.11%;
+  width: 88.69%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-avisualgroup .bp3-avisualbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: -0.25%;
+  height: 72.04%;
+  width: 98.15%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-avisualgroup .bp3-avisualbanner .bp3-avisualbanner1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-avisualgroup .bp3-avisual {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0.25%;
+  height: 18.39%;
+  width: 98.15%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60.0px;
+  color: rgba(101, 143, 192, 1.0);
+  text-align: center;
+  line-height: 73.0px;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-programmgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  bottom: 0px;
+  height: 87.92%;
+  width: 90.18%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-programmgroup .bp3-programmingbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: 0px;
+  height: 75.66%;
+  width: 98.18%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-programmgroup .bp3-programmingbanner .bp3-programmingbanner1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 99.68%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-programmgroup .bp3-programa {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0.24%;
+  height: 17.59%;
+  width: 96.53%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60.0px;
+  color: rgba(101, 143, 192, 1.0);
+  text-align: center;
+  line-height: 73.0px;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-llball {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 31.57%;
+  height: 5.30%;
+  width: 3.72%;
+  position: absolute;
+  margin: 0;
+  left: 2.38%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-llball .bp3-a32 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-llball .bp3-a42 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 34.00%;
+  height: 32.00%;
+  width: 32.00%;
+  position: absolute;
+  margin: 0;
+  left: 34.00%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-llballcopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 43.86%;
+  height: 5.30%;
+  width: 3.72%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-llballcopy .bp3-a321 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-llballcopy .bp3-a421 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 34.00%;
+  height: 32.00%;
+  width: 32.00%;
+  position: absolute;
+  margin: 0;
+  left: 34.00%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-selectedball {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 20.34%;
+  height: 5.30%;
+  width: 3.72%;
+  position: absolute;
+  margin: 0;
+  left: 7.44%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-selectedball .bp3-a5 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+
+.bp3-hometablet .bp3-bannerrightwidgettalet .bp3-right .bp3-selectedball .bp3-a6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 34.00%;
+  height: 32.00%;
+  width: 32.00%;
+  position: absolute;
+  margin: 0;
+  left: 34.00%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+
+
+
+
+/* bp4 */
+
+
+
+
+.bp4-homelq .bp4-bannerrightgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 441px;
+  margin: 0 0 0 10px;
+  width: 597px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right {
+  background-color: rgba(255, 255, 255, 0.0);
+  min-width: 514px;
+  height: 419px;
+  max-height: 489px;
+  width: 100%;
+  min-height: 379px;
+  max-width: 700px;
+  position: relative;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 0;
+  height: 100%;
+  width: 580px;
+  justify-content: center;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 4px;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-shape {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 90.21%;
+  width: 65.00%;
+  position: absolute;
+  margin: 0;
+  left: 1.38%;
+  transform: rotate(0deg);
+  opacity: 0.5;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-containgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 3.10%;
+  bottom: 0.48%;
+  height: 87.59%;
+  width: 87.07%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-containgroup .bp4-containbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0.27%;
+  height: 79.02%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-containgroup .bp4-containbanner .bp4-containbanner1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-containgroup .bp4-conte372do {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 19.89%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60.0px;
+  color: rgba(101, 143, 192, 1.0);
+  text-align: center;
+  line-height: 73.0px;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 1.55%;
+  bottom: 0.24%;
+  height: 84.49%;
+  width: 88.62%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup .bp4-avisualbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: 0px;
+  height: 69.77%;
+  width: 98.25%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup .bp4-avisualbanner .bp4-avisualbanner1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-avisualgroup .bp4-avisual {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0.28%;
+  height: 20.62%;
+  width: 98.25%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60.0px;
+  color: rgba(101, 143, 192, 1.0);
+  text-align: center;
+  line-height: 73.0px;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-programmgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  bottom: 0.24%;
+  height: 88.31%;
+  width: 90.17%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-programmgroup .bp4-programmingbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: 0px;
+  height: 73.51%;
+  width: 98.28%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-programmgroup .bp4-programmingbanner .bp4-programmingbanner1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 99.81%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-programmgroup .bp4-programa {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0.27%;
+  height: 19.73%;
+  width: 96.56%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60.0px;
+  color: rgba(101, 143, 192, 1.0);
+  text-align: center;
+  line-height: 73.0px;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-llball {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 33.17%;
+  height: 5.25%;
+  width: 3.79%;
+  position: absolute;
+  margin: 0;
+  left: 2.41%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-llball .bp4-a32 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-llball .bp4-a42 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 34.09%;
+  height: 31.82%;
+  width: 31.82%;
+  position: absolute;
+  margin: 0;
+  left: 34.09%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-llballcopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 45.35%;
+  height: 5.25%;
+  width: 3.79%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-llballcopy .bp4-a321 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.15;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-llballcopy .bp4-a421 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 34.09%;
+  height: 31.82%;
+  width: 31.82%;
+  position: absolute;
+  margin: 0;
+  left: 34.09%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-selectedball {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 22.43%;
+  height: 5.25%;
+  width: 3.79%;
+  position: absolute;
+  margin: 0;
+  left: 7.41%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-selectedball .bp4-a5 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.1;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-right .bp4-selectedball .bp4-a6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 34.09%;
+  height: 31.82%;
+  width: 31.82%;
+  position: absolute;
+  margin: 0;
+  left: 34.09%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-bannerrightgroup .bp4-rectangle {
+  background-color: rgba(77, 91, 182, 1.0);
+  top: 0px;
+  height: 441px;
+  width: 597px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 95px;
+  transform: rotate(0deg);
+  opacity: 0.09;
 }
