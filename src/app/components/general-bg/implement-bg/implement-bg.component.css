@@ -3,7 +3,7 @@
   min-width: 1440px;
   height: 100vh;
   min-height: 856px;
-  position: relative;
+  position: absolute;
   overflow: hidden;
   margin: 0px;
   -webkit-font-smoothing: antialiased;
