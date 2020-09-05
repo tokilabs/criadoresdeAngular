@@ -49,8 +49,9 @@ export class AdminService {
       this.isLogIn = true;
       this.addUser({ email, password });
       // localStorage.setItem('userAdm', JSON.stringify(res.user));
+      this.router.navigate(['/addserv']);
     });
-    this.router.navigate(['/addserv']);
+
   }
 
   async singup(email, password, firstName, photoURL) {
