@@ -1,7 +1,11 @@
+import { Observable } from 'rxjs';
+import { AngularFireStorage } from "@angular/fire/storage";
 import { AuthService } from './../../services/firebase/auth.service';
 import { ServService } from './../../services/serv.service';
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 import { Serv } from './../../models/Service';
+import * as firebase from 'firebase/app';
+import { finalize } from 'rxjs/operators';
 
 
 @Component({
@@ -16,6 +20,9 @@ export class AddservicoComponent implements OnInit {
   imgURL: any;
   public message: string;
 
+  fb;
+  downUrl: Observable<string>;
+
 
   @Output() newServ: EventEmitter<Serv> = new EventEmitter();
   @Output() upServ: EventEmitter<Serv> = new EventEmitter();
@@ -25,7 +32,7 @@ export class AddservicoComponent implements OnInit {
   @Input() isEdit: boolean;
 
 
-  constructor(private servServ: ServService, public authS: AuthService) {
+  constructor(private servServ: ServService, public authS: AuthService, private storage: AngularFireStorage) {
   }
 
   ngOnInit(): void {
@@ -37,6 +44,8 @@ export class AddservicoComponent implements OnInit {
     if (!img || !titulo || !descricao || !soft || !preco || !categoria || !texto) {
       alert('Por Favor, adicione um Serviço.');
     } else {
+      img = this.fb;
+      console.log(img);
       console.log(img, titulo, descricao, soft, preco, categoria, texto);
       this.servServ.saveServ
         ({
@@ -69,7 +78,28 @@ export class AddservicoComponent implements OnInit {
     reader.readAsDataURL(files[0]);
     reader.onload = (_event) => {
       this.imgURL = reader.result;
-      localStorage.setItem('imgPath', this.imgURL);
+
+
+      var n = Date.now();
+      const file = files[0];
+      const filePath = `ServImages/${n}`;
+      const fileRef = this.storage.ref(filePath);
+      const task = this.storage.upload(`ServImages/${n}`, file);
+      task.snapshotChanges().pipe(
+        finalize(() => {
+          this.downUrl = fileRef.getDownloadURL();
+          this.downUrl.subscribe(url => {
+            if (url) {
+              this.fb = url;
+            }
+            console.log(this.fb);
+            localStorage.setItem('imgPath', this.fb);
+            // console.log(this.currentServ);
+          });
+        })
+      ).subscribe(url => {
+        if (url) { console.log(url); }
+      });
     };
   }
 
