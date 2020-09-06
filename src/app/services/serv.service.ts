@@ -54,6 +54,10 @@ export class ServService {
     // return this.http.post<Serv>(this.servUrl, serv, httpOptions);
     this.servs.unshift(serv);
     localStorage.setItem('servs', JSON.stringify(this.servs));
+    // serv.uid = this.afs.createId();
+    console.log(serv);
+
+    this.authS.updateServData(serv);
     console.log(this.servs);
   }
 

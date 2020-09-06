@@ -1,9 +1,10 @@
 .bp1-cadastro {
+  top: 320px;
   width: 100%;
   /* min-width: 1440px; */
   height: auto;
   /* min-height: 856px; */
-  position: absolute;
+  position: relative;
   /* overflow: hidden; */
   margin: 0px;
   -webkit-font-smoothing: antialiased;
@@ -37,7 +38,7 @@ div {
   flex-direction: row;
   align-items: flex-end;
   background-color: rgba(255, 255, 255, 0.0);
-  position: absolute;
+  position: relative;
   height: 100%;
   width: auto;
   left: 5%;

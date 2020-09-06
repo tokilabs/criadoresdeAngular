@@ -1,7 +1,7 @@
 export interface Serv {
   uid?: string;
   id?: number;
-  img: any;
+  img?: any;
   titulo: '';
   descricao: '';
   soft: '';
