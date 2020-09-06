@@ -53,6 +53,10 @@ import { CriadorCadastroComponent } from './components/criador/criador-cadastro/
 import { CriadorIdComponent } from './components/criador/criador-id/criador-id.component';
 import { UserAdminComponent } from './components/criador/user-admin/user-admin.component';
 import { GeneralNavComponent } from './navbar/general-nav/general-nav.component';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { CadaservComponent } from './components/servicos/cadaserv/cadaserv.component';
+import { ServcliqComponent } from './components/servicos/servcliq/servcliq.component';
+
 
 const firebaseConfig = {
   apiKey: 'AIzaSyCoOYhqls1rJtW2DH0R2Suf32_P5fZ3dHQ',
@@ -100,6 +104,8 @@ const firebaseConfig = {
     CriadorIdComponent,
     UserAdminComponent,
     GeneralNavComponent,
+    CadaservComponent,
+    ServcliqComponent,
   ],
   imports: [
     BrowserModule,
@@ -117,6 +123,7 @@ const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
     CarouselModule.forRoot(),
+    NgxPaginationModule,
   ],
 
   providers: [

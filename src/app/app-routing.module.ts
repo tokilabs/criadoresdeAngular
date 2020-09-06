@@ -1,3 +1,4 @@
+import { PageServComponent } from './components/addservico/page-serv/page-serv.component';
 import { CriadorCadastroComponent } from './components/criador/criador-cadastro/criador-cadastro.component';
 import { CriadorEntrarComponent } from './components/criador/criador-entrar/criador-entrar.component';
 import { EntrarComponent } from './components/cadastro/entrar/entrar.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'contato', component: ContatoComponent },
   { path: 'carrinho', component: CarrinhoComponent },
   { path: 'addserv', component: AddservicoComponent, canActivate: [AuthGuard] },
+  { path: 'pageservs', component: PageServComponent },
 
   { path: 'login', component: EntrarComponent },
   { path: 'criadorlogin', component: CriadorEntrarComponent },

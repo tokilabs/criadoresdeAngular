@@ -1,1 +1,14 @@
-<p>page-serv works!</p>
+<app-general-bg></app-general-bg>
+<app-adm-bar></app-adm-bar>
+<div class="servicescontainer" id="servcontainer">
+  <a href="service.html">
+    <div class="servconnteudo">
+      <img alt="Image" class="servimg" [src]=this.serv.img />
+      <div class="servtitle">{{ this.serv.titulo }}</div>
+      <div class="detaleConteudo">
+        <div class="servsoft">{{ this.serv.soft }}</div>
+        <div class="servDetail">{{ this.serv.descricao }}</div>
+      </div>
+    </div>
+  </a>
+</div>

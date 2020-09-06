@@ -88,10 +88,9 @@ export class AuthService {
     const data = {
       uid, img, titulo, descricao, soft, preco, categoria, texto
     };
+
+    alert("Serviço adicionado. Agradecemos!");
     return userRef.set(data, { merge: true });
-
-
-
   }
 
 

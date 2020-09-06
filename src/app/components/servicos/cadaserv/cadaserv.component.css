@@ -1,6 +1,6 @@
 .servicescontainer {
   position: absolute;
-  top: 150px;
+  top: 650px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -8,34 +8,33 @@
   align-items: center;
   align-content: space-between;
   width: 100%;
-  left: 120px;
   height: auto;
   order: 3;
   justify-content: space-evenly;
   /* padding: 20px; */
 }
 
-.servicescontainer .servconnteudo {
+.servconnteudo {
   position: relative;
-  width: 325px;
+  width: 100%;
   height: 266px;
   /* opacity: 0; */
   border: solid 1px #97979700;
   background-color: #d8d8d800;
 }
 
-.servicescontainer .servconnteudo .servimg {
+.servimg {
   width: 100%;
   height: 100%;
   border-radius: 15px;
   object-fit: cover;
 }
 
-.servicescontainer .servconnteudo .servimg:hover {
+.servimg:hover {
   object-fit: contain;
 }
 
-.servicescontainer .servconnteudo .servtitle {
+.servtitle {
   width: 100%;
   height: 28px;
   position: relative;
@@ -44,27 +43,23 @@
   font-size: 28px;
   font-weight: 900;
   /* text-align: center; */
-  text-transform: uppercase;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.33px;
   color: #091d33;
   padding: 15px;
-  padding-bottom: 40px;
 }
 
-.servicescontainer .servconnteudo .detaleConteudo {
-  position: relative;
+.detaleConteudo {
   width: 100%;
   height: 58px;
-  top: 10px;
   /* opacity: 0.3; */
   border-radius: 29.2px;
   background-color: #94a0ec93;
 }
 
-.servicescontainer .servconnteudo .detaleConteudo .servsoft {
+.servsoft {
   position: relative;
   top: 10px;
   left: 60px;
