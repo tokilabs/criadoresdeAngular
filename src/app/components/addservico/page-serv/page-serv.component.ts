@@ -13,11 +13,12 @@ export class PageServComponent implements OnInit {
 
   serv: Serv;
 
+  servs: Serv[];
+
 
 
 
   constructor(public afs: AngularFireStorage) {
-
 
   }
 
@@ -42,6 +43,7 @@ export class PageServComponent implements OnInit {
           console.log(docId);
           this.serv = docData as Serv;
           console.log(this.serv);
+
           // this.addnaPage(this.serv);
         } else {
           console.log("null");
