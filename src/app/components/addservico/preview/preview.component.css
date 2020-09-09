@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:900,700,400,500,300|Poppins:600,500|Montserrat:300,700|Open+Sans:600,400|Work+Sans:500');
 
 .servgroup {
+  position: absolute;
+
   flex-direction: row;
   flex-wrap: nowrap;
-  /* position: absolute; */
   top: 0px;
   left: 0px;
-
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: space-around;
   width: 100%;
   height: 100%;
 }
@@ -25,10 +29,12 @@
   /* border: solid 1px #d7d8d8; */
   /* border: solid 1px #4d5bb6; */
   background-color: #2e324370;
+
+
 }
 
 .servgroup .bgServ {
-  position: absolute;
+  position: relative;
   top: 20px;
   right: 40px;
   width: 531px;
@@ -44,7 +50,7 @@
   width: 551px;
   height: Calc(100% - 20px);
   border-radius: 97px;
-  background-color: #4d5bb6;
+  background-color: #424fa1;
 }
 
 .servgroup .bgServ .paddingBG {
@@ -202,7 +208,7 @@
 }
 
 .servgroup .bgDetail {
-  position: absolute;
+  position: relative;
   top: 20px;
   left: 20px;
   width: 598px;

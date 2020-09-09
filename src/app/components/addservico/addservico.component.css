@@ -16,6 +16,21 @@
   opacity: 1.0;
 }
 
+.overlaypv {
+  width: 100%;
+  top: 0px;
+  /* min-width: 1440px; */
+  height: auto;
+  /* min-height: 869px; */
+  position: absolute;
+  /* overflow: hidden; */
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
 
 .BoxRec {
   position: absolute;

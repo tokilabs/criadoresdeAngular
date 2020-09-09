@@ -1,3 +1,4 @@
+
 import { AuthService } from './firebase/auth.service';
 import { switchMap } from 'rxjs/operators';
 import { AngularFireAuth } from '@angular/fire/auth';
@@ -88,15 +89,19 @@ export class ServService {
   saveServ(serv: Serv) {
     // return this.http.post<Serv>(this.servUrl, serv, httpOptions);
     this.servs.unshift(serv);
+    serv.img = localStorage.getItem('imgPath');
     localStorage.setItem('servs', JSON.stringify(this.serv));
     localStorage.setItem('serv', JSON.stringify(serv));
 
     // serv.uid = this.afs.createId();
     console.log(serv);
 
-    this.authS.updateServData(serv);
+
+
+    // this.authS.updateServData(serv);
     console.log(this.servs);
   }
+
 
 
 

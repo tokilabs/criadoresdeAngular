@@ -20,6 +20,8 @@ export class AddservicoComponent implements OnInit {
   imgURL: any;
   public message: string;
 
+  isHidden = true;
+
   fb;
   downUrl: Observable<string>;
 
@@ -51,6 +53,7 @@ export class AddservicoComponent implements OnInit {
         ({
           img, titulo, descricao, soft, preco, categoria, texto
         } as Serv);
+      this.isHidden = false;
     }
   }
 

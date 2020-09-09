@@ -1,8 +1,9 @@
 <app-general-bg></app-general-bg>
 <app-adm-bar></app-adm-bar>
-<div class="servicescontainer mb-5" id="servcontainer" *ngIf="servs.length > 0">
-  <a *ngFor="let serv of servs" href="service.html">
-    <div class="servconnteudo">
+
+<div class="servicescontainer" id="servcontainer" *ngIf="servs.length > 0">
+  <a *ngFor="let items of pageOfItems" href="service.html">
+    <div *ngFor="let serv of servs" class="servconnteudo">
       <img alt="Image" class="servimg" [src]=serv.img />
       <div class="servtitle">{{ serv.titulo }}</div>
       <div class="detaleConteudo">
@@ -11,10 +12,7 @@
       </div>
     </div>
   </a>
+  <div class="card-footer pb-0 pt-3">
+    <jw-pagination [items]="items" (changePage)="onChangePage($event)"></jw-pagination>
+  </div>
 </div>
-<!--
-<ul class="list-group" *ngIf="servs.length > 0">
-  <li *ngFor="let serv of servs" class="list-group-item d-flex justify-content-between align-items-center">
-    <img [src]=serv.img alt="" class="servimg">
-  </li>
-</ul> -->

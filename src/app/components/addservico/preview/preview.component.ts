@@ -11,19 +11,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PreviewComponent implements OnInit {
 
-  servs: Serv[];
+  serv: Serv;
 
-  constructor(private servServ: ServService, public authS: AuthService, private storage: AngularFireStorage) {
+  constructor(
+    private servServ: ServService,
+    public authS: AuthService,
+    private storage: AngularFireStorage,
+  ) {
 
-    this.servs = [JSON.parse(localStorage.getItem('servs'))];
+
+    this.serv = JSON.parse(localStorage.getItem('serv'));
+
 
   }
 
   ngOnInit(): void {
-
+    // this.serv = this.servServ.serv;
   }
 
   addFire(serv: Serv) {
+    console.log(serv);
 
 
     this.authS.updateServData(serv);
