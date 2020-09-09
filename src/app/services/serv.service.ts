@@ -88,7 +88,9 @@ export class ServService {
   saveServ(serv: Serv) {
     // return this.http.post<Serv>(this.servUrl, serv, httpOptions);
     this.servs.unshift(serv);
-    localStorage.setItem('servs', JSON.stringify(this.servs));
+    localStorage.setItem('servs', JSON.stringify(this.serv));
+    localStorage.setItem('serv', JSON.stringify(serv));
+
     // serv.uid = this.afs.createId();
     console.log(serv);
 

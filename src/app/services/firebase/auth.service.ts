@@ -1,3 +1,4 @@
+import { AngularFireStorage } from '@angular/fire/storage';
 import { Serv } from './../../models/Service';
 import { User } from './user.model';
 import { Router } from '@angular/router';
@@ -9,6 +10,7 @@ import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import * as firebase from 'firebase/app';
 import { EmailValidator } from '@angular/forms';
+import { finalize } from 'rxjs/operators';
 
 
 @Injectable({
@@ -18,8 +20,14 @@ export class AuthService {
 
   user$: Observable<User>;
 
+
+  fb;
+  downUrl: Observable<string>;
+
+
   constructor(
     public afAuth: AngularFireAuth,
+    private storage: AngularFireStorage,
     public afs: AngularFirestore,
     private router: Router
   ) {
@@ -93,8 +101,32 @@ export class AuthService {
     return userRef.set(data, { merge: true });
   }
 
-
-
-
-
+  saveStore(imagePath) {
+    var n = Date.now();
+    const file = imagePath[0];
+    const filePath = `ServImages/${n}`;
+    const fileRef = this.storage.ref(filePath);
+    const task = this.storage.upload(`ServImages/${n}`, file);
+    task.snapshotChanges().pipe(
+      finalize(() => {
+        this.downUrl = fileRef.getDownloadURL();
+        this.downUrl.subscribe(url => {
+          if (url) {
+            this.fb = url;
+          }
+          console.log(this.fb);
+          localStorage.setItem('imgPath', this.fb);
+          // console.log(this.currentServ);
+        });
+      })
+    ).subscribe(url => {
+      if (url) { console.log(url); }
+    });
+  }
 }
+
+
+
+
+
+

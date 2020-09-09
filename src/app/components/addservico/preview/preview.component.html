@@ -1,14 +1,14 @@
-<div class="servgroup">
+<div *ngFor="let serv of servs" class="servgroup">
 
   <div class="BoxView"></div>
   <div class="bgServ">
     <div class="BoxServ"></div>
     <div class="paddingBG">
-      <img id="nomeserv" alt="Image" src={{ imageSrc }} class="Defimg" />
-      <span class="ServTitle">{{ title }} </span>
+      <img id="nomeserv" alt="Image" [src]="serv.img" class="Defimg" />
+      <span class="ServTitle">{{ serv.titulo }} </span>
       <div class="DetailBox">
-        <div class="SoftUse">{{ softused }} </div>
-        <div class="DetailL">{{ detailused }} </div>
+        <div class="SoftUse">{{ serv.soft }} </div>
+        <div class="DetailL">{{ serv.descricao }} </div>
       </div>
     </div>
     <div class="apagarbtn">
@@ -25,13 +25,13 @@
     <div class="valor">Valor </div>
     <div class="linei"></div>
     <div class="bolota"></div>
-    <div class="categnname">{{ servcatg }} </div>
+    <div class="categnname">{{ serv.categoria }} </div>
     <div class="Real"> R$ </div>
-    <span class="ServPrice">{{ price }} </span>
+    <span class="ServPrice">{{ serv.preco }} </span>
     <div class="lineii"></div>
     <div class="dialogbg">
       <textarea class="inpdialog" cols="2" rows="10" name="AdicioneAquiLog" type="text"
-        style="border: none;">{{ boxtext }} </textarea>
+        style="border: none;">{{ serv.texto }} </textarea>
     </div>
   </div>
 

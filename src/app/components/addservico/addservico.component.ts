@@ -75,31 +75,17 @@ export class AddservicoComponent implements OnInit {
 
     var reader = new FileReader();
     this.imagePath = files;
+
     reader.readAsDataURL(files[0]);
+    localStorage.setItem('files', JSON.stringify(files));
     reader.onload = (_event) => {
       this.imgURL = reader.result;
+      this.imagePath = files;
 
 
-      var n = Date.now();
-      const file = files[0];
-      const filePath = `ServImages/${n}`;
-      const fileRef = this.storage.ref(filePath);
-      const task = this.storage.upload(`ServImages/${n}`, file);
-      task.snapshotChanges().pipe(
-        finalize(() => {
-          this.downUrl = fileRef.getDownloadURL();
-          this.downUrl.subscribe(url => {
-            if (url) {
-              this.fb = url;
-            }
-            console.log(this.fb);
-            localStorage.setItem('imgPath', this.fb);
-            // console.log(this.currentServ);
-          });
-        })
-      ).subscribe(url => {
-        if (url) { console.log(url); }
-      });
+      this.authS.saveStore(this.imagePath);
+
+
     };
   }
 

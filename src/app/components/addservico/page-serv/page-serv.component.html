@@ -1,14 +1,20 @@
 <app-general-bg></app-general-bg>
 <app-adm-bar></app-adm-bar>
-<div class="servicescontainer" id="servcontainer">
-  <a href="service.html">
+<div class="servicescontainer mb-5" id="servcontainer" *ngIf="servs.length > 0">
+  <a *ngFor="let serv of servs" href="service.html">
     <div class="servconnteudo">
-      <img alt="Image" class="servimg" [src]=this.servs[0].img />
-      <div class="servtitle">{{ this.servs[0].titulo }}</div>
+      <img alt="Image" class="servimg" [src]=serv.img />
+      <div class="servtitle">{{ serv.titulo }}</div>
       <div class="detaleConteudo">
-        <div class="servsoft">{{ this.servs[3].soft }}</div>
-        <div class="servDetail">{{ this.servs[4].descricao }}</div>
+        <div class="servsoft">{{ serv.soft }}</div>
+        <div class="servDetail">{{ serv.descricao }}</div>
       </div>
     </div>
   </a>
 </div>
+<!--
+<ul class="list-group" *ngIf="servs.length > 0">
+  <li *ngFor="let serv of servs" class="list-group-item d-flex justify-content-between align-items-center">
+    <img [src]=serv.img alt="" class="servimg">
+  </li>
+</ul> -->
