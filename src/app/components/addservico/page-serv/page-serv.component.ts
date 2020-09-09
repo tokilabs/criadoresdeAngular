@@ -23,13 +23,15 @@ export class PageServComponent implements OnInit {
 
   constructor(public afs: AngularFireStorage, private servServ: ServService) {
     this.servs = [];
+    this.items.push(item => { this.serv = item; });
   }
 
   ngOnInit(): void {
 
     this.servServ.fireGet(this.serv, this.servs);
+    // this.items = Array(1).fill(0).map(item => { this.serv = item; });
 
-    this.items.push(item => { this.serv = item; });
+    // this.items.push(item => { this.serv = item; });
     console.log(this.items);
 
   }
