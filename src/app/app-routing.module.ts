@@ -1,3 +1,4 @@
+import { PostServComponent } from './components/addservico/post-serv/post-serv.component';
 import { PreviewComponent } from './components/addservico/preview/preview.component';
 import { PageServComponent } from './components/addservico/page-serv/page-serv.component';
 import { CriadorCadastroComponent } from './components/criador/criador-cadastro/criador-cadastro.component';
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'addserv', component: AddservicoComponent, canActivate: [AuthGuard] },
   { path: 'pageservs', component: PageServComponent },
   { path: 'preserv', component: PreviewComponent },
+  { path: 'serv/:titulo', component: PostServComponent },
 
   { path: 'login', component: EntrarComponent },
   { path: 'criadorlogin', component: CriadorEntrarComponent },

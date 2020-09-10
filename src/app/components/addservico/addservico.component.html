@@ -44,6 +44,25 @@
           ...</textarea>
       </div>
     </div>
+
+    <div class="servselect">
+      <div class="selecttextmodel">Selecione sua modalidade:</div>
+      <mat-form-field appearance="fill">
+        <mat-label>Modalidades</mat-label>
+        <mat-select class="tipoNome" [formControl]="servTipoControl" required>
+          <mat-option>--</mat-option>
+          <mat-option *ngFor="let servSelect of servSelects" [value]="servSelect" (click)="onServTip(servSelect)">
+            {{servSelect.name}}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="servTipoControl.hasError('required')">Por favor, escolha uma modalidade</mat-error>
+      </mat-form-field>
+    </div>
+
+
+
+
+
     <app-preview *ngIf="!isHidden"> </app-preview>
 
 

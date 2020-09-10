@@ -1,3 +1,4 @@
+import { ServTipo } from './../../models/servtipo';
 import { Observable } from 'rxjs';
 import { AngularFireStorage } from "@angular/fire/storage";
 import { AuthService } from './../../services/firebase/auth.service';
@@ -6,8 +7,12 @@ import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 import { Serv } from './../../models/Service';
 import * as firebase from 'firebase/app';
 import { finalize } from 'rxjs/operators';
+import { FormControl, Validators } from '@angular/forms';
 
-
+interface servSelect {
+  name: string;
+  is: boolean;
+}
 @Component({
   selector: 'app-addservico',
   templateUrl: './addservico.component.html',
@@ -22,6 +27,20 @@ export class AddservicoComponent implements OnInit {
 
   isHidden = true;
 
+  servTipo: ServTipo;
+
+
+  servTipoControl = new FormControl('', Validators.required);
+  selectFormControl = new FormControl('', Validators.required);
+  servSelects: servSelect[] = [
+    { name: 'Programa', is: false },
+    { name: 'AudioVisual', is: false },
+    { name: 'Conteúdo', is: false },
+  ];
+
+
+
+
   fb;
   downUrl: Observable<string>;
 
@@ -35,11 +54,68 @@ export class AddservicoComponent implements OnInit {
 
 
   constructor(private servServ: ServService, public authS: AuthService, private storage: AngularFireStorage) {
+
+    this.servTipo = {
+      isAudioV: {
+        is: false,
+        logo: './../../../assets/svg/AudioVisualLogo.svg',
+        banner: './../../../assets/svg/Avisualbanner.svg',
+      },
+
+      isProgram: {
+        is: false,
+        logo: './../../../assets/svg/programLogo.svg',
+        banner: './../../../assets/svg/Programmingbanner.svg',
+      },
+
+      isConteudo: {
+        is: false,
+        logo: './../../../assets/svg/conteudoLogo.svg',
+        banner: './../../../assets/svg/Containbanner.svg',
+      },
+    };
+
   }
 
   ngOnInit(): void {
 
+
   }
+
+  onServTip(servSelect) {
+
+
+    console.log(this.servSelects);
+    console.log(this.servTipoControl.value.name);
+    console.log(this.servTipoControl.value.is);
+    console.log(servSelect);
+    console.log('#######   ANTES   ##########');
+
+
+    for (let i = 0; i < this.servSelects.length; i++) {
+      // console.log(this.servSelects[i]);
+      if (this.servTipoControl.value.name === this.servSelects[i].name) {
+        // console.log(this.servTipoControl.value);
+
+        this.servTipoControl.value.is = true;
+        this.servSelects[i].is = true;
+
+        console.log(servSelect);
+        console.log(this.servTipoControl.value.name);
+        console.log(this.servTipoControl.value.is);
+        console.log(this.servSelects);
+        console.log('########   DEPOIS   #########');
+      } else {
+        this.servTipoControl.value.is = false;
+        this.servSelects[i].is = false;
+      }
+    }
+
+
+
+  }
+
+
 
   addServ(img, titulo, descricao, soft, preco, categoria, texto) {
 

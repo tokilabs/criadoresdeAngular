@@ -1,6 +1,8 @@
+import { Observable } from 'rxjs';
 import { ServService } from './../../../services/serv.service';
 import { Serv } from './../../../models/Service';
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-post-serv',
@@ -9,56 +11,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostServComponent implements OnInit {
 
-  servs: Serv[];
-  currentServ: Serv = {
-    id: 0,
-    img: '',
-    titulo: '',
-    descricao: '',
-    soft: '',
-    preco: 0,
-    categoria: '',
-    texto: '',
-  };
+  serv: Serv;
 
-  isEdit = false;
+  titulo;
+  constructor(private servServ: ServService, private route: ActivatedRoute) {
 
-  constructor(private servServ: ServService) { }
+    // this.titulo = 'jair';
+
+  }
 
   ngOnInit(): void {
-    this.servServ.getServs().subscribe(servs => {
-      this.servs = servs;
-      console.log(servs);
-    });
-  }
-
-  onNewServ(serv: Serv) {
-    this.servs.unshift(serv);
-  }
-
-  onUpdatedServ(serv: Serv) {
-    this.servs.forEach((cur, index) => {
-      if (serv.id === cur.id) {
-        this.servs.splice(index, 1);
-        this.servs.unshift(serv);
-        this.isEdit = false;
-        this.currentServ = {
-          id: 0,
-          img: '',
-          titulo: '',
-          descricao: '',
-          soft: '',
-          preco: 0,
-          categoria: '',
-          texto: '',
-        };
-      }
-    });
-  }
-
-  editPost(serv: Serv) {
-    this.currentServ = serv;
-    this.isEdit = true;
+    // this.serv.titulo = +this.route.snapshot.paramMap.get('titulo');
+    // this.servServ.fireServ(titulo => { this.serv.titulo = titulo });
+    this.titulo = this.route.snapshot.paramMap.get('titulo');
+    // this.servServ.fireServ(this.titulo, this.serv).then((serv): Serv => this.serv);
+    this.servServ.fbGet(this.titulo).subscribe(serv => this.serv = serv);
+    console.log(this.titulo);
+    console.log(this.serv);
   }
 
 

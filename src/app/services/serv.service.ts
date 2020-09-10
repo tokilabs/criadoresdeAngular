@@ -1,14 +1,21 @@
 
 import { AuthService } from './firebase/auth.service';
-import { switchMap } from 'rxjs/operators';
+import { switchMap, map } from 'rxjs/operators';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Serv } from './../models/Service';
 import { Observable, of } from 'rxjs';
 import { Injectable } from '@angular/core';
 import * as firebase from 'firebase/app';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
-
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+};
+// Create a new transfer object to get data from server
+interface ServerData {
+  servicos: Array<Serv>;
+}
 @Injectable({
   providedIn: 'root'
 })
@@ -20,9 +27,12 @@ export class ServService {
 
   servs: Serv[];
   serv$: Observable<Serv>;
+  observServ: Observable<Serv[]>;
 
+  readonly ROOT_URL = 'https://jsonplaceholder.typicode.com';
 
   constructor(
+    private http: HttpClient,
     public afs: AngularFirestore,
     public afAuth: AngularFireAuth,
     public authS: AuthService,
@@ -38,7 +48,16 @@ export class ServService {
         }
       })
     );
+    this.getServFb();
   }
+
+  getServFb() {
+    this.observServ = this.http.get<Serv[]>(this.ROOT_URL + '/servs');
+  }
+
+  // findAllServs(): Observable<Serv[]> {
+  //   return this.http.get<ServerData>('api/api-data.json').pipe(map(res => res.servicos));
+  // }
 
   async fireGet(serv: Serv, servs: Serv[]) {
     const firestore = firebase.firestore();
@@ -59,6 +78,7 @@ export class ServService {
           servs.unshift(serv);
           console.log(serv);
           console.log(servs);
+          this.http.post(this.ROOT_URL + '/servs', servs);
 
 
           // this.addnaPage(this.serv);
@@ -68,6 +88,51 @@ export class ServService {
         }
       });
     }
+  }
+
+  fbGet(titulo): Observable<Serv> {
+    return this.afs.doc<Serv>(`addserv/${titulo}`).valueChanges();
+  }
+
+
+  async fireServ(titulo, serv: Serv) {
+
+    const firestore = firebase.firestore();
+    const ref = firestore.collection('addserv');
+
+    const snapshot = await ref.get();
+    console.log(snapshot.size);
+    if (snapshot.size === 0) {
+      console.log("null");
+      alert("Nenhum Documento");
+    } else {
+      snapshot.forEach(doc => {
+        if (doc.exists) {
+          var docId = doc.id;
+          var docData = doc.data();
+          // console.log(docData);
+          // console.log(docId);
+          if (docId === titulo) {
+            console.log(titulo);
+            console.log(docData);
+            serv = docData as Serv;
+            console.log(serv);
+
+          }
+          // serv = docData as Serv;
+          // servs.unshift(serv);
+          // console.log(serv);
+          // console.log(servs);
+
+
+          // this.addnaPage(this.serv);
+        } else {
+          console.log("null");
+          alert("Nenhum Documento");
+        }
+      });
+    }
+
   }
 
   getServs(): Observable<Serv[]> {

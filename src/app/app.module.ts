@@ -57,6 +57,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { CadaservComponent } from './components/servicos/cadaserv/cadaserv.component';
 import { ServcliqComponent } from './components/servicos/servcliq/servcliq.component';
 import { JwPaginationModule } from 'jw-angular-pagination';
+import { MatSelectModule } from '@angular/material/select';
+import { MatNativeDateModule } from '@angular/material/core';
 
 
 const firebaseConfig = {
@@ -126,6 +128,8 @@ const firebaseConfig = {
     CarouselModule.forRoot(),
     NgxPaginationModule,
     JwPaginationModule,
+    MatSelectModule,
+    MatNativeDateModule,
   ],
 
   providers: [

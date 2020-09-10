@@ -1,10 +1,122 @@
-<a href="service.html">
-  <div class="servconnteudo">
-    <img alt="Image" src={{ currentServ.img }} class="servimg" />
-    <div class="servtitle"> {{ currentServ.titulo }} </div>
-    <div class="detaleConteudo">
-      <div class="servsoft">{{ currentServ.soft }} </div>
-      <div class="servDetail">{{ currentServ.descricao }} </div>
+<app-implement-bg></app-implement-bg>
+<app-adm-bar></app-adm-bar>
+<div class="bp1-service">
+
+  <div class="bp1-paddingservicesfull">
+    <img alt="Image" src="./../../../../assets/img/service-rectangle-2.png" class="bp1-rectangle" />
+    <div class="bp1-servicestack">
+      <div class="bp1-servicestype">
+        <img alt="Image" src="./../../../../assets/img/service-mask.png" class="bp1-mask" />
+        <div class="bp1-stackedservicedetails">
+          <div class="bp1-titlecopy">
+            <div class="bp1-group2">
+              <div class="bp1-earningsbyitemtyp">
+                Detalhes
+              </div>
+            </div>
+          </div>
+          <div class="bp1-headeritens">
+            <div class="bp1-categoria">
+              Categoria
+            </div>
+            <div class="bp1-valor">
+              Valor
+            </div>
+          </div>
+          <div class="bp1-rectanglecopy2">
+          </div>
+          <div class="bp1-typeservicevaluestack">
+            <div class="bp1-category">
+              <div class="bp1-category1">
+                <div class="bp1-categoria">
+                  {{ serv.categoria }}
+                </div>
+                <div class="bp1-rectangle1">
+                </div>
+              </div>
+            </div>
+            <div class="bp1-valor">
+              <!-- <span class="shop-item-price">$12.99</span> -->
+              <div class="bp1-earning">
+                {{ serv.preco }}
+              </div>
+            </div>
+          </div>
+          <div class="bp1-rectanglecopy3">
+          </div>
+          <div class="bp1-caixadetexto">
+            <img alt="Image" src="./../../../../assets/img/service-dialog-bg.png" class="bp1-dialogbg" />
+            <div class="bp1-texto">
+              <div class="bp1-loremipsumdolorsi">
+                {{ serv.texto }}
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bp1-paddingserviceexample">
+        <div class="bp1-background">
+        </div>
+        <div class="bp1-servicebok">
+          <div class="bp1-background1">
+          </div>
+          <div class="bp1-servicebok1">
+            <div class="bp1-container">
+              <div class="bp1-paddingbg anima-hidden ">
+              </div>
+              <div class="bp1-stackedcontainer">
+                <img alt="Image" [src]=serv.img class="bp1-picture anima-smart-layers-pointers " />
+                <div class="bp1-title">
+                  <div class="shop-item">
+                    <div class="bp1-t355tulodoprodutoou anima-valign-text-middle">
+                      {{ serv.titulo }}
+                    </div>
+                  </div>
+                </div>
+                <div class="bp1-paddingdetalhescontainer">
+                  <div class="bp1-background2">
+                  </div>
+                  <div class="bp1-stackedgroup">
+                    <div class="bp1-detailmddl">
+                      <div class="bp1-softwareseferramen anima-valign-text-middle">
+                        {{ serv.soft }}
+                      </div>
+                    </div>
+                    <div class="bp1-detaildown">
+                      <div class="bp1-detalheempoucaspa anima-valign-text-middle">
+                        {{ serv.descricao }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bp1-comprarbutton anima-smart-layers-pointers ">
+          <!-- <a href="./cartwidget.html"> -->
+          <div class="bp1-button">
+            <div class="bp1-button2">
+              <img alt="Image" src="./../../../../assets/img/service-path-3@2x.png" class="bp1-path" />
+              <img alt="Image" src="./../../../../assets/img/service-shape@2x.png" class="bp1-shape" />
+            </div>
+            <div class="bp1-shop">
+              <img alt="Image" src="./../../../../assets/img/service-shape-1@2x.png" class="bp1-shape" />
+              <img alt="Image" src="./../../../../assets/img/service-shape-2@2x.png" class="bp1-shape1" />
+            </div>
+            <div class="bp1-addtocard">
+              <div class="bp1-contratar">
+                CONTRATAR
+              </div>
+            </div>
+          </div>
+          <!-- </a> -->
+        </div>
+        <!-- <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> -->
+      </div>
     </div>
   </div>
-</a>
+
+
+</div>

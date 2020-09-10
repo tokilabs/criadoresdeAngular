@@ -31,6 +31,30 @@
   opacity: 1.0;
 }
 
+.addservcontainer .servselect {
+  position: absolute;
+  left: 40%;
+  top: -40px;
+  -webkit-box-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-content: space-around;
+}
+
+.addservcontainer .servselect .selecttextmodel {
+  width: 200px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  color: #061058;
+}
+
 
 .BoxRec {
   position: absolute;
