@@ -98,6 +98,7 @@ export class AuthService {
     };
 
     alert("Serviço adicionado. Agradecemos!");
+
     return userRef.set(data, { merge: true });
   }
 

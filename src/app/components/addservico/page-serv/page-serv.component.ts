@@ -8,37 +8,25 @@ import * as firebase from 'firebase/app';
 @Component({
   selector: 'app-page-serv',
   templateUrl: './page-serv.component.html',
-  styleUrls: ['./page-serv.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrls: ['./page-serv.component.css']
 })
 export class PageServComponent implements OnInit {
 
   serv: Serv;
   servs: Serv[];
-  items = [];
-  pageOfItems: Array<any>;
-
+  p: number = 1;
+  collection: any[] = this.servs;
 
 
 
   constructor(public afs: AngularFireStorage, private servServ: ServService) {
     this.servs = [];
-    this.items.push(item => { this.serv = item; });
   }
 
   ngOnInit(): void {
 
     this.servServ.fireGet(this.serv, this.servs);
-    // this.items = Array(1).fill(0).map(item => { this.serv = item; });
 
-    // this.items.push(item => { this.serv = item; });
-    console.log(this.items);
-
-  }
-
-  onChangePage(pageOfItems: Array<any>) {
-    // update current page of items
-    this.pageOfItems = pageOfItems;
   }
 
 

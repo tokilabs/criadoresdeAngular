@@ -136,7 +136,7 @@
 .bp1-index .backgroundsobre {
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100vh;
   /* border: solid 1px #979797; */
   /* background-color: hsl(0, 0%, 85%); */
 
@@ -147,7 +147,7 @@
 .bp1-index .backgroundsobre .wave {
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-image: linear-gradient(to top, #2e3243 11%, var(--blue-with-a-hint-of-purple) 11%);
 }
 

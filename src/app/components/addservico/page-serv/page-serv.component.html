@@ -1,18 +1,21 @@
 <app-general-bg></app-general-bg>
 <app-adm-bar></app-adm-bar>
 
-<div class="servicescontainer" id="servcontainer" *ngIf="servs.length > 0">
-  <a *ngFor="let items of pageOfItems" href="service.html">
-    <div *ngFor="let serv of servs" class="servconnteudo">
-      <img alt="Image" class="servimg" [src]=serv.img />
-      <div class="servtitle">{{ serv.titulo }}</div>
-      <div class="detaleConteudo">
-        <div class="servsoft">{{ serv.soft }}</div>
-        <div class="servDetail">{{ serv.descricao }}</div>
-      </div>
+
+
+<div *ngIf="this.servs.length > 0" class="servicescontainer" id="servcontainer">
+  <div *ngFor="let serv of servs | paginate: { itemsPerPage: 9, currentPage: p }" class="servconnteudo">
+    <img alt="Image" class="servimg" [src]=serv.img />
+    <div class="servtitle">{{ serv.titulo }}</div>
+    <div class="detaleConteudo">
+      <div class="servsoft">{{ serv.soft }}</div>
+      <div class="servDetail">{{ serv.descricao }}</div>
     </div>
-  </a>
-  <div class="card-footer pb-0 pt-3">
-    <jw-pagination [items]="items" (changePage)="onChangePage($event)"></jw-pagination>
   </div>
+
+
+
 </div>
+
+<pagination-controls (pageChange)="p = $event" previousLabel="Anterior" nextLabel="Próximo" class="mypage">
+</pagination-controls>

@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Serv } from './../../../models/Service';
 import { AuthService } from './../../../services/firebase/auth.service';
 import { ServService } from './../../../services/serv.service';
@@ -17,6 +18,8 @@ export class PreviewComponent implements OnInit {
     private servServ: ServService,
     public authS: AuthService,
     private storage: AngularFireStorage,
+    private router: Router
+
   ) {
 
 
@@ -34,7 +37,15 @@ export class PreviewComponent implements OnInit {
 
 
     this.authS.updateServData(serv);
+    this.router.navigate(['/pageservs']);
 
+  }
+
+  deleteServPrev() {
+    if (confirm('Você quer mesmo fazer isso?')) {
+      localStorage.removeItem('serv');
+      window.location.reload();
+    } else null;
   }
 
 }

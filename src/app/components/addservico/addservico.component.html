@@ -1,4 +1,4 @@
-<app-general-bg></app-general-bg>
+<app-general-bg (click)="isHidden = true"></app-general-bg>
 <app-adm-bar></app-adm-bar>
 <div class="addservcontainer">
   <div class="BoxRec">
@@ -44,9 +44,12 @@
           ...</textarea>
       </div>
     </div>
-    <app-preview *ngIf="!isHidden"></app-preview>
+    <app-preview *ngIf="!isHidden"> </app-preview>
+
 
   </div>
+
+
 
 
 </div>

@@ -12,6 +12,7 @@
   height: auto;
   order: 3;
   justify-content: space-evenly;
+  margin: 20px;
   /* padding: 20px; */
 }
 
@@ -19,6 +20,9 @@
   position: relative;
   width: 325px;
   height: 266px;
+  margin: 60px;
+  padding-bottom: 80px;
+
   /* opacity: 0; */
   border: solid 1px #97979700;
   background-color: #d8d8d800;
@@ -103,4 +107,17 @@
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
+}
+
+
+.mypage {
+  position: absolute;
+  left: 120px;
+  align-content: center;
+  align-items: center;
+  top: 140px;
+  width: 100%;
+  height: auto;
+
+
 }
