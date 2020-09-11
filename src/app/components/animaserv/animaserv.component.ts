@@ -1,3 +1,4 @@
+import { fade } from './animations';
 import { Component, OnInit } from '@angular/core';
 
 import {
@@ -85,7 +86,7 @@ import {
   fadeInRightOnEnterAnimation,
   rotateInUpLeftOnEnterAnimation
 } from 'angular-animations';
-import { state, style } from '@angular/animations';
+import { animate, state, style, transition, trigger } from '@angular/animations';
 
 
 @Component({
@@ -93,6 +94,7 @@ import { state, style } from '@angular/animations';
   templateUrl: './animaserv.component.html',
   styleUrls: ['./animaserv.component.css'],
   animations: [
+    fade,
     rubberBandAnimation({ anchor: 'rubber', direction: '=>', duration: 500 }),
     collapseAnimation(),
     fadeInRightOnEnterAnimation({ anchor: 'enter1', translate: '100%' }),
