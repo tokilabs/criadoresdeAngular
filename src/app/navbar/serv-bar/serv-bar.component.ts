@@ -15,18 +15,21 @@ export class ServBarComponent implements OnInit {
 
     this.servTipo = {
       isAudioV: {
+        name: 'AudioVisual',
         is: false,
         logo: './../../../assets/svg/AudioVisualLogo.svg',
         banner: './../../../assets/svg/Avisualbanner.svg',
       },
 
       isProgram: {
+        name: 'Programa',
         is: false,
         logo: './../../../assets/svg/programLogo.svg',
         banner: './../../../assets/svg/Programmingbanner.svg',
       },
 
       isConteudo: {
+        name: 'Conteúdo',
         is: false,
         logo: './../../../assets/svg/conteudoLogo.svg',
         banner: './../../../assets/svg/Containbanner.svg',
@@ -37,6 +40,7 @@ export class ServBarComponent implements OnInit {
   ngOnInit(): void {
 
     this.ImgSrc = this.servTipo.isAudioV.logo;
+    console.log(this.servTipo.isAudioV.name)
   }
 
 }

@@ -36,6 +36,7 @@ export class AddservicoComponent implements OnInit {
     { name: 'Programa', is: false },
     { name: 'AudioVisual', is: false },
     { name: 'Conteúdo', is: false },
+
   ];
 
 
@@ -57,18 +58,21 @@ export class AddservicoComponent implements OnInit {
 
     this.servTipo = {
       isAudioV: {
+        name: 'AudioVisual',
         is: false,
         logo: './../../../assets/svg/AudioVisualLogo.svg',
         banner: './../../../assets/svg/Avisualbanner.svg',
       },
 
       isProgram: {
+        name: 'Programa',
         is: false,
         logo: './../../../assets/svg/programLogo.svg',
         banner: './../../../assets/svg/Programmingbanner.svg',
       },
 
       isConteudo: {
+        name: 'Conteúdo',
         is: false,
         logo: './../../../assets/svg/conteudoLogo.svg',
         banner: './../../../assets/svg/Containbanner.svg',
@@ -85,31 +89,45 @@ export class AddservicoComponent implements OnInit {
   onServTip(servSelect) {
 
 
+    // console.log(this.servSelects);
+    // console.log(this.servTipo);
+    // console.log(this.servTipoControl.value.name);
+    // console.log(servSelect);
+    // console.log('#######   ANTES   ##########');
+
+    if (this.servTipoControl.value.name === this.servTipo.isAudioV.name) {
+      this.servTipo.isAudioV.is = true;
+
+    } else { this.servTipo.isAudioV.is = false; }
+
     console.log(this.servSelects);
+    console.log(this.servTipo);
     console.log(this.servTipoControl.value.name);
-    console.log(this.servTipoControl.value.is);
     console.log(servSelect);
-    console.log('#######   ANTES   ##########');
+
+    // for (let i = 0; i < this.servSelects.length; i++) {
+    //   // console.log(this.servSelects[i]);
+    //   if (this.servTipoControl.value.name === this.servSelects[i].name) {
+    //     // console.log(this.servTipoControl.value);
+
+    //     this.servTipoControl.value.is = true;
+
+    //     console.log(servSelect);
+    //     console.log(this.servTipoControl.value.name);
+    //     console.log(this.servTipoControl.value.is);
+    //     console.log(this.servSelects);
+    //     console.log('########   DEPOIS   #########');
+    //     this.servSelects[i].is = true;
+    //     this.servTipo.isAudioV.name
 
 
-    for (let i = 0; i < this.servSelects.length; i++) {
-      // console.log(this.servSelects[i]);
-      if (this.servTipoControl.value.name === this.servSelects[i].name) {
-        // console.log(this.servTipoControl.value);
 
-        this.servTipoControl.value.is = true;
-        this.servSelects[i].is = true;
+    //   } else {
+    //     this.servTipoControl.value.is = false;
+    //     this.servSelects[i].is = false;
+    //   }
 
-        console.log(servSelect);
-        console.log(this.servTipoControl.value.name);
-        console.log(this.servTipoControl.value.is);
-        console.log(this.servSelects);
-        console.log('########   DEPOIS   #########');
-      } else {
-        this.servTipoControl.value.is = false;
-        this.servSelects[i].is = false;
-      }
-    }
+    // }
 
 
 
