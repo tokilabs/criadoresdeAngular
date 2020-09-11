@@ -243,7 +243,7 @@ export class AnimaservComponent implements OnInit {
       this.isAv = true;
 
     }, 1);
-    setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
+    // setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
     console.log(this.isAv);
   }
   isProg() {
@@ -260,7 +260,7 @@ export class AnimaservComponent implements OnInit {
       this.isP = true;
 
     }, 1);
-    setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
+    // setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
 
     console.log(this.isOpen);
   }
@@ -274,7 +274,7 @@ export class AnimaservComponent implements OnInit {
       this.conteud[0].setAttribute('style', 'display: block');
       this.isC = true;
     }, 1);
-    setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
+    // setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
 
     console.log(this.isC);
   }
