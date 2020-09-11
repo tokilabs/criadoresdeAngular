@@ -1,4 +1,4 @@
-import { fade } from './animations';
+import { fade, animServico } from './animations';
 import { Component, OnInit } from '@angular/core';
 
 import {
@@ -95,6 +95,7 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
   styleUrls: ['./animaserv.component.css'],
   animations: [
     fade,
+    animServico,
     rubberBandAnimation({ anchor: 'rubber', direction: '=>', duration: 500 }),
     collapseAnimation(),
     fadeInRightOnEnterAnimation({ anchor: 'enter1', translate: '100%' }),
@@ -190,12 +191,20 @@ export class AnimaservComponent implements OnInit {
   program = document.getElementsByClassName('bp1-programmgroup');
   conteud = document.getElementsByClassName('bp1-containgroup');
 
-
+  isOpen: boolean;
+  isAv: boolean;
+  isP: boolean;
+  isC: boolean;
   animationState = false;
   hueState = false;
   flashState = false;
 
-  constructor() { }
+  constructor() {
+    this.isOpen = false;
+    this.isAv = false;
+    this.isC = false;
+    this.isP = false;
+  }
 
   getDelay(index, lenght) {
     if (index < lenght / 2 - 2) {
@@ -215,9 +224,101 @@ export class AnimaservComponent implements OnInit {
   ngOnInit(): void {
 
     console.log(this.audiov, this.conteud, this.program);
-    this.animate();
+    this.isOpen = true;
+    this.rodando();
+
 
   }
 
+  isAud() {
+
+    this.audiov[0].setAttribute('style', 'display: none');
+    this.isAv = false;
+    this.isOpen = false;
+
+    setTimeout(() => {
+      this.audiov[0].setAttribute('style', 'display: block');
+      this.program[0].setAttribute('style', 'display: none');
+      this.conteud[0].setAttribute('style', 'display: none');
+      this.isAv = true;
+
+    }, 1);
+    setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
+    console.log(this.isAv);
+  }
+  isProg() {
+
+    this.program[0].setAttribute('style', 'display: none');
+    this.isP = false;
+    this.isOpen = false;
+
+    setTimeout(() => {
+      this.audiov[0].setAttribute('style', 'display: none');
+      this.program[0].setAttribute('style', 'display: block');
+      this.conteud[0].setAttribute('style', 'display: none');
+
+      this.isP = true;
+
+    }, 1);
+    setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
+
+    console.log(this.isOpen);
+  }
+  isCont() {
+    this.conteud[0].setAttribute('style', 'display: none');
+    this.isC = false;
+    this.isOpen = false;
+    setTimeout(() => {
+      this.audiov[0].setAttribute('style', 'display: none');
+      this.program[0].setAttribute('style', 'display: none');
+      this.conteud[0].setAttribute('style', 'display: block');
+      this.isC = true;
+    }, 1);
+    setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
+
+    console.log(this.isC);
+  }
+
+  rodando() {
+    if (this.isOpen === true) {
+      this.audiov[0].setAttribute('style', 'display: block');
+      this.program[0].setAttribute('style', 'display: none');
+      this.conteud[0].setAttribute('style', 'display: none');
+      this.isC = false;
+      this.isAv = false;
+      this.isP = false;
+
+      setTimeout(() => {
+        this.audiov[0].setAttribute('style', 'display: none');
+        this.program[0].setAttribute('style', 'display: none');
+        this.conteud[0].setAttribute('style', 'display: block');
+        this.isC = true;
+        this.isAv = false;
+        this.isP = false;
+        setTimeout(() => {
+          this.audiov[0].setAttribute('style', 'display: none');
+          this.program[0].setAttribute('style', 'display: block');
+          this.conteud[0].setAttribute('style', 'display: none');
+          this.isP = true;
+          this.isAv = false;
+          this.isC = false;
+
+          setTimeout(() => {
+            this.audiov[0].setAttribute('style', 'display: block');
+            this.program[0].setAttribute('style', 'display: none');
+            this.conteud[0].setAttribute('style', 'display: none');
+            this.isP = false;
+            this.isAv = true;
+            this.isC = false;
+
+            this.isOpen = true;
+            this.rodando();
+
+          }, 5000);
+        }, 5000);
+      }, 5000);
+    } else return;
+
+  }
 
 }

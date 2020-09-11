@@ -295,7 +295,7 @@
             class="bp1-right bp1-right-4mtS component anima-component-wrapper anima-not-ready anima-word-break state1">
             <img alt="Image" class="bp1-shape" src="../../../assets/img/index-bgshape.png" />
 
-            <div class="bp1-containgroup">
+            <div [@bounceInRight]="isC ? true : false" class="bp1-containgroup">
               <div class="bp1-containbanner">
                 <a href="conteudo.html">
                   <img style="display: block; width: 100%;" class="bp1-containbanner1"
@@ -307,7 +307,7 @@
               </div>
             </div>
 
-            <div class="bp1-avisualgroup">
+            <div [@bounceInRight]="isAv ? true : false" class="bp1-avisualgroup">
               <div class="bp1-avisualbanner">
                 <a href="avisuallq.html">
                   <img style="display: block; width: 100%;" class="bp1-avisualbanner1"
@@ -319,7 +319,7 @@
               </div>
             </div>
 
-            <div class="bp1-programmgroup">
+            <div [@bounceInRight]="isP ? true : false" class="bp1-programmgroup">
               <div class="bp1-programmingbanner">
                 <a href="programa.html">
                   <img style="display: block; width: 100%;" class="bp1-programmingbanner1"
@@ -331,17 +331,17 @@
               </div>
             </div>
 
-            <div class="bp1-llball ng-star-inserted ">
+            <div (click)="isProg()" class="bp1-llball ng-star-inserted ">
               <img alt="Image" class="bp1-a32" src="../../../assets/img/index-3-2-1@2x.png" />
               <img alt="Image" class="bp1-a42" src="../../../assets/img/index-4-2@2x.png" />
             </div>
-            <div class="bp1-llballcopy ng-star-inserted">
+            <div (click)="isAud()" class="bp1-llballcopy ng-star-inserted">
               <img alt="Image" class="bp1-a321" src="../../../assets/img/index-3-2-1@2x.png" />
               <img alt="Image" class="bp1-a421" src="../../../assets/img/index-4-2@2x.png" />
             </div>
-            <div class="bp1-selectedball ng-star-inserted">
-              <img alt="Image" class="bp1-a5" src="../../../assets/img/index-5@2x.png" />
-              <img alt="Image" class="bp1-a6" src="../../../assets/img/index-6@2x.png" />
+            <div (click)="isCont()" class="bp1-selectedball ng-star-inserted">
+              <img alt="Image" class="bp1-a5" src="../../../assets/img/index-5@2x copy.png" />
+              <img alt="Image" class="bp1-a6" src="../../../assets/img/index-6@2x copy.png" />
             </div>
           </div>
         </div>
