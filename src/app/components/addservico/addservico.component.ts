@@ -89,46 +89,57 @@ export class AddservicoComponent implements OnInit {
   onServTip(servSelect) {
 
 
-    // console.log(this.servSelects);
-    // console.log(this.servTipo);
-    // console.log(this.servTipoControl.value.name);
-    // console.log(servSelect);
-    // console.log('#######   ANTES   ##########');
+
+    // console.log('#######   AudioVISUAL   ##########');
 
     if (this.servTipoControl.value.name === this.servTipo.isAudioV.name) {
+      // console.log('SE SIM');
+
+      this.servTipoControl.value.is = true;
       this.servTipo.isAudioV.is = true;
 
-    } else { this.servTipo.isAudioV.is = false; }
+    } else {
+      // console.log('SE NAO');
+      this.servTipoControl.value.is = false;
+      this.servTipo.isAudioV.is = false;
+    }
+
+    // console.log('#######   .isConteudo   ##########');
+
+    if (this.servTipoControl.value.name === this.servTipo.isConteudo.name) {
+      // console.log('SE SIM');
+
+      this.servTipoControl.value.is = true;
+      this.servTipo.isConteudo.is = true;
+
+    } else {
+      // console.log('SE NAO');
+      this.servTipoControl.value.is = false;
+      this.servTipo.isConteudo.is = false;
+    }
+
+    // console.log('#######   .isProgram   ##########');
+
+    if (this.servTipoControl.value.name === this.servTipo.isProgram.name) {
+      // console.log('SE SIM');
+
+      this.servTipoControl.value.is = true;
+      this.servTipo.isProgram.is = true;
+
+    } else {
+      // console.log('SE NAO');
+      this.servTipoControl.value.is = false;
+      this.servTipo.isProgram.is = false;
+    }
+
+    localStorage.setItem('servTipo', JSON.stringify(this.servTipo));
+
+
 
     console.log(this.servSelects);
     console.log(this.servTipo);
     console.log(this.servTipoControl.value.name);
     console.log(servSelect);
-
-    // for (let i = 0; i < this.servSelects.length; i++) {
-    //   // console.log(this.servSelects[i]);
-    //   if (this.servTipoControl.value.name === this.servSelects[i].name) {
-    //     // console.log(this.servTipoControl.value);
-
-    //     this.servTipoControl.value.is = true;
-
-    //     console.log(servSelect);
-    //     console.log(this.servTipoControl.value.name);
-    //     console.log(this.servTipoControl.value.is);
-    //     console.log(this.servSelects);
-    //     console.log('########   DEPOIS   #########');
-    //     this.servSelects[i].is = true;
-    //     this.servTipo.isAudioV.name
-
-
-
-    //   } else {
-    //     this.servTipoControl.value.is = false;
-    //     this.servSelects[i].is = false;
-    //   }
-
-    // }
-
 
 
   }
@@ -141,6 +152,7 @@ export class AddservicoComponent implements OnInit {
       alert('Por Favor, adicione um Serviço.');
     } else {
       img = this.fb;
+      console.log(this.servTipo);
       console.log(img);
       console.log(img, titulo, descricao, soft, preco, categoria, texto);
       this.servServ.saveServ

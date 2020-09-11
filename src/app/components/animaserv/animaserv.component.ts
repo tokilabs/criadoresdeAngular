@@ -215,37 +215,7 @@ export class AnimaservComponent implements OnInit {
     console.log(this.audiov, this.conteud, this.program);
     this.animate();
 
-    this.audiov[0].setAttribute('style', 'display: none');
-    this.program[0].setAttribute('style', 'display: none');
-    this.conteud[0].setAttribute('style', 'display: none');
-
-    this.setTime();
-
   }
 
-  setTime() {
-
-    setTimeout(() => {
-      setTimeout(() => {
-        this.audiov[0].setAttribute('style', 'display: none');
-        this.program[0].setAttribute('style', 'display: none');
-        this.conteud[0].setAttribute('style', 'display: block');
-        setTimeout(() => {
-          this.audiov[0].setAttribute('style', 'display: none');
-          this.program[0].setAttribute('style', 'display: block');
-          this.conteud[0].setAttribute('style', 'display: none'); setTimeout(() => {
-            this.audiov[0].setAttribute('style', 'display: block');
-            this.program[0].setAttribute('style', 'display: none');
-            this.conteud[0].setAttribute('style', 'display: none');
-          }, 3000);
-        }, 3000);
-      }, 3000);
-      this.audiov[0].setAttribute('style', 'display: none');
-      this.program[0].setAttribute('style', 'display: none');
-      this.conteud[0].setAttribute('style', 'display: none');
-    }, 3000);
-
-
-  }
 
 }

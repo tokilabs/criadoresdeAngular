@@ -1,3 +1,4 @@
+import { ServTipo } from './../../../models/servtipo';
 import { Router } from '@angular/router';
 import { Serv } from './../../../models/Service';
 import { AuthService } from './../../../services/firebase/auth.service';
@@ -13,6 +14,7 @@ import { Component, OnInit } from '@angular/core';
 export class PreviewComponent implements OnInit {
 
   serv: Serv;
+  servTipo: ServTipo;
 
   constructor(
     private servServ: ServService,
@@ -24,19 +26,34 @@ export class PreviewComponent implements OnInit {
 
 
     this.serv = JSON.parse(localStorage.getItem('serv'));
-
+    this.servTipo = JSON.parse(localStorage.getItem('servTipo'));
 
   }
 
   ngOnInit(): void {
     // this.serv = this.servServ.serv;
+
+
+    console.log(this.servTipo);
   }
 
   addFire(serv: Serv) {
     console.log(serv);
 
-
+    if (this.servTipo.isAudioV.is === true) {
+      this.authS.upAvServData(serv);
+      alert('Serviço Adicionado na Modalidae AudioVisual');
+    }
+    if (this.servTipo.isConteudo.is === true) {
+      this.authS.upContServData(serv);
+      alert('Serviço Adicionado na Modalidae Conteúdo');
+    }
+    if (this.servTipo.isProgram.is === true) {
+      this.authS.upProgServData(serv);
+      alert('Serviço Adicionado na Modalidae Programa');
+    }
     this.authS.updateServData(serv);
+
     this.router.navigate(['/pageservs']);
 
   }

@@ -102,6 +102,53 @@ export class AuthService {
     return userRef.set(data, { merge: true });
   }
 
+
+  upAvServData({ uid, img, titulo, descricao, soft, preco, categoria, texto }: Serv) {
+    // Sets user data to firestore on login
+    uid = firebase.auth().currentUser.uid;
+    const userRef: AngularFirestoreDocument<Serv> = this.afs.doc(`audioVisual/${titulo}`);
+
+    const data = {
+      uid, img, titulo, descricao, soft, preco, categoria, texto
+    };
+
+    alert("Serviço adicionado. Agradecemos!");
+
+    return userRef.set(data, { merge: true });
+  }
+
+
+  upContServData({ uid, img, titulo, descricao, soft, preco, categoria, texto }: Serv) {
+    // Sets user data to firestore on login
+    uid = firebase.auth().currentUser.uid;
+    const userRef: AngularFirestoreDocument<Serv> = this.afs.doc(`conteudo/${titulo}`);
+
+    const data = {
+      uid, img, titulo, descricao, soft, preco, categoria, texto
+    };
+
+    alert("Serviço adicionado. Agradecemos!");
+
+    return userRef.set(data, { merge: true });
+  }
+
+
+  upProgServData({ uid, img, titulo, descricao, soft, preco, categoria, texto }: Serv) {
+    // Sets user data to firestore on login
+    uid = firebase.auth().currentUser.uid;
+    const userRef: AngularFirestoreDocument<Serv> = this.afs.doc(`programa/${titulo}`);
+
+    const data = {
+      uid, img, titulo, descricao, soft, preco, categoria, texto
+    };
+
+    alert("Serviço adicionado. Agradecemos!");
+
+    return userRef.set(data, { merge: true });
+  }
+
+
+
   saveStore(imagePath) {
     var n = Date.now();
     const file = imagePath[0];
