@@ -43,9 +43,7 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
               "node_modules/popper.js/dist/umd/popper.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.js",
-              "src/app/components/precos/precos-contain/precoassets/js/jquery.min.js",
-              "src/app/components/precos/precos-contain/precoassets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
           "configurations": {

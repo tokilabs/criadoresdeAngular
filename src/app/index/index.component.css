@@ -75,7 +75,7 @@
 
 
 .bp1-index {
-  top: 20px;
+
   width: 100%;
   min-width: 1440px;
   height: 100vh;
@@ -90,7 +90,7 @@
 }
 
 .bp2-homemobile {
-  top: 20px;
+
   width: 100%;
   min-width: 556px;
   height: 100vh;
@@ -106,7 +106,7 @@
 
 
 .bp3-hometablet {
-  top: 20px;
+
   width: 100%;
   min-width: 768px;
   height: auto;
@@ -121,7 +121,7 @@
 }
 
 .bp4-homelq {
-  top: 20px;
+
   width: 100%;
   min-width: 1024px;
   height: 100vh;
@@ -168,7 +168,7 @@
 
 .bp2-homemobile .homecontainer {
   position: absolute;
-  top: 0px;
+  top: 90px;
   width: 100%;
   height: auto;
   display: flex;
@@ -178,16 +178,14 @@
 
 .bp2-homemobile .homecontainer .oqvamoscriar {
   position: absolute;
-  top: 60px;
   left: 80px;
 }
 
 
 .bp2-homemobile .homecontainer .animaservs {
   position: absolute;
-  top: 60px;
-  left: 40%;
-  width: 30%;
+  top: -90px;
+  left: 12%;
 }
 
 
@@ -205,23 +203,21 @@
 .bp3-hometablet .homecontainer .oqvamoscriar {
   position: absolute;
   top: 140px;
-  left: 30%;
-  width: 20%;
+  left: 15%;
 }
 
 
 .bp3-hometablet .homecontainer .animaservs {
   position: absolute;
-  top: 720px;
-  right: 63%;
-  width: 40%;
+  top: 580px;
+  left: 15%;
   height: auto;
 }
 
 
 .bp4-homelq .homecontainer {
   position: absolute;
-  top: 0px;
+  top: 160px;
   width: 100%;
   height: auto;
   display: flex;
@@ -231,14 +227,14 @@
 
 .bp4-homelq .homecontainer .oqvamoscriar {
   position: absolute;
-  top: 180px;
-  left: 80px;
+
+  left: 120px;
 }
 
 
 .bp4-homelq .homecontainer .animaservs {
   position: absolute;
-  top: 460px;
-  left: 40%;
+
+  left: 45%;
   width: 100%;
 }
