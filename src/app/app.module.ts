@@ -29,7 +29,6 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { IndexComponent } from './index/index.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LeftIndexComponent } from './components/left-index/left-index.component';
-import { SobreNosComponent } from './components/sobre/sobre-nos/sobre-nos.component';
 import { PrecosContainComponent } from './components/precos/precos-contain/precos-contain.component';
 import { AddservicoComponent } from './components/addservico/addservico.component';
 import { AudiovisualComponent } from './components/audiovisual/audiovisual.component';
@@ -83,7 +82,6 @@ const firebaseConfig = {
     IndexComponent,
     FooterComponent,
     LeftIndexComponent,
-    SobreNosComponent,
     PrecosContainComponent,
     AddservicoComponent,
     AudiovisualComponent,

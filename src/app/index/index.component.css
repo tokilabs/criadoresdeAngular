@@ -125,7 +125,7 @@
   width: 100%;
   min-width: 1024px;
   height: 100vh;
-  min-height: 695px;
+  min-height: auto;
   position: absolute;
   overflow: hidden;
   margin: 0px;
