@@ -1,10 +1,527 @@
-.logoToki {
-  position: relative;
+/* @media screen and (max-width: 767px) {
+  .bp2-homemobile {
+    display: block;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: block;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: block;
+  }
+
+  .bp1-index {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bp2-homemobile {
+    display: none;
+  }
+
+  .bp3-hometablet {
+    display: none;
+  }
+
+  .bp4-homelq {
+    display: none;
+  }
+
+  .bp1-index {
+    display: block;
+  }
+}
+
+
+.bp1-index {
+  top: 120px;
   width: 100%;
+  min-width: 1440px;
+  height: 60vh;
+  min-height: 856px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+.bp2-homemobile {
+  top: 120px;
+
+  width: 100%;
+  min-width: 556px;
+  height: 60vh;
+  min-height: 963px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+
+.bp3-hometablet {
+  top: 120px;
+
+  width: 100%;
+  min-width: 768px;
   height: auto;
-  bottom: 40px;
-  top: 90vh;
-  /* overflow: scroll; */
-  -webkit-filter: drop-shadow(0px 3px 2px #1e043f);
-  filter: drop-shadow(0px 1px 1px #000000);
+  min-height: 1484px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+}
+
+.bp4-homelq {
+  top: 120px;
+
+  width: 100%;
+  min-width: 1024px;
+  height: 100vh;
+  min-height: auto;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 1.0;
+} */
+
+
+.bp1-index .bp1-panel-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0px;
+  height: 97px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+
+}
+
+.bp1-index .bp1-panel-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp1-index .bp1-panel .bp1-panel2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 13px;
+  height: 84px;
+  width: 1440px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.0;
+}
+
+.bp1-index .bp1-panel .bp1-tokibutton {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: 92px;
+  width: 243px;
+  position: absolute;
+  margin: 0;
+  left: 651px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 3px;
+  height: 87px;
+  width: 197px;
+  position: relative;
+  margin: 0;
+  left: 22px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo {
+  pointer-events: auto;
+}
+
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo:hover {
+  transform: translate(0, -5px);
+}
+
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 87px;
+  width: 197px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1 {
+  pointer-events: auto;
+}
+
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1:hover {
+  transform: translate(0, -5px);
+}
+
+.bp1-index .bp1-panel .bp1-tokibutton .bp1-tokilogo .bp1-tokilogo1 .bp1-bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 86px;
+  width: 196px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+
+
+/* bp2 */
+
+.bp2-homemobile .bp2-panel-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  bottom: 10px;
+  height: 93px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+}
+
+.bp2-homemobile .bp2-panel-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp2-homemobile .bp2-panel .bp2-panel2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 21px;
+  height: 64px;
+  width: 556px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.0;
+}
+
+.bp2-homemobile .bp2-panel .bp2-tokibutton {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 187px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 3px;
+  height: 87px;
+  width: 197px;
+  position: relative;
+  margin: 0;
+  left: 23px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo {
+  pointer-events: auto;
+}
+
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo:hover {
+  transform: translate(0, -5px);
+}
+
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo .bp2-tokilogo1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 87px;
+  width: 197px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo .bp2-tokilogo1 {
+  pointer-events: auto;
+}
+
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo .bp2-tokilogo1:hover {
+  transform: translate(0, -5px);
+}
+
+.bp2-homemobile .bp2-panel .bp2-tokibutton .bp2-tokilogo .bp2-tokilogo1 .bp2-bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 86px;
+  width: 196px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+/* bp3 */
+
+
+.bp3-hometablet .bp3-panel-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0px;
+  height: 107px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+}
+
+.bp3-hometablet .bp3-panel-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp3-hometablet .bp3-panel .bp3-panel2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 7px;
+  height: 98px;
+  width: 768px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.0;
+}
+
+.bp3-hometablet .bp3-panel .bp3-tokibutton {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: 92px;
+  width: 243px;
+  position: absolute;
+  margin: 0;
+  left: 264px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 3px;
+  height: 87px;
+  width: 197px;
+  position: relative;
+  margin: 0;
+  left: 100px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo {
+  pointer-events: auto;
+}
+
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo:hover {
+  transform: translate(0, -5px);
+}
+
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 87px;
+  width: 197px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 {
+  pointer-events: auto;
+}
+
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1:hover {
+  transform: translate(0, -5px);
+}
+
+.bp3-hometablet .bp3-panel .bp3-tokibutton .bp3-tokilogo .bp3-tokilogo1 .bp3-bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 86px;
+  width: 196px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+/* bp4 */
+
+.bp4-homelq .bp4-panel-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0px;
+  height: 97px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+}
+
+.bp4-homelq .bp4-panel-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp4-homelq .bp4-panel .bp4-panel2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 13px;
+  height: 84px;
+  width: 270px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.0;
+}
+
+.bp4-homelq .bp4-panel .bp4-tokibutton {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: 92px;
+  width: 243px;
+  position: absolute;
+  margin: 0;
+  left: 14px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 3px;
+  height: 87px;
+  width: 197px;
+  position: relative;
+  margin: 0;
+  left: 522px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo {
+  pointer-events: auto;
+}
+
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo:hover {
+  transform: translate(0, -5px);
+}
+
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 87px;
+  width: 197px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1 {
+  pointer-events: auto;
+}
+
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1:hover {
+  transform: translate(0, -5px);
+}
+
+.bp4-homelq .bp4-panel .bp4-tokibutton .bp4-tokilogo .bp4-tokilogo1 .bp4-bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 86px;
+  width: 196px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
 }

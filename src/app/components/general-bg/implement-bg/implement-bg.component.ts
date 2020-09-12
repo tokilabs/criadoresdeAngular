@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-implement-bg',
   templateUrl: './implement-bg.component.html',
-  styleUrls: ['./implement-bg.component.css']
+  styleUrls: ['./implement-bg.component.css', './../../../index/index.component.css']
 })
 export class ImplementBgComponent implements OnInit {
 

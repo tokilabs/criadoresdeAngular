@@ -31,7 +31,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LeftIndexComponent } from './components/left-index/left-index.component';
 import { SobreNosComponent } from './components/sobre/sobre-nos/sobre-nos.component';
 import { PrecosContainComponent } from './components/precos/precos-contain/precos-contain.component';
-import { ContatoContainComponent } from './components/contato/contato-contain/contato-contain.component';
 import { AddservicoComponent } from './components/addservico/addservico.component';
 import { AudiovisualComponent } from './components/audiovisual/audiovisual.component';
 import { ProgramaComponent } from './components/programa/programa.component';
@@ -54,8 +53,6 @@ import { CriadorIdComponent } from './components/criador/criador-id/criador-id.c
 import { UserAdminComponent } from './components/criador/user-admin/user-admin.component';
 import { GeneralNavComponent } from './navbar/general-nav/general-nav.component';
 import { NgxPaginationModule } from 'ngx-pagination';
-import { CadaservComponent } from './components/servicos/cadaserv/cadaserv.component';
-import { ServcliqComponent } from './components/servicos/servcliq/servcliq.component';
 import { JwPaginationModule } from 'jw-angular-pagination';
 import { MatSelectModule } from '@angular/material/select';
 import { MatNativeDateModule } from '@angular/material/core';
@@ -88,7 +85,6 @@ const firebaseConfig = {
     LeftIndexComponent,
     SobreNosComponent,
     PrecosContainComponent,
-    ContatoContainComponent,
     AddservicoComponent,
     AudiovisualComponent,
     ProgramaComponent,
@@ -107,8 +103,6 @@ const firebaseConfig = {
     CriadorIdComponent,
     UserAdminComponent,
     GeneralNavComponent,
-    CadaservComponent,
-    ServcliqComponent,
   ],
   imports: [
     BrowserModule,

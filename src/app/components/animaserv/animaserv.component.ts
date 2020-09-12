@@ -92,7 +92,7 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
 @Component({
   selector: 'app-animaserv',
   templateUrl: './animaserv.component.html',
-  styleUrls: ['./animaserv.component.css'],
+  styleUrls: ['./animaserv.component.css', './../../index/index.component.css'],
   animations: [
     fade,
     animServico,
@@ -226,7 +226,7 @@ export class AnimaservComponent implements OnInit {
     console.log(this.audiov, this.conteud, this.program);
     this.isOpen = true;
     this.rodando();
-
+    this.animate();
 
   }
 
@@ -300,16 +300,18 @@ export class AnimaservComponent implements OnInit {
           this.program[0].setAttribute('style', 'display: block');
           this.conteud[0].setAttribute('style', 'display: none');
           this.isP = true;
-          this.isAv = false;
+          this.isAv = true;
           this.isC = false;
 
           setTimeout(() => {
+
             this.audiov[0].setAttribute('style', 'display: block');
             this.program[0].setAttribute('style', 'display: none');
             this.conteud[0].setAttribute('style', 'display: none');
-            this.isP = false;
             this.isAv = true;
-            this.isC = false;
+            this.isP = true;
+
+            this.isC = true;
 
             this.isOpen = true;
             this.rodando();
