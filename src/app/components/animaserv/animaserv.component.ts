@@ -98,9 +98,9 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
     animServico,
     rubberBandAnimation({ anchor: 'rubber', direction: '=>', duration: 500 }),
     collapseAnimation(),
-    fadeInRightOnEnterAnimation({ anchor: 'enter1', translate: '100%' }),
-    rollInOnEnterAnimation({ anchor: 'enter2', translate: '800px', degrees: 360, delay: 250 }),
-    rotateInUpLeftOnEnterAnimation({ anchor: 'enter3' }),
+    fadeInRightOnEnterAnimation({ anchor: 'enteru', translate: '100%' }),
+    rollInOnEnterAnimation({ anchor: 'enterd', translate: '800px', degrees: 360, delay: 250 }),
+    rotateInUpLeftOnEnterAnimation({ anchor: 'entert' }),
     bounceAnimation(),
     flashAnimation(),
     pulseAnimation({ anchor: 'pulse' }),
@@ -199,11 +199,29 @@ export class AnimaservComponent implements OnInit {
   hueState = false;
   flashState = false;
 
+
+
+  audiov4 = document.getElementsByClassName('bp4-avisualgroup');
+  program4 = document.getElementsByClassName('bp4-programmgroup');
+  conteud4 = document.getElementsByClassName('bp4-containgroup');
+
+  isOpen4: boolean;
+  isAv4: boolean;
+  isP4: boolean;
+  isC4: boolean;
+
+
+
   constructor() {
     this.isOpen = false;
     this.isAv = false;
     this.isC = false;
     this.isP = false;
+
+    this.isOpen4 = false;
+    this.isAv4 = false;
+    this.isC4 = false;
+    this.isP4 = false;
   }
 
   getDelay(index, lenght) {
@@ -225,10 +243,14 @@ export class AnimaservComponent implements OnInit {
 
     console.log(this.audiov, this.conteud, this.program);
     this.isOpen = true;
+    this.isOpen4 = true;
     this.rodando();
     this.animate();
+    this.rodando4();
 
   }
+
+
 
   isAud() {
 
@@ -243,9 +265,8 @@ export class AnimaservComponent implements OnInit {
       this.isAv = true;
 
     }, 1);
-    // setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
-    console.log(this.isAv);
   }
+
   isProg() {
 
     this.program[0].setAttribute('style', 'display: none');
@@ -260,10 +281,8 @@ export class AnimaservComponent implements OnInit {
       this.isP = true;
 
     }, 1);
-    // setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
-
-    console.log(this.isOpen);
   }
+
   isCont() {
     this.conteud[0].setAttribute('style', 'display: none');
     this.isC = false;
@@ -274,9 +293,6 @@ export class AnimaservComponent implements OnInit {
       this.conteud[0].setAttribute('style', 'display: block');
       this.isC = true;
     }, 1);
-    // setTimeout(() => { this.isOpen = true; this.rodando(); }, 5000);
-
-    console.log(this.isC);
   }
 
   rodando() {
@@ -285,7 +301,7 @@ export class AnimaservComponent implements OnInit {
       this.program[0].setAttribute('style', 'display: none');
       this.conteud[0].setAttribute('style', 'display: none');
       this.isC = false;
-      this.isAv = false;
+      this.isAv = true;
       this.isP = false;
 
       setTimeout(() => {
@@ -300,7 +316,7 @@ export class AnimaservComponent implements OnInit {
           this.program[0].setAttribute('style', 'display: block');
           this.conteud[0].setAttribute('style', 'display: none');
           this.isP = true;
-          this.isAv = true;
+          this.isAv = false;
           this.isC = false;
 
           setTimeout(() => {
@@ -309,9 +325,9 @@ export class AnimaservComponent implements OnInit {
             this.program[0].setAttribute('style', 'display: none');
             this.conteud[0].setAttribute('style', 'display: none');
             this.isAv = true;
-            this.isP = true;
+            this.isP = false;
 
-            this.isC = true;
+            this.isC = false;
 
             this.isOpen = true;
             this.rodando();
@@ -319,8 +335,102 @@ export class AnimaservComponent implements OnInit {
           }, 5000);
         }, 5000);
       }, 5000);
-    } else return;
+    }
 
   }
+
+
+
+
+
+
+  isAud4() {
+
+    this.audiov4[0].setAttribute('style', 'display: none');
+    this.isAv4 = false;
+    this.isOpen4 = false;
+
+    setTimeout(() => {
+      this.audiov4[0].setAttribute('style', 'display: block');
+      this.program4[0].setAttribute('style', 'display: none');
+      this.conteud4[0].setAttribute('style', 'display: none');
+      this.isAv4 = true;
+
+    }, 1);
+  }
+
+  isProg4() {
+
+    this.program4[0].setAttribute('style', 'display: none');
+    this.isP4 = false;
+    this.isOpen4 = false;
+
+    setTimeout(() => {
+      this.audiov4[0].setAttribute('style', 'display: none');
+      this.program4[0].setAttribute('style', 'display: block');
+      this.conteud4[0].setAttribute('style', 'display: none');
+
+      this.isP4 = true;
+
+    }, 1);
+  }
+
+  isCont4() {
+    this.conteud4[0].setAttribute('style', 'display: none');
+    this.isC4 = false;
+    this.isOpen4 = false;
+    setTimeout(() => {
+      this.audiov4[0].setAttribute('style', 'display: none');
+      this.program4[0].setAttribute('style', 'display: none');
+      this.conteud4[0].setAttribute('style', 'display: block');
+      this.isC4 = true;
+    }, 1);
+  }
+
+  rodando4() {
+    if (this.isOpen4 === true) {
+      this.audiov4[0].setAttribute('style', 'display: block');
+      this.program4[0].setAttribute('style', 'display: none');
+      this.conteud4[0].setAttribute('style', 'display: none');
+      this.isC4 = false;
+      this.isAv4 = true;
+      this.isP4 = false;
+
+      setTimeout(() => {
+        this.audiov4[0].setAttribute('style', 'display: none');
+        this.program4[0].setAttribute('style', 'display: none');
+        this.conteud4[0].setAttribute('style', 'display: block');
+        this.isC4 = true;
+        this.isAv4 = false;
+        this.isP4 = false;
+        setTimeout(() => {
+          this.audiov4[0].setAttribute('style', 'display: none');
+          this.program4[0].setAttribute('style', 'display: block');
+          this.conteud4[0].setAttribute('style', 'display: none');
+          this.isP4 = true;
+          this.isAv4 = false;
+          this.isC4 = false;
+
+          setTimeout(() => {
+
+            this.audiov4[0].setAttribute('style', 'display: block');
+            this.program4[0].setAttribute('style', 'display: none');
+            this.conteud4[0].setAttribute('style', 'display: none');
+            this.isAv4 = true;
+            this.isP4 = false;
+
+            this.isC4 = false;
+
+            this.isOpen4 = true;
+            this.rodando4();
+
+          }, 5000);
+        }, 5000);
+      }, 5000);
+    }
+
+  }
+
+
 
 }

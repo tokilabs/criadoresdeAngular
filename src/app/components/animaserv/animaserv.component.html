@@ -331,15 +331,18 @@
               </div>
             </div>
 
-            <div (click)="isProg()" class="bp1-llball ng-star-inserted ">
+            <div (click)="isProg()" [@rubber]="isP ? true : false" [@flipY]="isP ? true : false"
+              class="bp1-llball ng-star-inserted ">
               <img alt="Image" class="bp1-a32" src="../../../assets/img/index-3-2-1@2x.png" />
               <img alt="Image" class="bp1-a42" src="../../../assets/img/index-4-2@2x.png" />
             </div>
-            <div (click)="isAud()" class="bp1-llballcopy ng-star-inserted">
+            <div (click)="isAud()" [@rubber]="isAv ? true : false" [@flipY]="isAv ? true : false"
+              class="bp1-llballcopy ng-star-inserted">
               <img alt="Image" class="bp1-a321" src="../../../assets/img/index-3-2-1@2x.png" />
               <img alt="Image" class="bp1-a421" src="../../../assets/img/index-4-2@2x.png" />
             </div>
-            <div (click)="isCont()" class="bp1-selectedball ng-star-inserted">
+            <div (click)="isCont()" [@rubber]="isC ? true : false" [@flipY]="isC ? true : false"
+              class="bp1-selectedball ng-star-inserted">
               <img alt="Image" class="bp1-a5" src="../../../assets/img/index-5@2x copy.png" />
               <img alt="Image" class="bp1-a6" src="../../../assets/img/index-6@2x copy.png" />
             </div>
@@ -1324,12 +1327,12 @@
 
     </style>
     <div class="bp4-rectangle"></div>
-    <div id="u0qrWJT">
+    <div @fade id="u0qrWJT">
       <div class="bp4-right-layout-container">
         <div class="bp4-right bp4-right-UGuX component anima-component-wrapper anima-not-ready anima-word-break state1"
           data-initial-state="state1">
           <img alt="Image" class="bp4-shape" src="./../../../assets/img/homelq-bgshape.png" />
-          <div class="bp4-containgroup">
+          <div [@bounceInRight]="isC4 ? true : false" class="bp4-containgroup">
             <div class="bp4-containbanner">
               <a href="conteudo.html">
                 <img alt="Image" class="bp4-containbanner1" src="./../../../assets/img/homelq-containbanner.png" />
@@ -1339,7 +1342,7 @@
               CONTEÚDO
             </div>
           </div>
-          <div class="bp4-avisualgroup">
+          <div [@bounceInRight]="isAv4 ? true : false" class="bp4-avisualgroup">
             <div class="bp4-avisualbanner">
               <a href="avisuallq.html">
                 <img alt="Image" class="bp4-avisualbanner1" src="./../../../assets/img/homelq-avisualbanner.png" />
@@ -1349,7 +1352,7 @@
               AUDIOVISUAL
             </div>
           </div>
-          <div class="bp4-programmgroup">
+          <div [@bounceInRight]="isP4 ? true : false" class="bp4-programmgroup">
             <div class="bp4-programmingbanner">
               <a href="programa.html">
                 <img alt="Image" class="bp4-programmingbanner1"
@@ -1360,17 +1363,19 @@
               PROGRAMA
             </div>
           </div>
-          <div class="bp4-llball">
+          <div (click)="isProg4()" [@rubber]="isP4 ? true : false" [@flipY]="isP4 ? true : false" class="bp4-llball">
             <img alt="Image" class="bp4-a32" src="./../../../assets/img/homelq-3-2@2x.png" />
             <img alt="Image" class="bp4-a42" src="./../../../assets/img/homelq-4-2-1@2x.png" />
           </div>
-          <div class="bp4-llballcopy">
+          <div (click)="isAud4()" [@rubber]="isAv4 ? true : false" [@flipY]="isAv4 ? true : false"
+            class="bp4-llballcopy">
             <img alt="Image" class="bp4-a321" src="./../../../assets/img/homelq-3-2@2x.png" />
             <img alt="Image" class="bp4-a421" src="./../../../assets/img/homelq-4-2-1@2x.png" />
           </div>
-          <div class="bp4-selectedball">
-            <img alt="Image" class="bp4-a5" src="./../../../assets/img/homelq-5@2x.png" />
-            <img alt="Image" class="bp4-a6" src="./../../../assets/img/homelq-6@2x.png" />
+          <div (click)="isCont4()" [@rubber]="isC4 ? true : false" [@flipY]="isC4 ? true : false"
+            class="bp4-selectedball">
+            <img alt="Image" class="bp4-a5" src="./../../../assets/img/homelq-3-2@2x.png" />
+            <img alt="Image" class="bp4-a6" src="./../../../assets/img/homelq-4-2-1@2x.png" />
           </div>
         </div>
       </div>
