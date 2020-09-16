@@ -13,10 +13,6 @@
             ]
         },
         {
-            "path": "src/app/index/index.component.ts",
-            "zeplinNames": []
-        },
-        {
             "path": "src/app/navbar/navbar.component.ts",
             "zeplinNames": [
                 "Header"
@@ -25,9 +21,12 @@
         {
             "path": "src/app/components/precos/precos.component.ts",
             "zeplinNames": [
-                "TypeServiceNotSelected",
                 "TypeServiceNotSelected"
             ]
+        },
+        {
+            "path": "src/app/components/audiovisual/audiovisual.component.ts",
+            "zeplinNames": []
         }
     ],
     "plugins": [

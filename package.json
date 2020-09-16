@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "compodoc": "npx compodoc -p src/tsconfig.app.json",
-    "zeplin": "@zeplin/cli-connect-angular-plugin",
+    "zeplin": "npx zeplin connect -p @zeplin/cli-connect-angular-plugin",
     "dev": "lite-server",
     "ng": "ng",
     "start": "ng serve",
@@ -28,6 +28,7 @@
     "@angular/platform-browser-dynamic": "~10.0.14",
     "@angular/router": "^10.0.14",
     "@material/top-app-bar": "^7.0.0",
+    "@zeplin/cli-connect-angular-plugin": "^0.1.4",
     "angular-animations": "0.0.10",
     "animejs": "^3.1.0",
     "bootstrap": "^4.5.2",
