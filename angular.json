@@ -25,8 +25,8 @@
               "@firebase/firestore",
               "firebase"
             ],
-            "baseHref": "/criadores/",
-            "deployUrl": "/criadores/",
+            "baseHref": "/criadores.de/",
+            "deployUrl": "/criadores.de/",
             "outputPath": "dist/criadores.de",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -136,6 +136,10 @@
               "devServerTarget": "criadoresde:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     },
