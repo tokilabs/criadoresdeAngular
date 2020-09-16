@@ -16,7 +16,6 @@ export class PostServComponent implements OnInit {
   titulo;
   constructor(private servServ: ServService, private route: ActivatedRoute) {
 
-    // this.titulo = 'jair';
 
   }
 
