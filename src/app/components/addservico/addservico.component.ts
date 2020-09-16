@@ -20,7 +20,7 @@ interface servSelect {
 })
 export class AddservicoComponent implements OnInit {
 
-  // imgURL = './../../../assets/img/UploadImagePnng@4x.png';
+  // imgURL = 'assets/img/UploadImagePnng@4x.png';
   public imagePath;
   imgURL: any;
   public message: string;
@@ -60,22 +60,22 @@ export class AddservicoComponent implements OnInit {
       isAudioV: {
         name: 'AudioVisual',
         is: false,
-        logo: './../../../assets/svg/AudioVisualLogo.svg',
-        banner: './../../../assets/svg/Avisualbanner.svg',
+        logo: 'assets/svg/AudioVisualLogo.svg',
+        banner: 'assets/svg/Avisualbanner.svg',
       },
 
       isProgram: {
         name: 'Programa',
         is: false,
-        logo: './../../../assets/svg/programLogo.svg',
-        banner: './../../../assets/svg/Programmingbanner.svg',
+        logo: 'assets/svg/programLogo.svg',
+        banner: 'assets/svg/Programmingbanner.svg',
       },
 
       isConteudo: {
         name: 'Conteúdo',
         is: false,
-        logo: './../../../assets/svg/conteudoLogo.svg',
-        banner: './../../../assets/svg/Containbanner.svg',
+        logo: 'assets/svg/conteudoLogo.svg',
+        banner: 'assets/svg/Containbanner.svg',
       },
     };
 
@@ -167,7 +167,7 @@ export class AddservicoComponent implements OnInit {
 
   preview(files): void {
 
-    // this.imgURL.reader = './../../../assets/img/UploadImagePnng@4x.png';
+    // this.imgURL.reader = 'assets/img/UploadImagePnng@4x.png';
 
     if (files.length === 0) {
       return;

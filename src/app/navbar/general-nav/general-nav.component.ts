@@ -14,7 +14,7 @@ export class GeneralNavComponent implements OnInit {
 
   ImgSrc: any;
   constructor() {
-    this.ImgSrc = './../../../assets/svg/CriadoresLogoOut.svg';
+    this.ImgSrc = 'assets/svg/CriadoresLogoOut.svg';
   }
 
   ngOnInit(): void {

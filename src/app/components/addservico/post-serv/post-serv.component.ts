@@ -21,10 +21,9 @@ export class PostServComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // this.serv.titulo = +this.route.snapshot.paramMap.get('titulo');
-    // this.servServ.fireServ(titulo => { this.serv.titulo = titulo });
+
     this.titulo = this.route.snapshot.paramMap.get('titulo');
-    // this.servServ.fireServ(this.titulo, this.serv).then((serv): Serv => this.serv);
+
     this.servServ.fbGet(this.titulo).subscribe(serv => this.serv = serv);
     console.log(this.titulo);
     console.log(this.serv);

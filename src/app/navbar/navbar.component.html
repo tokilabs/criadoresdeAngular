@@ -1,6 +1,6 @@
 <mat-toolbar>
   <a class="logo">
-    <img src="../../assets/svg/CriadoresLogoOut.svg"
+    <img src="assets/svg/CriadoresLogoOut.svg"
       class="img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,| mb-4}"
       routerLink="/">
   </a>
@@ -12,14 +12,14 @@
     <button mat-raised-button color="primary" matBadge="8" matBadgePosition="before" matBadgeColor="accent"
       type="button" class="btnshop">
 
-      <img src="../../assets/svg/shop-2.svg" class="shopbtn">
+      <img src="assets/svg/shop-2.svg" class="shopbtn">
 
     </button>
 
     <button (click)="cadIsOpen = !cadIsOpen" mat-raised-button color="primary" matBadge="8" matBadgePosition="before"
       matBadgeColor="accent" type="button" class="btncad">
       {{cadIsOpen ? "Close" : "Open"}}
-      <img src="../../assets/svg/ProfileIcon.svg" class="cadbtn">
+      <img src="assets/svg/ProfileIcon.svg" class="cadbtn">
     </button>
     <ng-template *ngIf="cadIsOpen">
       <ul class="example-list">

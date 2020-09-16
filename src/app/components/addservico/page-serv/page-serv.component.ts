@@ -15,12 +15,13 @@ export class PageServComponent implements OnInit {
   serv: Serv;
   servs: Serv[];
   p: number = 1;
-  collection: any[] = this.servs;
+  collection: any[];
 
 
 
   constructor(public afs: AngularFireStorage, private servServ: ServService) {
     this.servs = [];
+    this.collection = this.servs;
   }
 
   ngOnInit(): void {
