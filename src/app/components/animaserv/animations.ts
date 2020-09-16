@@ -115,13 +115,11 @@ export let fade = trigger('fade', [
 
 
 export let animServico = trigger('clickAvisual', [
-  state('on', style({
-    display: 'block',
+  state('void', style({
+    display: 'none',
+    opacity: 0,
   })),
-  state('of', style({
-    display: 'block',
-  })),
-  transition('on <=> of', [
+  transition('* => void', [
     animate(5000),
   ])
 ]);

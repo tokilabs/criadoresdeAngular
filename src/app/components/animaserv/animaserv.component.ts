@@ -86,7 +86,7 @@ import {
   fadeInRightOnEnterAnimation,
   rotateInUpLeftOnEnterAnimation
 } from 'angular-animations';
-import { animate, state, style, transition, trigger } from '@angular/animations';
+import { animate, keyframes, state, style, transition, trigger } from '@angular/animations';
 
 
 @Component({
@@ -341,89 +341,73 @@ export class AnimaservComponent implements OnInit {
 
 
 
-
+  // RESPONSIVO ANIMIN
 
 
   isAud4() {
 
-    this.audiov4[0].setAttribute('style', 'display: none');
+    this.isP4 = false;
+    this.isC4 = false;
     this.isAv4 = false;
     this.isOpen4 = false;
 
     setTimeout(() => {
-      this.audiov4[0].setAttribute('style', 'display: block');
-      this.program4[0].setAttribute('style', 'display: none');
-      this.conteud4[0].setAttribute('style', 'display: none');
       this.isAv4 = true;
+      this.isC4 = false;
+      this.isP4 = false;
 
     }, 1);
   }
 
   isProg4() {
 
-    this.program4[0].setAttribute('style', 'display: none');
     this.isP4 = false;
+    this.isC4 = false;
+    this.isAv4 = false;
     this.isOpen4 = false;
 
     setTimeout(() => {
-      this.audiov4[0].setAttribute('style', 'display: none');
-      this.program4[0].setAttribute('style', 'display: block');
-      this.conteud4[0].setAttribute('style', 'display: none');
 
       this.isP4 = true;
+      this.isC4 = false;
+      this.isAv4 = false;
 
     }, 1);
   }
 
   isCont4() {
-    this.conteud4[0].setAttribute('style', 'display: none');
+
+    this.isP4 = false;
     this.isC4 = false;
+    this.isAv4 = false;
     this.isOpen4 = false;
+
     setTimeout(() => {
-      this.audiov4[0].setAttribute('style', 'display: none');
-      this.program4[0].setAttribute('style', 'display: none');
-      this.conteud4[0].setAttribute('style', 'display: block');
       this.isC4 = true;
+      this.isP4 = false;
+      this.isAv4 = false;
     }, 1);
   }
 
   rodando4() {
     if (this.isOpen4 === true) {
-      this.audiov4[0].setAttribute('style', 'display: block');
-      this.program4[0].setAttribute('style', 'display: none');
-      this.conteud4[0].setAttribute('style', 'display: none');
       this.isC4 = false;
       this.isAv4 = true;
       this.isP4 = false;
-
       setTimeout(() => {
-        this.audiov4[0].setAttribute('style', 'display: none');
-        this.program4[0].setAttribute('style', 'display: none');
-        this.conteud4[0].setAttribute('style', 'display: block');
         this.isC4 = true;
         this.isAv4 = false;
         this.isP4 = false;
         setTimeout(() => {
-          this.audiov4[0].setAttribute('style', 'display: none');
-          this.program4[0].setAttribute('style', 'display: block');
-          this.conteud4[0].setAttribute('style', 'display: none');
           this.isP4 = true;
           this.isAv4 = false;
           this.isC4 = false;
-
           setTimeout(() => {
-
-            this.audiov4[0].setAttribute('style', 'display: block');
-            this.program4[0].setAttribute('style', 'display: none');
-            this.conteud4[0].setAttribute('style', 'display: none');
             this.isAv4 = true;
             this.isP4 = false;
-
             this.isC4 = false;
-
             this.isOpen4 = true;
             this.rodando4();
-
           }, 5000);
         }, 5000);
       }, 5000);

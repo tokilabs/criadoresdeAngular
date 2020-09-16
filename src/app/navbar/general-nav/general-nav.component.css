@@ -87,8 +87,8 @@
 .bp2-homemobile {
   width: 100%;
   min-width: 556px;
-  height: 100vh;
-  min-height: 963px;
+  height: auto;
+  min-height: 156px;
   position: absolute;
   overflow: hidden;
   margin: 0px;
@@ -103,7 +103,7 @@
   width: 100%;
   min-width: 768px;
   height: auto;
-  min-height: 1484px;
+  min-height: 156px;
   position: absolute;
   overflow: hidden;
   margin: 0px;
@@ -116,8 +116,8 @@
 .bp4-homelq {
   width: 100%;
   min-width: 1024px;
-  height: 100vh;
-  min-height: 695px;
+  height: auto;
+  min-height: 156px;
   position: absolute;
   overflow: hidden;
   margin: 0px;
