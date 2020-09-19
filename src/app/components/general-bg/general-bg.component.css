@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .bp2-homemobile {
     display: block;
   }
@@ -104,7 +104,7 @@
   width: 100%;
   min-width: 768px;
   height: auto;
-  min-height: 1484px;
+  min-height: 1024px;
   position: absolute;
   overflow: hidden;
   margin: 0px;
@@ -129,7 +129,7 @@
 }
 
 
- */
+
 
 
 
@@ -203,6 +203,7 @@
 .bp3-hometablet .backgroundsobre {
   position: absolute;
   width: 100%;
+  top: -100px;
   height: auto;
 
   right: 0px;
@@ -211,17 +212,17 @@
 
 .bp3-hometablet .backgroundsobre .wave {
   position: absolute;
-  bottom: -40px;
+  bottom: -220px;
   top: 0px;
-  left: -30%;
+  left: -60%;
   width: 180%;
-  height: 1984px;
+  height: 1284px;
   background-image: linear-gradient(to top, #2e3243 11%, var(--blue-with-a-hint-of-purple) 11%);
 }
 
 .bp3-hometablet .backgroundsobre .wavecopy {
   position: absolute;
-  top: -130px;
+  top: -100px;
   width: 2080px;
   height: auto;
   right: -650px;

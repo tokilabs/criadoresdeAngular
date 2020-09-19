@@ -25,8 +25,6 @@
               "@firebase/firestore",
               "firebase"
             ],
-            "baseHref": "/criadores.de/",
-            "deployUrl": "/criadores.de/",
             "outputPath": "dist/criadores.de",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -35,9 +33,7 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/assets/img",
-              "src/assets/svg"
+              "src/assets"
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",

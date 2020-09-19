@@ -73,7 +73,7 @@
 .bp1-index {
   width: 100%;
   min-width: 1440px;
-  height: auto;
+  height: 160px;
   min-height: 156px;
   position: absolute;
   overflow: hidden;
@@ -87,7 +87,7 @@
 .bp2-homemobile {
   width: 100%;
   min-width: 556px;
-  height: auto;
+  height: 160px;
   min-height: 156px;
   position: absolute;
   overflow: hidden;
@@ -102,7 +102,7 @@
 .bp3-hometablet {
   width: 100%;
   min-width: 768px;
-  height: auto;
+  height: 160px;
   min-height: 156px;
   position: absolute;
   overflow: hidden;
@@ -116,7 +116,7 @@
 .bp4-homelq {
   width: 100%;
   min-width: 1024px;
-  height: auto;
+  height: 160px;
   min-height: 156px;
   position: absolute;
   overflow: hidden;

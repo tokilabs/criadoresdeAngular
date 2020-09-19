@@ -110,7 +110,7 @@
   width: 100%;
   min-width: 768px;
   height: auto;
-  min-height: 1484px;
+  min-height: 1024px;
   position: absolute;
   overflow: hidden;
   margin: 0px;
@@ -202,14 +202,14 @@
 
 .bp3-hometablet .homecontainer .oqvamoscriar {
   position: absolute;
-  top: 140px;
-  left: 15%;
+  top: 80px;
+  left: 100px;
 }
 
 
 .bp3-hometablet .homecontainer .animaservs {
   position: absolute;
-  top: 580px;
+  top: 420px;
   left: 15%;
   height: auto;
 }
