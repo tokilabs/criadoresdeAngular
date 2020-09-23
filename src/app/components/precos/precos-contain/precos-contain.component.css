@@ -1,1 +1,2676 @@
+@media screen and (max-width: 767px) {
+  .bp3-precomobile {
+    display: block;
+  }
 
+  .bp2-precotablet {
+    display: none;
+  }
+
+  .bp1-precoslq {
+    display: none;
+  }
+
+  .bp4-precos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp3-precomobile {
+    display: none;
+  }
+
+  .bp2-precotablet {
+    display: block;
+  }
+
+  .bp1-precoslq {
+    display: none;
+  }
+
+  .bp4-precos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp3-precomobile {
+    display: none;
+  }
+
+  .bp2-precotablet {
+    display: none;
+  }
+
+  .bp1-precoslq {
+    display: block;
+  }
+
+  .bp4-precos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bp3-precomobile {
+    display: none;
+  }
+
+  .bp2-precotablet {
+    display: none;
+  }
+
+  .bp1-precoslq {
+    display: none;
+  }
+
+  .bp4-precos {
+    display: block;
+  }
+}
+
+/* bp4 */
+
+.bp4-precos .bp4-precosbottons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: auto;
+  width: 1235px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons-layout-container {
+  pointer-events: none;
+  flex-direction: column;
+  top: 120px;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  left: 0;
+}
+
+.bp4-precos .bp4-precosbottons-layout-container>* {
+  pointer-events: auto;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 524px;
+  margin: 0;
+  width: 1199px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-bannerbrand {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: 0px;
+  height: 91.41%;
+  width: 99.50%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-bannerdesign {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0.76%;
+  height: 90.65%;
+  width: 99.50%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-bannerprogramming {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: 0.95%;
+  height: 91.41%;
+  width: 98.92%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-bullet {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 43.37%;
+  bottom: 0px;
+  height: 5.34%;
+  width: 13.01%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-bullet .bp4-oval {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 28px;
+  width: 27px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-bullet .bp4-oval1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 28px;
+  width: 27px;
+  position: absolute;
+  margin: 0;
+  left: 65px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-bullet .bp4-oval2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 28px;
+  width: 27px;
+  position: absolute;
+  margin: 0;
+  left: 129px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-vamoscriarprograma {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 6.11%;
+  height: 24.24%;
+  width: 23.44%;
+  position: absolute;
+  margin: 0;
+  left: 5.59%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: left;
+  line-height: 56.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-vamoscriarconteudos {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 28.24%;
+  height: 24.24%;
+  width: 23.44%;
+  position: absolute;
+  margin: 0;
+  left: 5.59%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: left;
+  line-height: 56.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-sliderbanner .bp4-vamoscriarconteudoscopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 16.98%;
+  height: 30.53%;
+  width: 23.44%;
+  position: absolute;
+  margin: 0;
+  left: 5.59%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Montserrat", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: left;
+  line-height: 56.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 276px;
+  margin: 60px 0 0 0;
+  width: 1199px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 276px;
+  width: auto;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catavisualgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 273px;
+  margin: 0;
+  width: 371px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catavisualgroup {
+  pointer-events: auto;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catavisualgroup:hover {
+  transform: scale(1.1);
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catavisualgroup .bp4-categavisual {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catavisualgroup .bp4-categavisual .bp4-categavisual1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catavisualgroup .bp4-rectangle {
+  background-color: rgba(101, 143, 192, 1.0);
+  bottom: 0.37%;
+  height: 20.15%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 15px;
+  transform: rotate(0deg);
+  opacity: 0.8;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catavisualgroup .bp4-hovertext {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 5.49%;
+  height: 28px;
+  width: 60.92%;
+  position: absolute;
+  margin: 0;
+  left: 19.54%;
+  transform: rotate(0deg);
+  opacity: 0.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 28.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catprogrammgroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 276px;
+  margin: 0 0 0 45px;
+  width: 369px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catprogrammgroup {
+  pointer-events: auto;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catprogrammgroup:hover {
+  transform: scale(1.1);
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catprogrammgroup .bp4-categprogramm {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 98.91%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catprogrammgroup .bp4-categprogramm .bp4-categprogramm1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catprogrammgroup .bp4-rectanglecopy {
+  background-color: rgba(101, 143, 192, 1.0);
+  bottom: 0px;
+  height: 19.93%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 15px;
+  transform: rotate(0deg);
+  opacity: 0.8;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catprogrammgroup .bp4-hovertextcopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 5.07%;
+  height: 28px;
+  width: 60.98%;
+  position: absolute;
+  margin: 0;
+  left: 19.51%;
+  transform: rotate(0deg);
+  opacity: 0.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 28.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catcontaingroup {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 276px;
+  margin: 0 0 0 45px;
+  width: 369px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  transition: all 0.2s ease-in-out;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catcontaingroup {
+  pointer-events: auto;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catcontaingroup:hover {
+  transform: scale(1.1);
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catcontaingroup .bp4-categcontain {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 98.91%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catcontaingroup .bp4-categcontain .bp4-categcontain1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catcontaingroup .bp4-rectanglecopy2 {
+  background-color: rgba(101, 143, 192, 1.0);
+  bottom: 0px;
+  height: 19.93%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 15px;
+  transform: rotate(0deg);
+  opacity: 0.8;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-categories .bp4-stackedgroup .bp4-catcontaingroup .bp4-hovertextcopy2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 5.07%;
+  height: 28px;
+  width: 60.98%;
+  position: absolute;
+  margin: 0;
+  left: 19.51%;
+  transform: rotate(0deg);
+  opacity: 0.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  line-height: 28.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 402px;
+  margin: 60px 0 0 0;
+  width: 1235px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-group2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 18px;
+  width: 378px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-group2 .bp4-ofertasepacotesde {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: auto;
+  width: 377px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(46, 50, 67, 1.0);
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 53px;
+  height: 330px;
+  width: 374px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card .bp4-background {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 329px;
+  width: 373px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card .bp4-card3 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -16px;
+  height: 365px;
+  width: 410px;
+  position: absolute;
+  margin: 0;
+  left: -19px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card .bp4-card3 .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 365px;
+  width: 410px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card .bp4-card3 .bp4-rectangle1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 16px;
+  height: 197px;
+  width: 372px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card .bp4-card3 .bp4-identidadevisualma {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 242px;
+  height: auto;
+  width: 310px;
+  position: absolute;
+  margin: 0;
+  left: 46px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  line-height: 20.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card .bp4-card3 .bp4-rp11000000 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 296px;
+  height: auto;
+  width: 262px;
+  position: absolute;
+  margin: 0;
+  left: 46px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(77, 91, 182, 1.0);
+  text-align: left;
+  line-height: 20.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 37px;
+  height: 365px;
+  width: 410px;
+  position: absolute;
+  margin: 0;
+  left: 413px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card1 .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 365px;
+  width: 410px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card1 .bp4-rectangle1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 16px;
+  height: 197px;
+  width: 372px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card1 .bp4-siteresponsivomais {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 242px;
+  height: auto;
+  width: 310px;
+  position: absolute;
+  margin: 0;
+  left: 46px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  line-height: 20.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card1 .bp4-rp11000000 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 296px;
+  height: auto;
+  width: 262px;
+  position: absolute;
+  margin: 0;
+  left: 46px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(77, 91, 182, 1.0);
+  text-align: left;
+  line-height: 20.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 37px;
+  height: 365px;
+  width: 409px;
+  position: absolute;
+  margin: 0;
+  left: 826px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card2 .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 365px;
+  width: 409px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card2 .bp4-rectangle1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 16px;
+  height: 197px;
+  width: 372px;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card2 .bp4-manuten347343odecontas {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 242px;
+  height: auto;
+  width: 310px;
+  position: absolute;
+  margin: 0;
+  left: 46px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  line-height: 20.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-packservices .bp4-card2 .bp4-rp11000000 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 296px;
+  height: auto;
+  width: 262px;
+  position: absolute;
+  margin: 0;
+  left: 46px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(77, 91, 182, 1.0);
+  text-align: left;
+  line-height: 20.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 803px;
+  margin: 60px 0 0 0;
+  width: 982px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-mask {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 803px;
+  width: 982px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  transform: rotate(0deg);
+  opacity: 0.8;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-headeritens {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 114px;
+  height: auto;
+  width: 946px;
+  position: absolute;
+  margin: 0;
+  left: 17px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-headeritens .bp4-headeritens1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: auto;
+  margin: 0;
+  width: 946px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-headeritens .bp4-headeritens1 .bp4-stackedgroup1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 23px;
+  margin: 0;
+  width: auto;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-headeritens .bp4-headeritens1 .bp4-stackedgroup1 .bp4-servi347os {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: auto;
+  margin: 0;
+  width: 397px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: left;
+  letter-spacing: -0.77px;
+  line-height: 25.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-headeritens .bp4-headeritens1 .bp4-stackedgroup1 .bp4-categoria {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: auto;
+  margin: 0 0 0 188px;
+  width: 88px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: left;
+  letter-spacing: -0.77px;
+  line-height: 25.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-headeritens .bp4-headeritens1 .bp4-stackedgroup1 .bp4-valor {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: auto;
+  margin: 0 0 0 188px;
+  width: 45px;
+  transform: rotate(0deg);
+  opacity: 0.5;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: right;
+  letter-spacing: -0.77px;
+  line-height: 25.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-headeritens .bp4-headeritens1 .bp4-rectanglecopy2 {
+  background-color: rgba(225, 226, 235, 1.0);
+  position: relative;
+  height: 1px;
+  margin: 20px 0 0 0;
+  width: 946px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-titlecopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 20px;
+  height: 42px;
+  width: 947px;
+  position: absolute;
+  margin: 0;
+  left: 17px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-titlecopy .bp4-group2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 42px;
+  width: 946px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-titlecopy .bp4-group2 .bp4-earningsbyitemtyp {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 5px;
+  height: auto;
+  width: 858px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.3;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: left;
+  letter-spacing: -0.5px;
+  line-height: 25.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 212px;
+  height: auto;
+  width: 962px;
+  position: absolute;
+  margin: 0;
+  left: 10px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 187px;
+  margin: 0;
+  width: 962px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  bottom: 0px;
+  height: 83.96%;
+  width: 98.44%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-typeservicenotselected1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-rectangle {
+  background-color: rgba(225, 226, 235, 1.0);
+  bottom: 0px;
+  height: 0.64%;
+  width: 99.89%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 5.10%;
+  height: 47.77%;
+  width: 27.24%;
+  position: absolute;
+  margin: 0;
+  left: 14.04%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 .bp4-title {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-nomedoservi347oofer {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 64.00%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(6, 16, 88, 1.0);
+  text-align: left;
+  line-height: 24.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-softwareutilizado {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 20px;
+  width: 49.22%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(180, 183, 204, 1.0);
+  text-align: left;
+  line-height: 21.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 32.10%;
+  top: 5.10%;
+  height: 15.92%;
+  width: 11.40%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category .bp4-category1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category .bp4-category1 .bp4-categoria {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 77.78%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(255, 138, 138, 1.0);
+  text-align: left;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category .bp4-category1 .bp4-rectangle1 {
+  background-color: rgba(255, 139, 138, 1.0);
+  top: 18.00%;
+  height: 64.00%;
+  width: 14.81%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 7px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-valor {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 2.01%;
+  top: 5.73%;
+  height: 15.92%;
+  width: 10.56%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-valor .bp4-earning {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: right;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-imagemask {
+  background-color: rgba(194, 210, 237, 0.41);
+  top: 0px;
+  height: 73.25%;
+  width: 11.09%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-imagemask .bp4-mask1 {
+  background-color: rgba(194, 210, 237, 0.41);
+  top: 0px;
+  height: 114px;
+  width: 105px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-imagemask .bp4-favicon {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 17px;
+  height: 77px;
+  width: 78px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -8.02%;
+  height: 114.44%;
+  width: 102.29%;
+  position: absolute;
+  margin: 0;
+  left: -1.66%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 107px);
+  height: 214px;
+  width: 984px;
+  position: relative;
+  margin: 0;
+  left: calc(50.00% - 492px);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-mask1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 1.22%;
+  bottom: 10.75%;
+  height: 74.77%;
+  width: 94.11%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 64.38%;
+  margin: 0;
+  flex: 41.14;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-maskimage {
+  background-color: rgba(194, 210, 237, 1.0);
+  position: relative;
+  height: 100%;
+  margin: 0;
+  flex: 27.03;
+  border-radius: 31px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-maskimage .bp4-mask2 {
+  background-color: rgba(194, 210, 237, 1.0);
+  top: 0px;
+  height: 103px;
+  width: 103px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 31px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-maskimage .bp4-favicon {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 12px;
+  height: 81px;
+  width: 82px;
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 72.82%;
+  margin: 0 0 0 20px;
+  flex: 67.72;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 .bp4-title {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-nomedoservi347oofer {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 64.00%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(6, 16, 88, 1.0);
+  text-align: left;
+  line-height: 24.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-softwareutilizado {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 20px;
+  width: 45.74%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(180, 183, 204, 1.0);
+  text-align: left;
+  line-height: 21.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 100%;
+  margin: 0 0 0 100px;
+  flex: 26.03;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 33.75%;
+  height: 15.62%;
+  width: 48.13%;
+  position: absolute;
+  margin: 0;
+  left: 21.58%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category .bp4-category1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category .bp4-category1 .bp4-categoria {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 79.31%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(255, 138, 138, 1.0);
+  text-align: left;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category .bp4-category1 .bp4-rectangle1 {
+  background-color: rgba(255, 139, 138, 1.0);
+  top: 18.00%;
+  height: 64.00%;
+  width: 13.79%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 7px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 100%;
+  margin: 0 0 0 100px;
+  flex: 23.22;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected .bp4-valor {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 33.75%;
+  height: 25px;
+  width: 46.51%;
+  position: absolute;
+  margin: 0;
+  left: 21.86%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy4 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected .bp4-valor .bp4-earning {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: right;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 187px;
+  margin: 5px 0 0 0;
+  width: 962px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  bottom: 0px;
+  height: 83.96%;
+  width: 98.44%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-typeservicenotselected1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-rectangle {
+  background-color: rgba(225, 226, 235, 1.0);
+  bottom: 0px;
+  height: 0.64%;
+  width: 99.89%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 5.10%;
+  height: 47.77%;
+  width: 27.24%;
+  position: absolute;
+  margin: 0;
+  left: 14.04%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 .bp4-title {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-nomedoservi347oofer {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 64.00%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(6, 16, 88, 1.0);
+  text-align: left;
+  line-height: 24.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-softwareutilizado {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 20px;
+  width: 49.22%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(180, 183, 204, 1.0);
+  text-align: left;
+  line-height: 21.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 32.10%;
+  top: 5.10%;
+  height: 15.92%;
+  width: 11.40%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category .bp4-category1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category .bp4-category1 .bp4-categoria {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 77.78%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(255, 138, 138, 1.0);
+  text-align: left;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category .bp4-category1 .bp4-rectangle1 {
+  background-color: rgba(255, 139, 138, 1.0);
+  top: 18.00%;
+  height: 64.00%;
+  width: 14.81%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 7px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-valor {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 2.01%;
+  top: 5.73%;
+  height: 15.92%;
+  width: 10.56%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-valor .bp4-earning {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: right;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-imagemask {
+  background-color: rgba(194, 210, 237, 0.41);
+  top: 0px;
+  height: 73.25%;
+  width: 11.09%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-imagemask .bp4-mask1 {
+  background-color: rgba(194, 210, 237, 0.41);
+  top: 0px;
+  height: 114px;
+  width: 105px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-imagemask .bp4-favicon {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 17px;
+  height: 77px;
+  width: 78px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -8.02%;
+  height: 114.44%;
+  width: 102.29%;
+  position: absolute;
+  margin: 0;
+  left: -1.66%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 107px);
+  height: 214px;
+  width: 984px;
+  position: relative;
+  margin: 0;
+  left: calc(50.00% - 492px);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-mask1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 1.22%;
+  bottom: 10.75%;
+  height: 74.77%;
+  width: 94.11%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 64.38%;
+  margin: 0;
+  flex: 41.14;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-maskimage {
+  background-color: rgba(194, 210, 237, 1.0);
+  position: relative;
+  height: 100%;
+  margin: 0;
+  flex: 27.03;
+  border-radius: 31px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-maskimage .bp4-mask2 {
+  background-color: rgba(194, 210, 237, 1.0);
+  top: 0px;
+  height: 103px;
+  width: 103px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 31px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-maskimage .bp4-favicon {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 12px;
+  height: 81px;
+  width: 82px;
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 72.82%;
+  margin: 0 0 0 20px;
+  flex: 67.72;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 .bp4-title {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-nomedoservi347oofer {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 64.00%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(6, 16, 88, 1.0);
+  text-align: left;
+  line-height: 24.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-softwareutilizado {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 20px;
+  width: 45.74%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(180, 183, 204, 1.0);
+  text-align: left;
+  line-height: 21.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 100%;
+  margin: 0 0 0 100px;
+  flex: 26.03;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 33.75%;
+  height: 15.62%;
+  width: 48.13%;
+  position: absolute;
+  margin: 0;
+  left: 21.58%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category .bp4-category1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category .bp4-category1 .bp4-categoria {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 79.31%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(255, 138, 138, 1.0);
+  text-align: left;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category .bp4-category1 .bp4-rectangle1 {
+  background-color: rgba(255, 139, 138, 1.0);
+  top: 18.00%;
+  height: 64.00%;
+  width: 13.79%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 7px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 100%;
+  margin: 0 0 0 100px;
+  flex: 23.22;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected .bp4-valor {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 33.75%;
+  height: 25px;
+  width: 46.51%;
+  position: absolute;
+  margin: 0;
+  left: 21.86%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy3 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected .bp4-valor .bp4-earning {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: right;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 187px;
+  margin: 5px 0 0 0;
+  width: 962px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  bottom: 0px;
+  height: 83.96%;
+  width: 98.44%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-typeservicenotselected1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-rectangle {
+  background-color: rgba(225, 226, 235, 1.0);
+  bottom: 0px;
+  height: 0.64%;
+  width: 99.89%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 5.10%;
+  height: 47.77%;
+  width: 27.24%;
+  position: absolute;
+  margin: 0;
+  left: 14.04%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 .bp4-title {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-nomedoservi347oofer {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 64.00%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(6, 16, 88, 1.0);
+  text-align: left;
+  line-height: 24.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-softwareutilizado {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 20px;
+  width: 49.22%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(180, 183, 204, 1.0);
+  text-align: left;
+  line-height: 21.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 32.10%;
+  top: 5.10%;
+  height: 15.92%;
+  width: 11.40%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category .bp4-category1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category .bp4-category1 .bp4-categoria {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 77.78%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(255, 138, 138, 1.0);
+  text-align: left;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-category .bp4-category1 .bp4-rectangle1 {
+  background-color: rgba(255, 139, 138, 1.0);
+  top: 18.00%;
+  height: 64.00%;
+  width: 14.81%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 7px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-valor {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 2.01%;
+  top: 5.73%;
+  height: 15.92%;
+  width: 10.56%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-valor .bp4-earning {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: right;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-imagemask {
+  background-color: rgba(194, 210, 237, 0.41);
+  top: 0px;
+  height: 73.25%;
+  width: 11.09%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-imagemask .bp4-mask1 {
+  background-color: rgba(194, 210, 237, 0.41);
+  top: 0px;
+  height: 114px;
+  width: 105px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 32px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-typeservicenotselected .bp4-group7copy2 .bp4-imagemask .bp4-favicon {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 17px;
+  height: 77px;
+  width: 78px;
+  position: absolute;
+  margin: 0;
+  left: 12px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -8.02%;
+  height: 114.44%;
+  width: 102.29%;
+  position: absolute;
+  margin: 0;
+  left: -1.66%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 107px);
+  height: 214px;
+  width: 984px;
+  position: relative;
+  margin: 0;
+  left: calc(50.00% - 492px);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-mask1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 1.22%;
+  bottom: 10.75%;
+  height: 74.77%;
+  width: 94.11%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 64.38%;
+  margin: 0;
+  flex: 41.14;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-maskimage {
+  background-color: rgba(194, 210, 237, 1.0);
+  position: relative;
+  height: 100%;
+  margin: 0;
+  flex: 27.03;
+  border-radius: 31px;
+  overflow: hidden;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-maskimage .bp4-mask2 {
+  background-color: rgba(194, 210, 237, 1.0);
+  top: 0px;
+  height: 103px;
+  width: 103px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 31px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-maskimage .bp4-favicon {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 12px;
+  height: 81px;
+  width: 82px;
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 72.82%;
+  margin: 0 0 0 20px;
+  flex: 67.72;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 .bp4-title {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-nomedoservi347oofer {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 64.00%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20.0px;
+  color: rgba(6, 16, 88, 1.0);
+  text-align: left;
+  line-height: 24.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-stackedgroup2 .bp4-titleserviceinput .bp4-group6 .bp4-title .bp4-softwareutilizado {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 20px;
+  width: 45.74%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14.0px;
+  color: rgba(180, 183, 204, 1.0);
+  text-align: left;
+  line-height: 21.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 100%;
+  margin: 0 0 0 100px;
+  flex: 26.03;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 33.75%;
+  height: 15.62%;
+  width: 48.13%;
+  position: absolute;
+  margin: 0;
+  left: 21.58%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category .bp4-category1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category .bp4-category1 .bp4-categoria {
+  background-color: rgba(255, 255, 255, 0.0);
+  right: 0px;
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 79.31%;
+  position: absolute;
+  margin: 0;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(255, 138, 138, 1.0);
+  text-align: left;
+  line-height: 27.0px;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-categ .bp4-category .bp4-category1 .bp4-rectangle1 {
+  background-color: rgba(255, 139, 138, 1.0);
+  top: 18.00%;
+  height: 64.00%;
+  width: 13.79%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 7px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  height: 100%;
+  margin: 0 0 0 100px;
+  flex: 23.22;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected .bp4-valor {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 33.75%;
+  height: 25px;
+  width: 46.51%;
+  position: absolute;
+  margin: 0;
+  left: 21.86%;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-precosbottons .bp4-servicestype .bp4-stackedgroup .bp4-typeservicescontentscopy2 .bp4-box .bp4-box1 .bp4-stackedgroup1 .bp4-valorselected .bp4-valor .bp4-earning {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: calc(50.00% - 13px);
+  height: 25px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Poppins", Helvetica, Arial, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.0px;
+  color: rgba(5, 15, 88, 1.0);
+  text-align: right;
+  line-height: 27.0px;
+}

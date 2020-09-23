@@ -55,6 +55,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { JwPaginationModule } from 'jw-angular-pagination';
 import { MatSelectModule } from '@angular/material/select';
 import { MatNativeDateModule } from '@angular/material/core';
+import { PrecosBgComponent } from './components/general-bg/precos-bg/precos-bg.component';
 
 
 const firebaseConfig = {
@@ -101,6 +102,7 @@ const firebaseConfig = {
     CriadorIdComponent,
     UserAdminComponent,
     GeneralNavComponent,
+    PrecosBgComponent,
   ],
   imports: [
     BrowserModule,

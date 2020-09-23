@@ -1,0 +1,185 @@
+@media screen and (max-width: 767px) {
+  .bp3-precomobile {
+    display: block;
+  }
+
+  .bp2-precotablet {
+    display: none;
+  }
+
+  .bp1-precoslq {
+    display: none;
+  }
+
+  .bp4-precos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp3-precomobile {
+    display: none;
+  }
+
+  .bp2-precotablet {
+    display: block;
+  }
+
+  .bp1-precoslq {
+    display: none;
+  }
+
+  .bp4-precos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp3-precomobile {
+    display: none;
+  }
+
+  .bp2-precotablet {
+    display: none;
+  }
+
+  .bp1-precoslq {
+    display: block;
+  }
+
+  .bp4-precos {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bp3-precomobile {
+    display: none;
+  }
+
+  .bp2-precotablet {
+    display: none;
+  }
+
+  .bp1-precoslq {
+    display: none;
+  }
+
+  .bp4-precos {
+    display: block;
+  }
+}
+
+.bp4-precos {
+  width: 100%;
+  min-width: 1440px;
+  height: 100vh;
+  min-height: 2420px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 1.0);
+  opacity: 1.0;
+}
+
+
+
+/* bp4 Full */
+
+.bp4-precos .bp4-asset10 {
+  background-color: rgba(255, 255, 255, 0.0);
+  bottom: 0px;
+  height: 2339px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-asset10 .bp4-rectangle {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-wave {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -574px;
+  height: calc(100.00% - 378px);
+  width: calc(100.00% + 194px);
+  position: absolute;
+  margin: 0;
+  left: -66px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-wavecopy {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: -212px;
+  height: calc(100.00% - 1175px);
+  width: calc(100.00% - 339px);
+  position: absolute;
+  margin: 0;
+  left: 590px;
+  transform: rotate(0deg);
+  opacity: 0.3;
+}
+
+.bp4-precos .bp4-asset9 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 1px;
+  height: calc(100.00% - 3px);
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-asset9 .bp4-group {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 0.43;
+}
+
+.bp4-precos .bp4-asset9 .bp4-group .bp4-path {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 0px;
+  height: 677px;
+  width: calc(100.00% - 25px);
+  position: absolute;
+  margin: 0;
+  left: 25px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.bp4-precos .bp4-asset9 .bp4-group .bp4-path1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  top: 737px;
+  height: 1680px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
