@@ -87,7 +87,7 @@
 }
 
 .bp2-homemobile {
-  bottom: -650px;
+  bottom: 20px;
   width: 100%;
   min-width: 556px;
   height: 10vh;
@@ -103,7 +103,7 @@
 
 
 .bp3-hometablet {
-  bottom: -45vmax;
+  bottom: 20px;
   width: 100%;
   min-width: 768px;
   height: 100px;
@@ -140,7 +140,7 @@
   bottom: 20px;
   height: 80px;
   width: 100%;
-  position: absolute;
+  position: sticky;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -206,9 +206,6 @@
 .bp3-hometablet .bp3-tokilogo1 {
   background-color: rgba(255, 255, 255, 0.0);
   bottom: 0px;
-  /* height: 80px; */
-  /* width: 100%; */
-  /* position: absolute; */
   margin: 0;
   display: flex;
   justify-content: center;
