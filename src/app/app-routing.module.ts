@@ -1,3 +1,6 @@
+import { ConteudoComponent } from './components/conteudo/conteudo.component';
+import { ProgramaComponent } from './components/programa/programa.component';
+import { AudiovisualComponent } from './components/audiovisual/audiovisual.component';
 import { PostServComponent } from './components/addservico/post-serv/post-serv.component';
 import { PreviewComponent } from './components/addservico/preview/preview.component';
 import { PageServComponent } from './components/addservico/page-serv/page-serv.component';
@@ -16,12 +19,21 @@ import { PrecosComponent } from './components/precos/precos.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AuthGuard } from './auth.guard';
+
+
 // canActivate: [AuthGuard]
+
+
 const routes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'sobre', component: SobreComponent },
   { path: 'precos', component: PrecosComponent },
   { path: 'contato', component: ContatoComponent },
+  { path: 'audiovisual', component: AudiovisualComponent },
+  { path: 'programa', component: ProgramaComponent },
+  { path: 'conteudo', component: ConteudoComponent },
+
+
   { path: 'carrinho', component: CarrinhoComponent },
   { path: 'addserv', component: AddservicoComponent, canActivate: [AuthGuard] },
   { path: 'pageservs', component: PageServComponent },

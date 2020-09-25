@@ -295,9 +295,9 @@
             class="bp1-right bp1-right-4mtS component anima-component-wrapper anima-not-ready anima-word-break state1">
             <img alt="Image" class="bp1-shape" src="assets/img/index-bgshape.png" />
 
-            <div [@bounceInRight]="isC ? true : false" class="bp1-containgroup">
+            <div routerLink="/conteudo" [@bounceInRight]="isC ? true : false" class="bp1-containgroup">
               <div class="bp1-containbanner">
-                <a href="conteudo.html">
+                <a>
                   <img style="display: block; width: 100%;" class="bp1-containbanner1"
                     src="assets/img/index-containbanner.png" />
                 </a>
@@ -307,9 +307,9 @@
               </div>
             </div>
 
-            <div [@bounceInRight]="isAv ? true : false" class="bp1-avisualgroup">
+            <div routerLink="/audiovisual" [@bounceInRight]="isAv ? true : false" class="bp1-avisualgroup">
               <div class="bp1-avisualbanner">
-                <a href="avisuallq.html">
+                <a>
                   <img style="display: block; width: 100%;" class="bp1-avisualbanner1"
                     src="assets/img/index-avisualbanner.png" />
                 </a>
@@ -319,9 +319,9 @@
               </div>
             </div>
 
-            <div [@bounceInRight]="isP ? true : false" class="bp1-programmgroup">
+            <div routerLink="/programa" [@bounceInRight]="isP ? true : false" class="bp1-programmgroup">
               <div class="bp1-programmingbanner">
-                <a href="programa.html">
+                <a>
                   <img style="display: block; width: 100%;" class="bp1-programmingbanner1"
                     src="assets/img/index-programmingbanner.png" />
                 </a>
@@ -646,9 +646,10 @@
       <div class="bp2-right bp2-right-lyxH component anima-component-wrapper anima-not-ready anima-word-break state1"
         data-initial-state="state1">
         <img alt="Image" class="bp2-bgshape" src="assets/img/homemobile-bgshape.png" />
-        <div [style.display]="isC4 ? 'block' : 'none'" class="bp2-containgroup">
+
+        <div routerLink="/conteudo" [style.display]="isC4 ? 'block' : 'none'" class="bp2-containgroup">
           <div class="bp2-containbanner">
-            <a href="conteudo.html">
+            <a>
               <img alt="Image" class="bp2-containbanner1" src="assets/img/homemobile-containbanner.png" />
             </a>
           </div>
@@ -656,9 +657,10 @@
             CONTEÚDO
           </div>
         </div>
-        <div [style.display]="isAv4 ? 'block' : 'none'" class="bp2-avisualgroup">
+
+        <div routerLink="/audiovisual" [style.display]="isAv4 ? 'block' : 'none'" class="bp2-avisualgroup">
           <div class="bp2-avisualbanner">
-            <a href="avisuallq.html">
+            <a>
               <img alt="Image" class="bp2-avisualbanner1" src="assets/img/homemobile-avisualbanner.png" />
             </a>
           </div>
@@ -666,9 +668,10 @@
             AUDIOVISUAL
           </div>
         </div>
-        <div [style.display]="isP4 ? 'block' : 'none'" class="bp2-programmgroup">
+
+        <div routerLink="/programa" [style.display]="isP4 ? 'block' : 'none'" class="bp2-programmgroup">
           <div class="bp2-programmingbanner">
-            <a href="programa.html">
+            <a>
               <img alt="Image" class="bp2-programmingbanner1" src="assets/img/homemobile-programmingbanner.png" />
             </a>
           </div>
@@ -676,6 +679,7 @@
             PROGRAMA
           </div>
         </div>
+
         <div (click)="isProg4()" [@rubber]="isP4 ? true : false" [@flipY]="isP4 ? true : false" class="bp2-llballmiddl">
           <img alt="Image" class="bp2-a32" src="assets/img/homemobile-3-2@2x.png" />
           <img alt="Image" class="bp2-a42" src="assets/img/homemobile-4-2@2x.png" />
@@ -988,9 +992,10 @@
       <div class="bp3-right bp3-right-Vn4d component anima-component-wrapper anima-not-ready anima-word-break state1"
         data-initial-state="state1">
         <img alt="Image" class="bp3-shape" src="assets/img/hometablet-bgshape.png" />
-        <div [style.display]="isC4 ? 'block' : 'none'" class="bp3-containgroup">
+
+        <div routerLink="/conteudo" [style.display]="isC4 ? 'block' : 'none'" class="bp3-containgroup">
           <div class="bp3-containbanner">
-            <a href="conteudo.html">
+            <a>
               <img alt="Image" class="bp3-containbanner1" src="assets/img/hometablet-containbanner.png" />
             </a>
           </div>
@@ -998,9 +1003,10 @@
             CONTEÚDO
           </div>
         </div>
-        <div [style.display]="isAv4 ? 'block' : 'none'" class="bp3-avisualgroup">
+
+        <div routerLink="/audiovisual" [style.display]="isAv4 ? 'block' : 'none'" class="bp3-avisualgroup">
           <div class="bp3-avisualbanner">
-            <a href="avisuallq.html">
+            <a>
               <img alt="Image" class="bp3-avisualbanner1" src="assets/img/hometablet-avisualbanner.png" />
             </a>
           </div>
@@ -1008,9 +1014,10 @@
             AUDIOVISUAL
           </div>
         </div>
-        <div [style.display]="isP4 ? 'block' : 'none'" class="bp3-programmgroup">
+
+        <div routerLink="/programa" [style.display]="isP4 ? 'block' : 'none'" class="bp3-programmgroup">
           <div class="bp3-programmingbanner">
-            <a href="programa.html">
+            <a>
               <img alt="Image" class="bp3-programmingbanner1" src="assets/img/hometablet-programmingbanner.png" />
             </a>
           </div>
@@ -1018,6 +1025,7 @@
             PROGRAMA
           </div>
         </div>
+
         <div (click)="isProg4()" [@rubber]="isP4 ? true : false" [@flipY]="isP4 ? true : false" class="bp3-llball">
           <img alt="Image" class="bp3-a32" src="assets/img/hometablet-3-2-1@2x.png" />
           <img alt="Image" class="bp3-a42" src="assets/img/hometablet-4-2-1@2x.png" />
@@ -1332,9 +1340,9 @@
         <div class="bp4-right bp4-right-UGuX component anima-component-wrapper anima-not-ready anima-word-break state1"
           data-initial-state="state1">
           <img alt="Image" class="bp4-shape" src="assets/img/homelq-bgshape.png" />
-          <div [style.display]="isC4 ? 'block' : 'none'" class="bp4-containgroup">
+          <div routerLink="/conteudo" [style.display]="isC4 ? 'block' : 'none'" class="bp4-containgroup">
             <div class="bp4-containbanner">
-              <a href="conteudo.html">
+              <a>
                 <img alt="Image" class="bp4-containbanner1" src="assets/img/homelq-containbanner.png" />
               </a>
             </div>
@@ -1342,9 +1350,9 @@
               CONTEÚDO
             </div>
           </div>
-          <div [style.display]="isAv4 ? 'block' : 'none'" class="bp4-avisualgroup">
+          <div routerLink="/audiovisual" [style.display]="isAv4 ? 'block' : 'none'" class="bp4-avisualgroup">
             <div class="bp4-avisualbanner">
-              <a href="avisuallq.html">
+              <a>
                 <img alt="Image" class="bp4-avisualbanner1" src="assets/img/homelq-avisualbanner.png" />
               </a>
             </div>
@@ -1352,9 +1360,9 @@
               AUDIOVISUAL
             </div>
           </div>
-          <div [style.display]="isP4 ? 'block' : 'none'" class="bp4-programmgroup">
+          <div routerLink="/programa" [style.display]="isP4 ? 'block' : 'none'" class="bp4-programmgroup">
             <div class="bp4-programmingbanner">
-              <a href="programa.html">
+              <a>
                 <img alt="Image" class="bp4-programmingbanner1" src="assets/img/homelq-programmingbanner.png" />
               </a>
             </div>

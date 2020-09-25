@@ -1,3 +1,6 @@
+import { Serv } from './../../models/Service';
+import { AngularFireStorage } from '@angular/fire/storage';
+import { ServService } from './../../services/serv.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +10,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConteudoComponent implements OnInit {
 
-  constructor() { }
+
+  serv: Serv;
+  servs: Serv[];
+  p: number = 1;
+  collection: any[];
+
+
+
+  constructor(public afs: AngularFireStorage, private servServ: ServService) {
+    this.servs = [];
+    this.collection = this.servs;
+  }
 
   ngOnInit(): void {
+
+    this.servServ.fireGetConteudo(this.serv, this.servs);
+
   }
+
 
 }

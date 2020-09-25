@@ -90,6 +90,104 @@ export class ServService {
     }
   }
 
+ 
+
+  async fireGetConteudo(serv: Serv, servs: Serv[]) {
+    const firestore = firebase.firestore();
+    const ref = firestore.collection('conteudo');
+    const snapshot = await ref.get();
+    console.log(snapshot.size);
+    if (snapshot.size === 0) {
+      console.log("null");
+      alert("Nenhum Documento");
+    } else {
+      snapshot.forEach(doc => {
+        if (doc.exists) {
+          var docId = doc.id;
+          var docData = doc.data();
+          console.log(docData);
+          console.log(docId);
+          serv = docData as Serv;
+          servs.unshift(serv);
+          console.log(serv);
+          console.log(servs);
+          this.http.post(this.ROOT_URL + '/servs', servs);
+
+
+          // this.addnaPage(this.serv);
+        } else {
+          console.log("null");
+          alert("Nenhum Documento");
+        }
+      });
+    }
+  }
+
+
+  async fireGetAvisual(serv: Serv, servs: Serv[]) {
+    const firestore = firebase.firestore();
+    const ref = firestore.collection('audioVisual');
+    const snapshot = await ref.get();
+    console.log(snapshot.size);
+    if (snapshot.size === 0) {
+      console.log("null");
+      alert("Nenhum Documento");
+    } else {
+      snapshot.forEach(doc => {
+        if (doc.exists) {
+          var docId = doc.id;
+          var docData = doc.data();
+          console.log(docData);
+          console.log(docId);
+          serv = docData as Serv;
+          servs.unshift(serv);
+          console.log(serv);
+          console.log(servs);
+          this.http.post(this.ROOT_URL + '/servs', servs);
+
+
+          // this.addnaPage(this.serv);
+        } else {
+          console.log("null");
+          alert("Nenhum Documento");
+        }
+      });
+    }
+  }
+
+
+  async fireGetPrograma(serv: Serv, servs: Serv[]) {
+    const firestore = firebase.firestore();
+    const ref = firestore.collection('programa');
+    const snapshot = await ref.get();
+    console.log(snapshot.size);
+    if (snapshot.size === 0) {
+      console.log("null");
+      alert("Nenhum Documento");
+    } else {
+      snapshot.forEach(doc => {
+        if (doc.exists) {
+          var docId = doc.id;
+          var docData = doc.data();
+          console.log(docData);
+          console.log(docId);
+          serv = docData as Serv;
+          servs.unshift(serv);
+          console.log(serv);
+          console.log(servs);
+          this.http.post(this.ROOT_URL + '/servs', servs);
+
+
+          // this.addnaPage(this.serv);
+        } else {
+          console.log("null");
+          alert("Nenhum Documento");
+        }
+      });
+    }
+  }
+
+
   fbGet(titulo): Observable<Serv> {
     return this.afs.doc<Serv>(`addserv/${titulo}`).valueChanges();
   }

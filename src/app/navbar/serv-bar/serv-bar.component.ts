@@ -1,3 +1,4 @@
+import { Router, RouterModule, RouterState } from '@angular/router';
 import { ServTipo } from './../../models/servtipo';
 import { Component, OnInit } from '@angular/core';
 @Component({
@@ -38,7 +39,6 @@ export class ServBarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
     this.ImgSrc = this.servTipo.isAudioV.logo;
     console.log(this.servTipo.isAudioV.name);
   }

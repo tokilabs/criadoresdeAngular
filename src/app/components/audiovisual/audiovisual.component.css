@@ -1,0 +1,123 @@
+.servicescontainer {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+  left: 0px;
+  height: auto;
+  order: 3;
+  justify-content: space-evenly;
+  margin: 20px;
+  /* padding: 20px; */
+}
+
+.servicescontainer .servconnteudo {
+  position: relative;
+  width: 325px;
+  height: 266px;
+  margin: 60px;
+  padding-bottom: 80px;
+
+  /* opacity: 0; */
+  border: solid 1px #97979700;
+  background-color: #d8d8d800;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.servicescontainer .servconnteudo:hover {
+  transform: translate(0, 25px);
+}
+
+.servicescontainer .servconnteudo .servimg {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  transition: all 1.8s ease-in-out;
+}
+
+.servicescontainer .servconnteudo .servimg:hover {
+  object-fit: contain;
+}
+
+.servicescontainer .servconnteudo .servtitle {
+  width: 100%;
+  height: 28px;
+  position: relative;
+  left: 20px;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 900;
+  /* text-align: center; */
+  text-transform: uppercase;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.33px;
+  color: #091d33;
+  padding: 15px;
+  padding-bottom: 40px;
+}
+
+.servicescontainer .servconnteudo .detaleConteudo {
+  position: relative;
+  width: 100%;
+  height: 58px;
+  top: 10px;
+  /* opacity: 0.3; */
+  border-radius: 29.2px;
+  background-color: #94a0ec93;
+}
+
+.servicescontainer .servconnteudo .detaleConteudo .servsoft {
+  position: relative;
+  top: 10px;
+  left: 60px;
+  width: 425px;
+  height: 14px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  /* text-align: center; */
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.servDetail {
+  position: relative;
+  top: 20px;
+  left: 60px;
+  width: 425px;
+  height: 14px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  /* text-align: center; */
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+
+.mypage {
+  position: absolute;
+  left: 120px;
+  align-content: center;
+  align-items: center;
+  top: 140px;
+  width: 100%;
+  height: auto;
+
+
+}

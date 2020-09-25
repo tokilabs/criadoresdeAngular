@@ -1,1 +1,24 @@
-<p>programa works!</p>
+<app-general-bg></app-general-bg>
+<app-serv-bar></app-serv-bar>
+
+
+
+<div *ngIf="this.servs.length > 0" class="servicescontainer" id="servcontainer">
+  <div *ngFor="let serv of servs | paginate: { itemsPerPage: 9, currentPage: p }" class="servconnteudo">
+    <a routerLink="/serv/{{ serv.titulo }}">
+      <img alt="Image" class="servimg" [src]=serv.img />
+      <div class="servtitle">{{ serv.titulo }}</div>
+      <div class="detaleConteudo">
+        <div class="servsoft">{{ serv.soft }}</div>
+        <div class="servDetail">{{ serv.descricao }}</div>
+      </div>
+    </a>
+
+  </div>
+
+
+
+</div>
+
+<pagination-controls (pageChange)="p = $event" previousLabel="Anterior" nextLabel="Próximo" class="mypage">
+</pagination-controls>
