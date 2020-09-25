@@ -56,6 +56,7 @@ import { JwPaginationModule } from 'jw-angular-pagination';
 import { MatSelectModule } from '@angular/material/select';
 import { MatNativeDateModule } from '@angular/material/core';
 import { PrecosBgComponent } from './components/general-bg/precos-bg/precos-bg.component';
+import { NgbModule, NgbPagination, NgbPaginationConfig, NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 const firebaseConfig = {
@@ -124,6 +125,10 @@ const firebaseConfig = {
     JwPaginationModule,
     MatSelectModule,
     MatNativeDateModule,
+    NgbModule,
+    NgbPagination,
+    NgbPaginationConfig,
+    NgbPaginationModule,
   ],
 
   providers: [

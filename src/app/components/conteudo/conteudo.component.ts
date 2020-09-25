@@ -19,7 +19,6 @@ export class ConteudoComponent implements OnInit {
   collection: any[];
 
 
-
   constructor(
     public afs: AngularFireStorage,
     private servServ: ServService,
