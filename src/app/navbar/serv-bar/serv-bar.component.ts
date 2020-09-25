@@ -12,7 +12,9 @@ export class ServBarComponent implements OnInit {
 
   ImgSrc: any;
 
-  constructor() {
+  constructor(
+    public router: Router,
+  ) {
 
     this.servTipo = {
       isAudioV: {
@@ -39,8 +41,17 @@ export class ServBarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.ImgSrc = this.servTipo.isAudioV.logo;
-    console.log(this.servTipo.isAudioV.name);
+
+    if (this.router.url === '/audiovisual') {
+      this.ImgSrc = this.servTipo.isAudioV.logo;
+    }
+    if (this.router.url === '/programa') {
+      this.ImgSrc = this.servTipo.isProgram.logo;
+    }
+    if (this.router.url === '/conteudo') {
+      this.ImgSrc = this.servTipo.isConteudo.logo;
+    }
+
   }
 
 }
