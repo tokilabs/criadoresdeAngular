@@ -2,6 +2,17 @@
 <app-footer></app-footer>
 
 <app-general-nav></app-general-nav>
+
+<div class="container">
+  <div class="map">
+    <google-map height="500px" width="100%" [zoom]="zoom" [center]="center" [options]="options"></google-map>
+  </div>
+</div>
+
+
+
+
+
 <div class="card-body align-content-center  absolute-center">
   <div mat-list-item class="admin btn btn-group-toggle button-transparent" routerLink="/criadorlogin" mat-fab>
     <mat-icon>add</mat-icon>

@@ -594,7 +594,10 @@
   pointer-events: auto;
 }
 
-.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon:hover {}
+.bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon:hover {
+  transform: translate(0, -5px);
+
+}
 
 .bp1-index .bp1-header .bp1-headergroup .bp1-stackedgroup1 .bp1-stackedgroup2 .bp1-stackedgroup3 .bp1-stackedgroup4 .bp1-profileicon .bp1-shape {
   background-color: rgba(255, 255, 255, 0.0);
@@ -984,7 +987,10 @@
   pointer-events: auto;
 }
 
-.bp2-homemobile .bp2-headermobile .bp2-stackedheader .bp2-centerstacked .bp2-rstacked .bp2-profileicon:hover {}
+.bp2-homemobile .bp2-headermobile .bp2-stackedheader .bp2-centerstacked .bp2-rstacked .bp2-profileicon:hover {
+  transform: translate(0, -5px);
+
+}
 
 .bp2-homemobile .bp2-headermobile .bp2-stackedheader .bp2-centerstacked .bp2-rstacked .bp2-profileicon .bp2-shape {
   background-color: rgba(255, 255, 255, 0.0);
@@ -1568,7 +1574,10 @@
   pointer-events: auto;
 }
 
-.bp3-hometablet .bp3-headertabletstack .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-profileicon:hover {}
+.bp3-hometablet .bp3-headertabletstack .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-profileicon:hover {
+  transform: translate(0, -5px);
+
+}
 
 .bp3-hometablet .bp3-headertabletstack .bp3-stackedheader .bp3-centerstacked .bp3-rstacked .bp3-profileicon .bp3-shape {
   background-color: rgba(255, 255, 255, 0.0);
@@ -2257,7 +2266,10 @@
   pointer-events: auto;
 }
 
-.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon:hover {}
+.bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon:hover {
+  transform: translate(0, -5px);
+
+}
 
 .bp4-homelq .bp4-headerlq .bp4-headergroup .bp4-stackedlogoto .bp4-buttonsheaderto .bp4-stackedgroup1 .bp4-profileicon .bp4-shape {
   background-color: rgba(255, 255, 255, 0.0);
