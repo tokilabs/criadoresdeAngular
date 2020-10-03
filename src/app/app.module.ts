@@ -56,7 +56,7 @@ import { JwPaginationModule } from 'jw-angular-pagination';
 import { MatSelectModule } from '@angular/material/select';
 import { MatNativeDateModule } from '@angular/material/core';
 import { PrecosBgComponent } from './components/general-bg/precos-bg/precos-bg.component';
-import { GoogleMapsModule } from '@angular/google-maps';
+
 
 
 const firebaseConfig = {
@@ -125,7 +125,6 @@ const firebaseConfig = {
     JwPaginationModule,
     MatSelectModule,
     MatNativeDateModule,
-    GoogleMapsModule,
   ],
 
   providers: [
