@@ -16,6 +16,7 @@ export class GeneralNavComponent implements OnInit {
 
   ImgSrc: any;
   userOn: boolean;
+  showLg: boolean;
 
 
   constructor(
@@ -33,6 +34,10 @@ export class GeneralNavComponent implements OnInit {
     } else { this.userOn = true; }
 
     console.log(this.userOn);
+  }
+
+  profileVoid() {
+    this.showLg = true
   }
 
 }

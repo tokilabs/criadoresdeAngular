@@ -58,7 +58,7 @@
                     <img alt="Image" src="assets/img/conteudo-shape-23@2x.png" class="bp1-shape16" />
                   </div>
                 </div>
-                <div class="bp1-profileicon anima-smart-layers-pointers ">
+                <div (click)="profileVoid()" class="bp1-profileicon anima-smart-layers-pointers ">
                   <img alt="Image" src="assets/img/programa-shape-24@2x.png" class="bp1-shape" />
                   <img alt="Image" src="assets/img/avisualtablet-shape-6@2x.png" class="bp1-shape1" />
                 </div>
@@ -72,7 +72,13 @@
     </div>
 
   </div>
+
 </div>
+<ng-container>
+  <div class="container-fluid" (click)="showLg = false">
+    <app-entrar *ngIf="showLg"></app-entrar>
+  </div>
+</ng-container>
 
 
 
