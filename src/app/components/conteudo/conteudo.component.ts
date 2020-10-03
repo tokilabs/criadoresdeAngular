@@ -34,6 +34,10 @@ export class ConteudoComponent implements OnInit {
 
     this.servServ.fireGetConteudo(this.serv, this.servs);
 
+    var mapLogo = window.document.getElementsByClassName('mapboxgl-control-container')[0];
+
+    console.log(mapLogo);
+
   }
 
 

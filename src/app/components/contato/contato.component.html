@@ -3,7 +3,34 @@
 
 <app-general-nav></app-general-nav>
 
+<div class="container">
+  <div class="map">
+    <mgl-map [style]="'mapbox://styles/amoreirat/ckft534fw0qkp19mvkq7ok7ex'"
+      [accessToken]="'pk.eyJ1IjoiYW1vcmVpcmF0IiwiYSI6ImNqZ2Q0MTc2ZjAwb3MzMnFrbzhldTB1ZTgifQ.UqlV5FlUH5yC68b_S2j5hg'"
+      [zoom]="zoom" [center]="center">
 
+      <mgl-control class="matIcon" mglGeolocate [positionOptions]="{
+          enableHighAccuracy: true
+        }" [trackUserLocation]="true">
+      </mgl-control>
+
+      <mgl-marker [lngLat]="[-43.18545154, -22.92244951]">
+        <div (click)="alert('Toki: Ladeira do Meireles, 160 - Santa Teresa, Rio de Janeiro - RJ, 20241-340')"
+          class="marker">
+          <img src="assets/img/toki-logo-square-text.png" class="tokiMap">
+
+        </div>
+      </mgl-marker>
+
+
+      <mgl-layer *ngFor="let layer of layersData;" [id]="layer.id" [type]="layer.type" [source]="layer.source"
+        [sourceLayer]="layer.sourceLayer" [paint]="layer.paint" [layout]="layer.layout">
+      </mgl-layer>
+    </mgl-map>
+  </div>
+
+
+</div>
 
 
 

@@ -1,5 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-
 html,
 body {
   height: 100%;
@@ -9,6 +7,10 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+/*
+@import '~mapbox-gl/dist/mapbox-gl.css';
+@import '~@mapbox/mapbox-gl-geocoder/lib/mapbox-gl-geocoder.css'; */
 
 @font-face {
   font-family: Montserrat;
@@ -86,6 +88,7 @@ body {
   font-style: normal;
   font-stretch: normal;
 }
+
 
 .Text-Style {
   font-family: Montserrat;
@@ -208,3 +211,13 @@ body {
   text-align: center;
   color: #f4f2de;
 }
+
+/* html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+} */

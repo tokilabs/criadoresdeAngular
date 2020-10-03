@@ -1,3 +1,9 @@
+mgl-map {
+
+  height: 100%;
+  width: 100%;
+}
+
 .admin {
   position: absolute;
   width: auto;
@@ -10,13 +16,35 @@
 
 }
 
+.tokiMap {
+  width: 60px;
+  height: 60px;
+}
+
+.matIcon {
+  color: aliceblue;
+  border: 1px solid blue;
+  border-radius: 65px;
+  background-color: cornflowerblue;
+}
+
+.marker {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  border-color: beige;
+  color: aliceblue;
+  background-image: "https://i.ibb.co/9VxC32T/toki-logo-square-text.png";
+
+}
+
 .map {
   position: relative;
   top: 120px;
   width: 100%;
-  height: auto;
+  height: 400px;
   justify-content: center;
   align-content: center;
-  border: 4px solid #121a5e;
   object-fit: cover;
 }

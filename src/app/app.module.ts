@@ -56,7 +56,7 @@ import { JwPaginationModule } from 'jw-angular-pagination';
 import { MatSelectModule } from '@angular/material/select';
 import { MatNativeDateModule } from '@angular/material/core';
 import { PrecosBgComponent } from './components/general-bg/precos-bg/precos-bg.component';
-
+import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 
 
 const firebaseConfig = {
@@ -125,6 +125,10 @@ const firebaseConfig = {
     JwPaginationModule,
     MatSelectModule,
     MatNativeDateModule,
+    NgxMapboxGLModule.withConfig({
+      accessToken: 'pk.eyJ1IjoiYW1vcmVpcmF0IiwiYSI6ImNrZnN6Y3NhMjA0bzIzMHA5cmZyd2F0MDAifQ.fH5RVIpXdIJaqg3loIjDgQ',
+      geocoderAccessToken: 'pk.eyJ1IjoiYW1vcmVpcmF0IiwiYSI6ImNqZ2Q0MTc2ZjAwb3MzMnFrbzhldTB1ZTgifQ.UqlV5FlUH5yC68b_S2j5hg'
+    })
   ],
 
   providers: [
