@@ -12,7 +12,7 @@ export class EntrarComponent implements OnInit {
   showLg: boolean;
   userOn: boolean;
 
-
+ 
   constructor() {
 
   }

@@ -52,7 +52,7 @@ export class PreviewComponent implements OnInit {
       this.authS.upProgServData(serv);
       alert('Serviço Adicionado na Modalidae Programa');
     }
-    // this.authS.updateServData(serv);
+    this.authS.updateServData(serv); // UP to general addserv list
 
     this.router.navigate(['/pageservs']);
 
