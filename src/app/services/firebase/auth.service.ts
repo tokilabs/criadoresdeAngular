@@ -25,12 +25,15 @@ export class AuthService {
   downUrl: Observable<string>;
 
 
-  constructor(
-    public afAuth: AngularFireAuth,
-    private storage: AngularFireStorage,
-    public afs: AngularFirestore,
-    private router: Router
-  ) {
+  constructor
+    (
+      public afAuth: AngularFireAuth,
+      private storage: AngularFireStorage,
+      public afs: AngularFirestore,
+      private router: Router
+    ) {
+
+
     this.user$ = this.afAuth.authState.pipe(
       switchMap(user => {
         if (user) {
@@ -41,9 +44,12 @@ export class AuthService {
 
       })
     );
-    // console.log(this.user$);
+
 
   }
+
+
+  // AUTH USERS
 
 
   async googleSignIn() {
@@ -51,6 +57,7 @@ export class AuthService {
     const credential = await this.afAuth.signInWithPopup(provider);
     return this.updateUserData(credential.user);
   }
+
 
   updateUserData({ uid, email, displayName, photoURL }: User) {
     // Sets user data to firestore on login
@@ -68,6 +75,24 @@ export class AuthService {
 
   }
 
+
+
+  async signOut() {
+    await this.afAuth.signOut();
+    this.router.navigate(['/']);
+  }
+
+
+
+  // AUTH ADMIN
+
+  async googleSignInAdm() {
+    const provider = new auth.GoogleAuthProvider();
+    const credential = await this.afAuth.signInWithPopup(provider);
+    return this.updateUserAdmData(credential.user);
+  }
+
+
   updateUserAdmData({ uid, email, displayName, photoURL }: User) {
     // Sets user data to firestore on login
     const userRef: AngularFirestoreDocument<User> = this.afs.doc(`UserAdmins/${uid}`);
@@ -83,10 +108,8 @@ export class AuthService {
 
   }
 
-  async signOut() {
-    await this.afAuth.signOut();
-    this.router.navigate(['/']);
-  }
+
+  // AUTH SERV SERVICES
 
   updateServData({ uid, img, titulo, descricao, soft, preco, categoria, texto }: Serv) {
     // Sets user data to firestore on login

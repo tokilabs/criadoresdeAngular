@@ -26,7 +26,9 @@ export class PageServComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.servServ.fireGet(this.serv, this.servs);
+    this.servServ.fireGetAvisual(this.serv, this.servs);
+    this.servServ.fireGetPrograma(this.serv, this.servs);
+    this.servServ.fireGetConteudo(this.serv, this.servs);
 
   }
 

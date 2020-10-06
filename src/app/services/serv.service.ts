@@ -12,17 +12,14 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
 };
-// Create a new transfer object to get data from server
-interface ServerData {
-  servicos: Array<Serv>;
-}
+
 @Injectable({
   providedIn: 'root'
 })
 
 export class ServService {
 
-  // servUrl: string = 'https://jsonplaceholder.typicode.com/Servs';
+
   serv: Serv;
 
   servs: Serv[];
@@ -31,11 +28,12 @@ export class ServService {
 
   readonly ROOT_URL = 'https://jsonplaceholder.typicode.com';
 
-  constructor(
-    private http: HttpClient,
-    public afs: AngularFirestore,
-    public afAuth: AngularFireAuth,
-    public authS: AuthService,
+  constructor
+    (
+      private http: HttpClient,
+      public afs: AngularFirestore,
+      public afAuth: AngularFireAuth,
+      public authS: AuthService,
 
   ) {
     this.servs = [];
@@ -55,9 +53,6 @@ export class ServService {
     this.observServ = this.http.get<Serv[]>(this.ROOT_URL + '/servs');
   }
 
-  // findAllServs(): Observable<Serv[]> {
-  //   return this.http.get<ServerData>('api/api-data.json').pipe(map(res => res.servicos));
-  // }
 
   async fireGet(serv: Serv, servs: Serv[]) {
     const firestore = firebase.firestore();
@@ -80,8 +75,6 @@ export class ServService {
           console.log(servs);
           this.http.post(this.ROOT_URL + '/servs', servs);
 
-
-          // this.addnaPage(this.serv);
         } else {
           console.log("null");
           alert("Nenhum Documento");
@@ -90,7 +83,7 @@ export class ServService {
     }
   }
 
- 
+
 
   async fireGetConteudo(serv: Serv, servs: Serv[]) {
     const firestore = firebase.firestore();
@@ -113,8 +106,6 @@ export class ServService {
           console.log(servs);
           this.http.post(this.ROOT_URL + '/servs', servs);
 
-
-          // this.addnaPage(this.serv);
         } else {
           console.log("null");
           alert("Nenhum Documento");
@@ -145,8 +136,6 @@ export class ServService {
           console.log(servs);
           this.http.post(this.ROOT_URL + '/servs', servs);
 
-
-          // this.addnaPage(this.serv);
         } else {
           console.log("null");
           alert("Nenhum Documento");
@@ -178,7 +167,6 @@ export class ServService {
           this.http.post(this.ROOT_URL + '/servs', servs);
 
 
-          // this.addnaPage(this.serv);
         } else {
           console.log("null");
           alert("Nenhum Documento");
@@ -208,8 +196,6 @@ export class ServService {
         if (doc.exists) {
           var docId = doc.id;
           var docData = doc.data();
-          // console.log(docData);
-          // console.log(docId);
           if (docId === titulo) {
             console.log(titulo);
             console.log(docData);
@@ -217,13 +203,7 @@ export class ServService {
             console.log(serv);
 
           }
-          // serv = docData as Serv;
-          // servs.unshift(serv);
-          // console.log(serv);
-          // console.log(servs);
 
-
-          // this.addnaPage(this.serv);
         } else {
           console.log("null");
           alert("Nenhum Documento");
@@ -250,19 +230,12 @@ export class ServService {
   }
 
   saveServ(serv: Serv) {
-    // return this.http.post<Serv>(this.servUrl, serv, httpOptions);
+
     this.servs.unshift(serv);
     serv.img = localStorage.getItem('imgPath');
     localStorage.setItem('servs', JSON.stringify(this.serv));
     localStorage.setItem('serv', JSON.stringify(serv));
 
-    // serv.uid = this.afs.createId();
-    console.log(serv);
-
-
-
-    // this.authS.updateServData(serv);
-    console.log(this.servs);
   }
 
 
