@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import * as firebase from 'firebase/app';
+
 
 @Component({
   selector: 'app-entrar',
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EntrarComponent implements OnInit {
 
-  constructor() { }
+  showLg: boolean;
+  userOn: boolean;
+
+
+  constructor() {
+
+  }
 
   ngOnInit(): void {
+    var currUser = firebase.auth().currentUser;
+    console.log(currUser);
+
+    if (currUser === null) {
+      this.userOn = false;
+    } else { this.userOn = true; }
+
+    console.log(this.userOn);
   }
 
 }

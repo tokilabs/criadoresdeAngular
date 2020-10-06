@@ -74,11 +74,13 @@
   </div>
 
 </div>
-<ng-container>
-  <div class="container-fluid" (click)="showLg = false">
-    <app-entrar *ngIf="showLg"></app-entrar>
+<ng-container (click)="showLg = false">
+  <div class="containerLogin" (click)="showLg = false">
+    <app-bglogin *ngIf="showLg" (click)="showLg = false"></app-bglogin>
+
   </div>
 </ng-container>
+<app-entrar *ngIf="showLg" (click)="showLg = true"></app-entrar>
 
 
 

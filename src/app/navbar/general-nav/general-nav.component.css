@@ -70,6 +70,28 @@
   }
 }
 
+.containerLogin {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+
+.containerLogin app-bglogin {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 120px;
+}
+
+app-entrar {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 150px;
+}
+
 .bp1-index {
   width: 100%;
   min-width: 1440px;
