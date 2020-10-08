@@ -1,3 +1,4 @@
+import { UserAdminComponent } from './components/criador/user-admin/user-admin.component';
 import { ConteudoComponent } from './components/conteudo/conteudo.component';
 import { ProgramaComponent } from './components/programa/programa.component';
 import { AudiovisualComponent } from './components/audiovisual/audiovisual.component';
@@ -36,6 +37,7 @@ const routes: Routes = [
 
   { path: 'carrinho', component: CarrinhoComponent },
   { path: 'addserv', component: AddservicoComponent, canActivate: [AuthGuard] },
+  { path: 'adm', component: UserAdminComponent },
   { path: 'pageservs', component: PageServComponent },
   { path: 'preserv', component: PreviewComponent },
   { path: 'serv/:titulo', component: PostServComponent },

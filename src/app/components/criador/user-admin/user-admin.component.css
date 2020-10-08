@@ -1,0 +1,70 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 120px;
+}
+
+app-general-nav {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  align-self: center;
+}
+
+.card {
+  top: 140px;
+  background-color: #06326b8c;
+  border: 1 solid #200779;
+  border-radius: 75px;
+}
+
+.card-body {
+  background-color: #066b4400;
+}
+
+.card-title {
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.card-text {
+  color: #1d1049;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.form-control {
+  background-color: #1079748c;
+  border: 1 solid #200779;
+  border-radius: 75px;
+  width: 500px;
+  align-self: center;
+  color: azure;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.button {
+  color: #20077996;
+  background-color: #20077996;
+  align-self: center;
+  margin: 20px;
+}
+
+mat-icon {
+  color: aliceblue;
+}
+
+app-criador-entrar {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
