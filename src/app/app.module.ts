@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { AdminService } from './services/admin.service';
 import { AuthGuard } from './auth.guard';
 import { AuthService } from './services/firebase/auth.service';
@@ -39,6 +40,9 @@ import { PostServComponent } from './components/addservico/post-serv/post-serv.c
 import { PageServComponent } from './components/addservico/page-serv/page-serv.component';
 import { AdmBarComponent } from './navbar/adm-bar/adm-bar.component';
 import { ServBarComponent } from './navbar/serv-bar/serv-bar.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { CommonModule } from '@angular/common';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
@@ -53,10 +57,18 @@ import { GeneralNavComponent } from './navbar/general-nav/general-nav.component'
 import { NgxPaginationModule } from 'ngx-pagination';
 import { JwPaginationModule } from 'jw-angular-pagination';
 import { MatSelectModule } from '@angular/material/select';
-import { MatNativeDateModule } from '@angular/material/core';
+import { MatNativeDateModule, MatRippleModule } from '@angular/material/core';
 import { PrecosBgComponent } from './components/general-bg/precos-bg/precos-bg.component';
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { IconsComponent } from './components/icons/icons.component';
+import { NotificationsComponent } from './components/notifications/notifications.component';
+import { TableListComponent } from './components/table-list/table-list.component';
+import { TypographyComponent } from './components/typography/typography.component';
+import { UpgradeComponent } from './components/upgrade/upgrade.component';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyCoOYhqls1rJtW2DH0R2Suf32_P5fZ3dHQ',
@@ -102,8 +114,16 @@ const firebaseConfig = {
     UserAdminComponent,
     GeneralNavComponent,
     PrecosBgComponent,
+    SidebarComponent,
+    DashboardComponent,
+    IconsComponent,
+    NotificationsComponent,
+    TableListComponent,
+    TypographyComponent,
+    UpgradeComponent,
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -121,10 +141,20 @@ const firebaseConfig = {
     CarouselModule.forRoot(),
     NgxPaginationModule,
     JwPaginationModule,
-
+    FormsModule,
+    ReactiveFormsModule,
+    MatButtonModule,
+    MatRippleModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    MatTooltipModule,
     MatSelectModule,
     MatCardModule,
     MatNativeDateModule,
+    ReactiveFormsModule,
+    RouterModule,
+    AppRoutingModule,
     NgxMapboxGLModule.withConfig({
       accessToken: 'pk.eyJ1IjoiYW1vcmVpcmF0IiwiYSI6ImNrZnN6Y3NhMjA0bzIzMHA5cmZyd2F0MDAifQ.fH5RVIpXdIJaqg3loIjDgQ',
       geocoderAccessToken: 'pk.eyJ1IjoiYW1vcmVpcmF0IiwiYSI6ImNqZ2Q0MTc2ZjAwb3MzMnFrbzhldTB1ZTgifQ.UqlV5FlUH5yC68b_S2j5hg'

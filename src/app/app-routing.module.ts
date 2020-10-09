@@ -1,3 +1,4 @@
+import { CriadorIdComponent } from './components/criador/criador-id/criador-id.component';
 import { UserAdminComponent } from './components/criador/user-admin/user-admin.component';
 import { ConteudoComponent } from './components/conteudo/conteudo.component';
 import { ProgramaComponent } from './components/programa/programa.component';
@@ -46,6 +47,20 @@ const routes: Routes = [
   { path: 'criadorlogin', component: CriadorEntrarComponent },
   { path: 'criadorCadastro', component: CriadorCadastroComponent },
   { path: '**', component: NotFoundComponent },
+
+
+  {
+    path: '',
+    redirectTo: 'dashboard',
+    pathMatch: 'full',
+  }, {
+    path: '',
+    component: CriadorIdComponent,
+    children: [{
+      path: '',
+      loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
+    }]
+  }
 ];
 
 @NgModule({
