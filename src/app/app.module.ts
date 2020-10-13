@@ -4,6 +4,7 @@ import { AuthService } from './services/firebase/auth.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServService } from './services/serv.service';
+import { NavbarComponent } from './navbar/navbar.component';
 
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BrowserModule } from '@angular/platform-browser';
@@ -55,7 +56,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatNativeDateModule } from '@angular/material/core';
 import { PrecosBgComponent } from './components/general-bg/precos-bg/precos-bg.component';
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
-import { MatCardModule } from '@angular/material/card';
+
 
 const firebaseConfig = {
   apiKey: 'AIzaSyCoOYhqls1rJtW2DH0R2Suf32_P5fZ3dHQ',
@@ -71,6 +72,7 @@ const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
+    NavbarComponent,
     GeneralBgComponent,
     AnimaservComponent,
     SobreComponent,
@@ -119,9 +121,7 @@ const firebaseConfig = {
     CarouselModule.forRoot(),
     NgxPaginationModule,
     JwPaginationModule,
-
     MatSelectModule,
-    MatCardModule,
     MatNativeDateModule,
     NgxMapboxGLModule.withConfig({
       accessToken: 'pk.eyJ1IjoiYW1vcmVpcmF0IiwiYSI6ImNrZnN6Y3NhMjA0bzIzMHA5cmZyd2F0MDAifQ.fH5RVIpXdIJaqg3loIjDgQ',

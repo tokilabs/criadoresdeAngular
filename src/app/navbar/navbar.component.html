@@ -1,0 +1,64 @@
+<mat-toolbar>
+  <a class="logo">
+    <img src="assets/svg/CriadoresLogoOut.svg"
+      class="img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,| mb-4}"
+      routerLink="/">
+  </a>
+
+
+
+  <div class="cartloginpadd">
+
+    <button mat-raised-button color="primary" matBadge="8" matBadgePosition="before" matBadgeColor="accent"
+      type="button" class="btnshop">
+
+      <img src="assets/svg/shop-2.svg" class="shopbtn">
+
+    </button>
+
+    <button (click)="cadIsOpen = !cadIsOpen" mat-raised-button color="primary" matBadge="8" matBadgePosition="before"
+      matBadgeColor="accent" type="button" class="btncad">
+      {{cadIsOpen ? "Close" : "Open"}}
+      <img src="assets/svg/ProfileIcon.svg" class="cadbtn">
+    </button>
+    <ng-template *ngIf="cadIsOpen">
+      <ul class="example-list">
+        <app-entrar></app-entrar>
+      </ul>
+    </ng-template>
+
+
+  </div>
+
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'push' : 'side'" [opened]="(isHandset$ | async) === false">
+
+      <mat-nav-list>
+        <div class="servbar">
+          <div mat-list-item class="sobre" routerLink="/sobre">Sobre</div>
+          <div mat-list-item class="precos" routerLink="/precos">Preços</div>
+          <div mat-list-item class="contact" routerLink="/contato">Contato</div>
+        </div>
+      </mat-nav-list>
+
+    </mat-sidenav>
+
+
+    <mat-sidenav-content>
+      <mat-toolbar>
+        <button class="btnMenu" type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
+          *ngIf="isHandset$ | async">
+          <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        </button>
+      </mat-toolbar>
+      <!-- <div class="mat-card-content">
+      </div> -->
+
+    </mat-sidenav-content>
+
+
+  </mat-sidenav-container>
+
+  <div class="Path-2"></div>
+</mat-toolbar>

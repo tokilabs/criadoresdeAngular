@@ -5,12 +5,8 @@
   "projects": {
     "criadoresde": {
       "projectType": "application",
-<<<<<<< HEAD
       "schematics": {
       },
-=======
-      "schematics": {},
->>>>>>> parent of cdfe0d6... upAdmPage
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
