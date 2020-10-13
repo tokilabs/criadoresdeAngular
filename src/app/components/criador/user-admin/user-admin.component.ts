@@ -4,7 +4,7 @@ import { MatCardModule } from '@angular/material/card';
 @Component({
   selector: 'app-user-admin',
   templateUrl: './user-admin.component.html',
-  styleUrls: ['./user-admin.component.css', './../../../../../node_modules/perfect-scrollbar/css/perfect-scrollbar.css', './../../../../assets/scss/material-dashboard.scss']
+  styleUrls: ['./user-admin.component.css']
 })
 export class UserAdminComponent implements OnInit {
 

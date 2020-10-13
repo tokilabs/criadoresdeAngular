@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of cdfe0d6... upAdmPage
 import { UserAdminComponent } from './components/criador/user-admin/user-admin.component';
 import { ConteudoComponent } from './components/conteudo/conteudo.component';
 import { ProgramaComponent } from './components/programa/programa.component';

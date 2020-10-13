@@ -16,6 +16,7 @@
 
 /***************************************************************************************************
  * BROWSER POLYFILLS
+<<<<<<< HEAD
   * /
 
 /** IE9, IE10 and IE11 requires all of the following polyfills. **/
@@ -49,6 +50,9 @@ import 'core-js/es/reflect';
 // tslint:disable-next-line: jsdoc-format
 /** ALL Firefox browsers require the following to support `@angular/animation`. **/
 import 'web-animations-js';  // Run `npm install --save web-animations-js`.
+=======
+ */
+>>>>>>> parent of cdfe0d6... upAdmPage
 
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
 // import 'classlist.js';  // Run `npm install --save classlist.js`.

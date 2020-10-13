@@ -1,37 +1,46 @@
 {
-  "projects": [
-    "5ee146315d22e4b3acc65ea3"
-  ],
-  "styleguides": [
-    "5f026616591e65a0f2a64c2c"
-  ],
-  "components": [{
-      "path": "src/app/components/animaserv/animaserv.component.html",
-      "zeplinNames": [
-        "BannersGroupIndex"
-      ]
-    },
-    {
-      "path": "src/app/components/precos/precos.component.ts",
-      "zeplinNames": [
-        "TypeServiceNotSelected"
-      ]
-    },
-    {
-      "path": "src/app/components/audiovisual/audiovisual.component.ts",
-      "zeplinNames": [
-        "AudSymbTest"
-      ]
+    "projects": [
+        "5ee146315d22e4b3acc65ea3"
+    ],
+    "styleguides": [
+        "5f026616591e65a0f2a64c2c"
+    ],
+    "components": [
+        {
+            "path": "src/app/components/animaserv/animaserv.component.html",
+            "zeplinNames": [
+                "BannersGroupIndex"
+            ]
+        },
+        {
+            "path": "src/app/navbar/navbar.component.ts",
+            "zeplinNames": [
+                "Header"
+            ]
+        },
+        {
+            "path": "src/app/components/precos/precos.component.ts",
+            "zeplinNames": [
+                "TypeServiceNotSelected"
+            ]
+        },
+        {
+            "path": "src/app/components/audiovisual/audiovisual.component.ts",
+            "zeplinNames": [
+                "AudSymbTest"
+            ]
+        }
+    ],
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-angular-plugin",
+            "config": {
+                "useFullSnippet": true,
+                "useFullDescription": true
+            }
+        }
+    ],
+    "github": {
+        "repository": "tokilabs/criadoresdeAngular"
     }
-  ],
-  "plugins": [{
-    "name": "@zeplin/cli-connect-angular-plugin",
-    "config": {
-      "useFullSnippet": true,
-      "useFullDescription": true
-    }
-  }],
-  "github": {
-    "repository": "tokilabs/criadoresdeAngular"
-  }
 }
