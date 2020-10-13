@@ -40,11 +40,13 @@ import 'classlist.js';  // Run `npm install --save classlist.js`.
 import 'web-animations-js';  // Run `npm install --save webå-animations-js`.
 
 
+// tslint:disable-next-line: jsdoc-format
 /** Evergreen browsers require these. **/
 import 'core-js/es/reflect';
 // import 'core-js/es7/reflect';
 
 
+// tslint:disable-next-line: jsdoc-format
 /** ALL Firefox browsers require the following to support `@angular/animation`. **/
 import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 

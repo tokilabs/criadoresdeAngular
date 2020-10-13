@@ -51,7 +51,6 @@ import { BgloginComponent } from './components/cadastro/bglogin/bglogin.componen
 import { EntrarComponent } from './components/cadastro/entrar/entrar.component';
 import { CriadorEntrarComponent } from './components/criador/criador-entrar/criador-entrar.component';
 import { CriadorCadastroComponent } from './components/criador/criador-cadastro/criador-cadastro.component';
-import { CriadorIdComponent } from './components/criador/criador-id/criador-id.component';
 import { UserAdminComponent } from './components/criador/user-admin/user-admin.component';
 import { GeneralNavComponent } from './navbar/general-nav/general-nav.component';
 import { NgxPaginationModule } from 'ngx-pagination';
@@ -110,7 +109,6 @@ const firebaseConfig = {
     EntrarComponent,
     CriadorEntrarComponent,
     CriadorCadastroComponent,
-    CriadorIdComponent,
     UserAdminComponent,
     GeneralNavComponent,
     PrecosBgComponent,
