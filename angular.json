@@ -6,9 +6,6 @@
     "criadoresde": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:component": {
-          "styleext": "scss"
-        }
       },
       "root": "",
       "sourceRoot": "src",
