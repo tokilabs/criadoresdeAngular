@@ -34,11 +34,11 @@ import 'core-js/es/regexp';
 import 'core-js/es/map';
 import 'core-js/es/set';
 
-/** IE10 and IE11 requires the following for NgClass support on SVG elements */
-import 'classlist.js';  // Run `npm install --save classlist.js`.
+// /** IE10 and IE11 requires the following for NgClass support on SVG elements */
+// import 'classlist.js';  // Run `npm install --save classlist.js`.
 
-/** IE10 and IE11 requires the following to support `@angular/animation`. */
-import 'web-animations-js';  // Run `npm install --save webå-animations-js`.
+// /** IE10 and IE11 requires the following to support `@angular/animation`. */
+// import 'web-animations-js';  // Run `npm install --save webå-animations-js`.
 
 
 // tslint:disable-next-line: jsdoc-format
@@ -47,12 +47,9 @@ import 'core-js/es/reflect';
 // import 'core-js/es7/reflect';
 
 
-// tslint:disable-next-line: jsdoc-format
-/** ALL Firefox browsers require the following to support `@angular/animation`. **/
-import 'web-animations-js';  // Run `npm install --save web-animations-js`.
-=======
- */
->>>>>>> parent of cdfe0d6... upAdmPage
+// // tslint:disable-next-line: jsdoc-format
+// /** ALL Firefox browsers require the following to support `@angular/animation`. **/
+// import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
 // import 'classlist.js';  // Run `npm install --save classlist.js`.

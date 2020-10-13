@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of cdfe0d6... upAdmPage
 import { UserAdminComponent } from './components/criador/user-admin/user-admin.component';
-=======
->>>>>>> parent of 075b1a8... upAdmToken
 import { ConteudoComponent } from './components/conteudo/conteudo.component';
 import { ProgramaComponent } from './components/programa/programa.component';
 import { AudiovisualComponent } from './components/audiovisual/audiovisual.component';
