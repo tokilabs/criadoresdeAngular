@@ -49,7 +49,7 @@ export class AdminService {
       this.isLogIn = true;
       this.addUser({ email, password });
       // localStorage.setItem('userAdm', JSON.stringify(res.user));
-      this.router.navigate(['/addserv']);
+      this.router.navigate(['/criador']);
     });
 
   }
@@ -65,7 +65,7 @@ export class AdminService {
       console.log(this.userAdmin$);
 
 
-      return this.authS.updateUserData({ uid: res.user.uid, email, displayName: firstName, photoURL });
+      return this.authS.updateUserAdmData({ uid: res.user.uid, email, displayName: firstName, photoURL });
 
     });
     alert('Agora Você é um Criador, aproveite.');

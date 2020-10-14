@@ -14,7 +14,7 @@ export class UserAdminComponent implements OnInit {
   keyOk: boolean;
 
   constructor() {
-    this.key = '3xt5quWb6XdPP5ykvEHdMn2zS452';
+    this.key = 'toki';
     this.keyOk = false;
 
     this.adminUser = {

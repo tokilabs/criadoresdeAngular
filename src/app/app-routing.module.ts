@@ -1,3 +1,4 @@
+import { CriadorIdComponent } from './components/criador/criador-id/criador-id.component';
 
 import { UserAdminComponent } from './components/criador/user-admin/user-admin.component';
 import { ConteudoComponent } from './components/conteudo/conteudo.component';
@@ -47,6 +48,7 @@ const routes: Routes = [
 
 
   { path: 'adm', component: UserAdminComponent },
+  { path: 'criador', component: CriadorIdComponent },
   { path: 'criadorlogin', component: CriadorEntrarComponent },
   { path: 'criadorCadastro', component: CriadorCadastroComponent },
   { path: '**', component: NotFoundComponent },

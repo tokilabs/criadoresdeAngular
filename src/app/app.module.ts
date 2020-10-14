@@ -56,6 +56,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatNativeDateModule } from '@angular/material/core';
 import { PrecosBgComponent } from './components/general-bg/precos-bg/precos-bg.component';
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
+import { CriadorIdComponent } from './components/criador/criador-id/criador-id.component';
+import { MatTab, MatTabsModule } from '@angular/material/tabs';
 
 
 const firebaseConfig = {
@@ -102,6 +104,7 @@ const firebaseConfig = {
     UserAdminComponent,
     GeneralNavComponent,
     PrecosBgComponent,
+    CriadorIdComponent,
   ],
   imports: [
     BrowserModule,
@@ -110,9 +113,11 @@ const firebaseConfig = {
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
+    MatTabsModule,
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatSelectModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,

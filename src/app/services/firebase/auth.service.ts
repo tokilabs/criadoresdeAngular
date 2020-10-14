@@ -103,7 +103,7 @@ export class AuthService {
       displayName,
       photoURL,
     };
-    this.router.navigate(['/addserv']);
+    this.router.navigate(['/criador']);
     return userRef.set(data, { merge: true });
 
   }
