@@ -36,6 +36,7 @@ const routes: Routes = [
   { path: 'conteudo', component: ConteudoComponent },
 
 
+
   { path: 'carrinho', component: CarrinhoComponent },
   { path: 'addserv', component: AddservicoComponent, canActivate: [AuthGuard] },
   { path: 'pageservs', component: PageServComponent },
@@ -43,6 +44,9 @@ const routes: Routes = [
   { path: 'serv/:titulo', component: PostServComponent },
 
   { path: 'login', component: EntrarComponent },
+
+
+  { path: 'adm', component: UserAdminComponent },
   { path: 'criadorlogin', component: CriadorEntrarComponent },
   { path: 'criadorCadastro', component: CriadorCadastroComponent },
   { path: '**', component: NotFoundComponent },
