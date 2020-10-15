@@ -1,3 +1,4 @@
+import { User } from './../../services/firebase/user.model';
 import { Router } from '@angular/router';
 import { Route } from '@angular/compiler/src/core';
 import { AuthService } from './../../services/firebase/auth.service';
@@ -16,6 +17,9 @@ export class AdmBarComponent implements OnInit {
   userOn: boolean;
   userName: String;
 
+  userAdm: User;
+  UserSadm: User[];
+
 
   constructor(
     public authS: AuthService,
@@ -27,7 +31,11 @@ export class AdmBarComponent implements OnInit {
   ngOnInit(): void {
 
     var currUser = firebase.auth().currentUser;
+    var currUid = firebase.auth().currentUser.uid;
+
+    this.authS.getAdmFb(currUser as User);
     console.log(currUser);
+    console.log(currUid);
 
     if (currUser === null) {
       this.userOn = false;

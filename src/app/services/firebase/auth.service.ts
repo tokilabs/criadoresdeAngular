@@ -86,6 +86,25 @@ export class AuthService {
 
   // AUTH ADMIN
 
+  async getAdmFb(userAdm: User) {
+    const firestore = firebase.firestore();
+    const ref = firestore.collection('UserAdmins');
+    const snapshot = await ref.get();
+    console.log(snapshot.size);
+    if (snapshot.size === 0) {
+      alert("Nenhum Documento")
+    } else {
+      snapshot.forEach(doc => {
+        if (doc.exists) {
+          var docId = doc.id;
+          var docData = doc.data();
+          console.log(docData);
+          console.log(docId);
+        }
+      });
+    }
+  }
+
   async googleSignInAdm() {
     const provider = new auth.GoogleAuthProvider();
     const credential = await this.afAuth.signInWithPopup(provider);
